@@ -1,8 +1,8 @@
 ---
-title: CDSi Supporting Data API
+title: CDSi Supporting Data
 layout: default
 ---
-The data returned by CDSi API was generated from files located at https://www.cdc.gov/vaccines/programs/iis/cdsi.html. 
+The data returned by the **CDSi API** was generated from files located at [https://www.cdc.gov/vaccines/programs/iis/cdsi.html]. 
 
 * Schedule Data v4.5
 * Testcases v4.4

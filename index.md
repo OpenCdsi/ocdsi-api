@@ -1,6 +1,7 @@
 ---
-layout:default
+layout: default
 ---
+
 ## Antigens
 
 {% for id in site.data.api-ids.antigen %}

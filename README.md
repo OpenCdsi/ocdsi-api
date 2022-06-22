@@ -1,4 +1,8 @@
 ﻿# CDSi API
+The data returned by these endpoints was generated from files located at https://www.cdc.gov/vaccines/programs/iis/cdsi.html. 
+
+* Schedule Data v4.5
+* Testcases v4.4
 
 ## API Endpoints
 

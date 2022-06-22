@@ -21,6 +21,7 @@ The data returned by CDSi API was generated from files located at https://www.cd
 {% endfor %}
 
 ## Vaccines
+
 * /api/vaccines
 * /api/vaccines/{id}
 * /api/vaccines/{id}/conflicts
@@ -33,6 +34,7 @@ The data returned by CDSi API was generated from files located at https://www.cd
 {% endfor %}
 
 ## Vaccine Groups
+
 * /api/vaccines/groups
 * /api/vaccines/groups/{id}
 * /api/vaccines/groups/{id}/antigens
@@ -44,6 +46,7 @@ The data returned by CDSi API was generated from files located at https://www.cd
 {% endfor %}
 
 ## Observations
+
 * /api/observations
 * /api/observations/{id}
 
@@ -54,6 +57,7 @@ The data returned by CDSi API was generated from files located at https://www.cd
 {% endfor %}
 
 ## Testcases
+
 * /api/testcases
 * /api/testcases/{id}
 * /api/testcases/{id}/medical

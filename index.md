@@ -6,7 +6,7 @@ layout: default
 
 {% for id in site.data.api-ids.antigen %}
 
-* [{{id}}](https://opencdsi/api/antigens/{{ id }}/)
+* [{{id}}](https://opencdsi.org/api/antigens/{{ id }}/)
 
 {% endfor %}
 
@@ -14,7 +14,7 @@ layout: default
 
 {% for id in site.data.api-ids.vaccine %}
 
-* [{{id.id}}](https://opencdsi/api/vaccines/{{ id.id }}/) - {{id.description}}
+* [{{id.id}}](https://opencdsi.org/api/vaccines/{{ id.id }}/) - {{id.description}}
 
 {% endfor %}
 
@@ -22,7 +22,7 @@ layout: default
 
 {% for id in site.data.api-ids.group %}
 
-* [{{id}}](https://opencdsi/api/groups/{{ id }}/)
+* [{{id}}](https://opencdsi.org/api/groups/{{ id }}/)
 
 {% endfor %}
 
@@ -30,7 +30,7 @@ layout: default
 
 {% for id in site.data.api-ids.observation %}
 
-* [{{id.observationCode}}](https://opencdsi/api/observations/{{ id.observationCode }}/) - {{id.observationTitle}}
+* [{{id.observationCode}}](https://opencdsi.org/api/observations/{{ id.observationCode }}/) - {{id.observationTitle}}
 
 {% endfor %}
 
@@ -38,7 +38,7 @@ layout: default
 
 {% for id in site.data.api-ids.testcase %}
 
-* [{{id.id}}](https://opencdsi/api/testcases/{{ id.id }}/) - {{id.name}}
+* [{{id.id}}](https://opencdsi.org/api/testcases/{{ id.id }}/) - {{id.name}}
 
 {% endfor %}
 

@@ -2,10 +2,7 @@
 layout:default
 ---
 # Antigens
-<ul>
-  {% for id in site.data.api-ids.antigen %}
-  <li>
-    <a href="https://opencdsi/api/antigen/{{ id }}/">{{id }}</a>
-  </li>
+
+{% for id in site.data.api-ids.antigen %}
+* [{{id}}](https://opencdsi/api/antigen/{{ id }}/)
 {% endfor %}
-</ul

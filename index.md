@@ -2,7 +2,7 @@
 title: CDSi Supporting Data
 layout: default
 ---
-The data returned by the **CDSi API** was generated from files located at [https://www.cdc.gov/vaccines/programs/iis/cdsi.html]. 
+The data returned by the **CDSi API** was generated from files located at the [CDC Immunization Information Systems (IIS)](https://www.cdc.gov/vaccines/programs/iis/cdsi.html) site. 
 
 * Schedule Data v4.5
 * Testcases v4.4

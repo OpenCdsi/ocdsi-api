@@ -1,1 +1,3 @@
 theme: jekyll-theme-primer
+title: CDSi Static API
+description: This API was generated from the testcase, antigen, and schedule data provided by the CDC.

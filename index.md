@@ -22,7 +22,7 @@ layout: default
 
 {% for id in site.data.api-ids.group %}
 
-* [{{id}}](https://opencdsi.org/api/groups/{{ id }}/)
+* [{{id}}](https://opencdsi.org/api/vaccines/groups/{{ id }}/)
 
 {% endfor %}
 

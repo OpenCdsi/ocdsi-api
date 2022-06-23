@@ -2,6 +2,13 @@
 title: CDSi Supporting Data API
 layout: default
 ---
+<ul class="horzlist">
+    <li><a href=#"antigens">Antigens</a></li>
+    <li><a href="#vaccines">Vaccines</a></li>
+    <li><a href="#groups">Groups</a></li>
+    <li><a href="#observations">Observations</a></li>
+    <li><a href="#testcases">Testcases</a></li>
+</ul>
 
 <ul>
     <li><small>Schedule Data v4.5</small>
@@ -23,6 +30,7 @@ layout: default
     <li><a href="https://opencdsi.org/api/antigens/{{ id }}/">{{ id }}</a></li>
     {% endfor %}
 </ul>
+<a href="#">Top</a>
 
 <h3 id="vaccines">Vaccines</h3>
 
@@ -31,6 +39,7 @@ layout: default
     <li><a href="https://opencdsi.org/api/vaccines/{{ id.id }}">{{id.id}}</a> {{id.description}}</li>
     {% endfor %}
 </ul>
+<a href="#">Top</a>
 
 <h3 id="groups">Vaccine Groups</h3>
 
@@ -39,6 +48,7 @@ layout: default
     <li><a href="https://opencdsi.org/api/vaccines/groups/{{ id }}/">{{ id }}</a></li>
     {% endfor %}
 </ul>
+<a href="#">Top</a>
 
 <h3 id="observations">Observations</h3>
 
@@ -48,6 +58,7 @@ layout: default
         {{id.observationTitle}}</li>
     {% endfor %}
 </ul>
+<a href="#">Top</a>
 
 <h3 id="testcases">Testcases</h3>
 
@@ -56,3 +67,4 @@ layout: default
     <li><a href="https://opencdsi.org/api/testcases/{{ id.id }}">{{id.id}}</a> {{id.name}}</li>
     {% endfor %}
 </ul>
+<a href="#">Top</a>

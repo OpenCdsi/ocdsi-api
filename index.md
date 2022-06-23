@@ -7,27 +7,6 @@ The data returned by the **CDSi API** was generated from files located at the [C
 * Schedule Data v4.5
 * Testcases v4.4
 
-## Endpoints
-
-* /api/antigens
-* /api/antigens/{id}
-* /api/antigens/{id}/series
-* /api/antigens/{id}/contraindications
-* /api/vaccines
-* /api/vaccines/{id}
-* /api/vaccines/{id}/conflicts
-* /api/vaccines/{id}/antigens
-* /api/vaccines/groups
-* /api/vaccines/groups/{id}
-* /api/vaccines/groups/{id}/antigens
-* /api/observations
-* /api/observations/{id}
-* /api/testcases
-* /api/testcases/{id}
-* /api/testcases/{id}/medical
-
-## Data
-
 ### Antigens
 
 {% for id in site.data.api-ids.antigen %}

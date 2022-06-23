@@ -7,14 +7,7 @@
 header {
 	display: flex;
 	flex-flow: row nowrap;
-}
-
-.menu {
-	align-self: flex-start;
-}
-
-.version {
-	align-self: flex-end;
+	justify-content: space-between;
 }
 
 .col2 {

@@ -45,7 +45,7 @@ The data returned by the **CDSi API** was generated from files located at the
 
 <h3>Vaccines</h3>
 
-<ul>
+<ul class="col2">
     {% for id in site.data.api-ids.vaccine %}
     <li><a href="https://opencdsi.org/api/vaccines/{{ id.id }}">{{id.id}}</a> {{id.description}}</li>
     {% endfor %}
@@ -61,7 +61,7 @@ The data returned by the **CDSi API** was generated from files located at the
 
 <h3>Observations</h3>
 
-<ul>
+<ul class="col2">
     {% for id in site.data.api-ids.observation %}
     <li><a href="https://opencdsi.org/api/observations/{{ id.observationCode }}/">{{id.observationCode}}</a>
         {{id.observationTitle}}</li>
@@ -70,7 +70,7 @@ The data returned by the **CDSi API** was generated from files located at the
 
 <h3>Testcases</h3>
 
-<ul>
+<ul class="col2">
     {% for id in site.data.api-ids.testcase %}
     <li><a href="https://opencdsi.org/api/testcases/{{ id.id }}">{{id.id}}</a> {{id.name}}</li>
     {% endfor %}

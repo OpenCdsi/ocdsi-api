@@ -4,8 +4,10 @@
 
 @import "jekyll-theme-primer";
 
-.horzlist li {
-	display: inline-block;
+.menu {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
 }
 
 .col2 {

@@ -9,6 +9,10 @@
 	flex-flow: row nowrap;
 	justify-content: space-between;
 }
+.version {
+	display: flex;
+	flex-flow: col nowrap;
+}
 
 .col2 {
 	column-count: 2; 

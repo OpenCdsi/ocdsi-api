@@ -2,40 +2,21 @@
 title: CDSi Supporting Data API
 layout: default
 ---
-The data returned by the **CDSi API** was generated from files located at the
- <a href="https://www.cdc.gov/vaccines/programs/iis/cdsi.html">CDC Immunization Information Systems
-    (IIS)</a> site. For a more pleasent browsing experience, try the
-<a href="https://jsonview.com">JSONView</a> extension.
 
 <ul>
-    <li>Schedule Data v4.5
-    <li>Testcases v4.4
+    <li><small>Schedule Data v4.5</small>
+    <li><small>Testcases v4.4</small>
 </ul>
 
-<h2>Endpoints</h2>
-
-<ul>
-    <li>/api/antigens
-    <li>/api/antigens/{id}
-    <li>/api/antigens/{id}/series
-    <li>/api/antigens/{id}/contraindications
-    <li>/api/vaccines
-    <li>/api/vaccines/{id}
-    <li>/api/vaccines/{id}/conflicts
-    <li>/api/vaccines/{id}/antigens
-    <li>/api/vaccines/groups
-    <li>/api/vaccines/groups/{id}
-    <li>/api/vaccines/groups/{id}/antigens
-    <li>/api/observations
-    <li>/api/observations/{id}
-    <li>/api/testcases
-    <li>/api/testcases/{id}
-    <li>/api/testcases/{id}/medical
+<ul class="horzlist">
+ <li><a href="#antigens">Antigens</a></li>
+ <li><a href="#vaccines">Vaccines</a></li>
+ <li><a href="#groups">Vaccine Groups</a></li>
+ <li><a href="#observations">Observations</a></li>
+ <li><a href="#testcases">Testcases</a></li>
 </ul>
 
-<h2>Data</h2>
-
-<h3>Antigens</h3>
+<h3 id="antigens">Antigens</h3>
 
 <ul class="horzlist">
     {% for id in site.data.api-ids.antigen %}
@@ -43,7 +24,7 @@ The data returned by the **CDSi API** was generated from files located at the
     {% endfor %}
 </ul>
 
-<h3>Vaccines</h3>
+<h3 id="vaccines">Vaccines</h3>
 
 <ul class="col2">
     {% for id in site.data.api-ids.vaccine %}
@@ -51,7 +32,7 @@ The data returned by the **CDSi API** was generated from files located at the
     {% endfor %}
 </ul>
 
-<h3>Vaccine Groups</h3>
+<h3 id="groups">Vaccine Groups</h3>
 
 <ul class="horzlist">
     {% for id in site.data.api-ids.group %}
@@ -59,7 +40,7 @@ The data returned by the **CDSi API** was generated from files located at the
     {% endfor %}
 </ul>
 
-<h3>Observations</h3>
+<h3 id="observations">Observations</h3>
 
 <ul class="col2">
     {% for id in site.data.api-ids.observation %}
@@ -68,7 +49,7 @@ The data returned by the **CDSi API** was generated from files located at the
     {% endfor %}
 </ul>
 
-<h3>Testcases</h3>
+<h3 id="testcases">Testcases</h3>
 
 <ul class="col2">
     {% for id in site.data.api-ids.testcase %}

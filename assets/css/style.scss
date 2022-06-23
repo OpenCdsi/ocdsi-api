@@ -5,21 +5,15 @@
 @import "jekyll-theme-primer";
 
 header {
-	width: 100%;
 	display: flex;
 	flex-flow: row nowrap;
 }
 
 .menu {
-	display: flex;
-	flex-flow: row nowrap;
-	justify-content: space-between;
 	align-self: flex-start;
 }
 
 .version {
-	display: flex;
-	flex-flow: row nowrap;
 	align-self: flex-end;
 }
 

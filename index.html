@@ -1,0 +1,77 @@
+---
+title: CDSi Supporting Data API
+layout: default
+---
+The data returned by the **CDSi API** was generated from files located at the
+ <a href="https://www.cdc.gov/vaccines/programs/iis/cdsi.html">CDC Immunization Information Systems
+    (IIS)</a> site. For a more pleasent browsing experience, try the
+<a href="https://jsonview.com">JSONView</a> extension.
+
+<ul>
+    <li>Schedule Data v4.5
+    <li>Testcases v4.4
+</ul>
+
+<h2>Endpoints</h2>
+
+<ul>
+    <li>/api/antigens
+    <li>/api/antigens/{id}
+    <li>/api/antigens/{id}/series
+    <li>/api/antigens/{id}/contraindications
+    <li>/api/vaccines
+    <li>/api/vaccines/{id}
+    <li>/api/vaccines/{id}/conflicts
+    <li>/api/vaccines/{id}/antigens
+    <li>/api/vaccines/groups
+    <li>/api/vaccines/groups/{id}
+    <li>/api/vaccines/groups/{id}/antigens
+    <li>/api/observations
+    <li>/api/observations/{id}
+    <li>/api/testcases
+    <li>/api/testcases/{id}
+    <li>/api/testcases/{id}/medical
+</ul>
+
+<h2>Data</h2>
+
+<h3>Antigens</h3>
+
+<ul class="horzlist">
+    {% for id in site.data.api-ids.antigen %}
+    <li><a href="https://opencdsi.org/api/antigens/{{ id }}/">{{ id }}</a></li>
+    {% endfor %}
+</ul>
+
+<h3>Vaccines</h3>
+
+<ul>
+    {% for id in site.data.api-ids.vaccine %}
+    <li><a href="https://opencdsi.org/api/vaccines/{{ id.id }}">{{id.id}}</a> {{id.description}}</li>
+    {% endfor %}
+</ul>
+
+<h3>Vaccine Groups</h3>
+
+<ul>
+    {% for id in site.data.api-ids.group %}
+    <li><a href="https://opencdsi.org/api/vaccines/groups/{{ id }}/">{{ id }}</a></li>
+    {% endfor %}
+</ul>
+
+<h3>Observations</h3>
+
+<ul>
+    {% for id in site.data.api-ids.observation %}
+    <li><a href="https://opencdsi.org/api/observations/{{ id.observationCode }}/">{{id.observationCode}}</a>
+        {{id.observationTitle}}</li>
+    {% endfor %}
+</ul>
+
+<h3>Testcases</h3>
+
+<ul>
+    {% for id in site.data.api-ids.testcase %}
+    <li><a href="https://opencdsi.org/api/testcases/{{ id.id }}">{{id.id}}</a> {{id.name}}</li>
+    {% endfor %}
+</ul>

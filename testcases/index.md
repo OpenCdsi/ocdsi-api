@@ -2,6 +2,7 @@
 layout: page
 title: Testcases
 permalink: /testcases/
+sort: 4
 ---
 
 {% assign groups = site.data.api-ids.testcase | group_by: 'group' %}

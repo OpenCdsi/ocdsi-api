@@ -2,6 +2,7 @@
 layout: page
 title: Vaccines
 permalink: /vaccines/
+sort: 2
 ---
 
 <ul class="col2">

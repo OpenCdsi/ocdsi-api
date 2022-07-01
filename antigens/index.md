@@ -2,6 +2,7 @@
 layout: page
 title: Antigens
 permalink: /antigens/
+sort: 1
 ---
 
 <ul class="col6">

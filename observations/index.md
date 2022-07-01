@@ -2,6 +2,7 @@
 layout: page
 title: Observations
 permalink: /observations/
+sort: 3
 ---
 
 {% assign items = site.data.api-ids.observation | where: 'indicated', 'true' %}

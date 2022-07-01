@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/sh
 
 bundle exec jekyll serve --livereload
 

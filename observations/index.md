@@ -11,7 +11,7 @@ permalink: /observations/
     <div class="collapsable-content">
         <ul class="col2">
             {% for item in items %}
-            <li>[{{item.name}}]({% link "{{ item.id }}/index.json" %})</li>
+            <!-- <li>[{{item.name}}]({% link "{{ item.id }}/index.json" %})</li> -->
             {% endfor %}
         </ul>   
     </div>

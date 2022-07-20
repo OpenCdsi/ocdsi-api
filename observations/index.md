@@ -24,8 +24,8 @@ permalink: /observations/
     <div class="collapsable-content">
         <ul class="col2">
             {% for item in items %}
-            <li><a href="{{ item.id }}/">{{item.id}}</a>
-                {{item.name}}</li>
+            <!-- <li><a href="{{ item.id }}/">{{item.id}}</a>
+                {{item.name}}</li> -->
             {% endfor %}
         </ul>
     </div>

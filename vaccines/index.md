@@ -7,7 +7,7 @@ permalink: /vaccines/
 <ul class="col2">
     {% for item in site.data.api-ids.vaccine %}
         <li>
-        [ {{item.name}} ]( {{ page.permalink | append: item.id  | relative_url }} )   
+        <a href="{{ page.permalink | append: item.id  | relative_url }}">{{item.name}}</a>
         </li>
     {% endfor %}
 </ul>

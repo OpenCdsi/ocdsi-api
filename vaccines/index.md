@@ -11,7 +11,7 @@ permalink: /vaccines/
         <a href="{{ url | relative_url }}">{{item.name}}</a>
         <a href="{{ url | append: '/antigens'  | relative_url }}">(Antigens)</a>
         {% assign exp = 'path contains ' | append: url | append: '/conflicts' }
-        {% assign file = site.static_files | find_exp: "path", frag %}
+        {% assign file = site.static_files | find_exp: "path", exp %}
         {% if file %}        
         <a href="{{ url | append: '/conflicts'  | relative_url }}">(Conflicts)</a>
         {% endif %}

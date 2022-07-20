@@ -12,8 +12,8 @@ permalink: /testcases/
     <div class="collapsable-content">    
         <ul class="col2">
             {% for item in group.items %}
-                <li><a href="{{ item.id }}">{{item.id}}</a> {{item.name}}
-                <a href="{{ item.id }}/medical">(Medical)</a></li>   
+                <li><a href="{{ item.id }} | relative_url">{{item.id}}</a> {{item.name}}
+                <a href="{{ item.id }}/medical | relative_url">(Medical)</a></li>   
             {% endfor %}
         </ul>
     </div>

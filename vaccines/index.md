@@ -10,11 +10,10 @@ permalink: /vaccines/
         <li>
         <a href="{{ url | relative_url }}">{{item.name}}</a>
         <a href="{{ url | append: '/antigens'  | relative_url }}">(Antigens)</a>
-        {% assign exp = 'path contains ' | append: url | append: '/conflicts' }
-        {% assign file = site.static_files | find_exp: "path", exp %}
-        {% if file %}        
-        <a href="{{ url | append: '/conflicts'  | relative_url }}">(Conflicts)</a>
-        {% endif %}
-        </li>
+        {% capture exp %}
+        {{ "path.includes('" | append: url | append: "/conflicts')" }}
+        {% endcapture %}
+        {% assign file = exp %}
+        </li>{{ file }}
     {% endfor %}
 </ul>

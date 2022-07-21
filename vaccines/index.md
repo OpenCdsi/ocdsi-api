@@ -5,15 +5,14 @@ permalink: /vaccines/
 ---
 
 <ul class="col2">
-    {% for item in site.data.api-ids.vaccine %}
+    {% for item in site.data.vaccine %}
         {% assign url =  page.permalink | append: item.id %}
         <li>
         <a href="{{ url | relative_url }}">{{item.name}}</a>
         <a href="{{ url | append: '/antigens'  | relative_url }}">(Antigens)</a>
-        {% capture exp %}
-        {{ "path.includes('" | append: url | append: "/conflicts')" }}
-        {% endcapture %}
-        {% assign file = exp %}
-        </li>{{ file }}
+        {% if item.conflicts %}
+        <a href="{{ url | append: '/conflicts'  | relative_url }}">(Conflicts)</a>
+        {% endif %}
+        </li>
     {% endfor %}
 </ul>

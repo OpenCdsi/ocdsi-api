@@ -1,5 +1,6 @@
 [
-  { "title":"Home",
-   "url":"https://opencdsi.org"
+  { 
+    "title":"OpenCDSi",
+    "url":"https://opencdsi.org"
   }
-  ]
+]

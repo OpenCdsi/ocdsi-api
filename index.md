@@ -5,4 +5,4 @@
 layout: default
 ---
 
-{% include version.html %}
+{% include version.md %}

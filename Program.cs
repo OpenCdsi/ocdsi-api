@@ -1,64 +1,64 @@
 ﻿using OpenCdsi;
 using System.Text.Json;
-using System.Text.Json.Serialization;
-using System.Xml.Linq;
 
 
-var OutputFolder = "../../../output";
-var IndexFileName = "index.md";
+var OutputFolder = "../../../_data/cdsi";
+var IndexBasename = "catalog";
+var FileExtension = "json";
 var JsonOptions = new JsonSerializerOptions
 {
     PropertyNamingPolicy = JsonNamingPolicy.CamelCase
 };
 
-Console.WriteLine("site exporter");
+Console.WriteLine("Supporting data / testcase export");
+
+string json = JsonSerializer.Serialize(new { Testcases = CaseLibrary.ResourceVersion, SupportingData = SupportingData.ResourceVersion }, JsonOptions);
 
 var dir = Directory.CreateDirectory($"{OutputFolder}");
-File.WriteAllText($"{OutputFolder}/{IndexFileName}", $"---\ntitle: Supporting Data\ncaseVer: 4.28\ndataVer: 4.38\n---");
+File.WriteAllText($"{OutputFolder}/versions.{FileExtension}", json);
 
 string munge(string key)
 {
     return key.ToLower().Replace(' ', '_');
 }
 
-void writeItem(object o, string layout, string key, string title)
+void writeItem(object o, string folder, string key)
 {
     string json = JsonSerializer.Serialize(o, JsonOptions);
 
-    var dir = Directory.CreateDirectory($"{OutputFolder}/{layout}s/{key}");
-    File.WriteAllText($"{dir.FullName}/{IndexFileName}", $"---\ntitle: \"{title}\"\ndata: {json}\nlayout: {layout}\n---");
+    var dir = Directory.CreateDirectory($"{OutputFolder}/{folder}/");
+    File.WriteAllText($"{dir.FullName}/{key}.{FileExtension}", json);
 }
 
-void writeCatalog(object o, string layout)
+void writeCatalog(object o, string folder)
 {
-    var data = new { Layout= layout, Items=o };
-    var json = JsonSerializer.Serialize(data, JsonOptions);
+    var json = JsonSerializer.Serialize(o, JsonOptions);
 
-    var dir = Directory.CreateDirectory($"{OutputFolder}/{layout}s");
-    File.WriteAllText($"{dir.FullName}/{IndexFileName}", $"---\ntitle: Catalog\ndata: {json}\nlayout: catalog\n---");
+    var dir = Directory.CreateDirectory($"{OutputFolder}/{folder}/");
+    File.WriteAllText($"{dir.FullName}/{IndexBasename}.{FileExtension}", json);
 }
 
-writeCatalog(SupportingData.Schedule.Observations.Select(x => new  { Idx = x.observationCode, Text = x.observationTitle, Group = string.IsNullOrWhiteSpace(x.indicationText) ? "Indicated" : "Contraindicated" }), "observation");
+writeCatalog(SupportingData.Schedule.Observations.Select(x => new { Idx = x.observationCode, Text = x.observationTitle, Group = string.IsNullOrWhiteSpace(x.indicationText) ? "Indicated" : "Contraindicated" }), "observations");
 foreach (var o in SupportingData.Schedule.Observations)
 {
-    writeItem(o, "observation", o.observationCode, $"{o.observationCode} - {o.observationTitle}");
+    writeItem(o, "observations", o.observationCode);
 }
 
-writeCatalog(SupportingData.Antigens.Select(x => new  { Idx = munge(x.Key), Text = x.Key }), "antigen");
+writeCatalog(SupportingData.Antigens.Select(x => new { Idx = munge(x.Key), Text = x.Key }), "antigens");
 foreach (var o in SupportingData.Antigens)
 {
-    writeItem(o.Value, "antigen", munge(o.Key), o.Key);
+    writeItem(o.Value, "antigens", munge(o.Key));
 }
 
-writeCatalog(SupportingData.Schedule.Vaccines.Select(x => new  { Idx = x.cvx, Text = x.shortDescription }), "vaccine");
+writeCatalog(SupportingData.Schedule.Vaccines.Select(x => new { Idx = x.cvx, Text = x.shortDescription }), "vaccines");
 foreach (var o in SupportingData.Schedule.Vaccines)
 {
-    writeItem(o, "vaccine", munge(o.cvx), $"{o.cvx} - {o.shortDescription}");
+    writeItem(o, "vaccines", munge(o.cvx));
 }
 
 
-writeCatalog(CaseLibrary.Cases.Select(x => new  { Idx = x.Key, Text = x.Value.TestcaseName, Group = x.Value.VaccineGroup }), "case");
+writeCatalog(CaseLibrary.Cases.Select(x => new { Idx = x.Key, Text = x.Value.TestcaseName, Group = x.Value.VaccineGroup }), "cases");
 foreach (var o in CaseLibrary.Cases)
 {
-    writeItem(o.Value, "case", munge(o.Key), $"{o.Key} - {o.Value.TestcaseName}");
+    writeItem(o.Value, "cases", munge(o.Key));
 }

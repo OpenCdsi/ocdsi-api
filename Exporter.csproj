@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="OpenCdsi.Cases" Version="2.428.0" />
-    <PackageReference Include="OpenCdsi.Schedule" Version="2.438.3" />
+    <PackageReference Include="OpenCdsi.Cases" Version="2.428.2" />
+    <PackageReference Include="OpenCdsi.Schedule" Version="2.438.4" />
   </ItemGroup>
 
 </Project>

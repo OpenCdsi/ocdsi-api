@@ -27,6 +27,9 @@ url: "https://opencdsi.org" # the base hostname & protocol for your site, e.g. h
 twitter_username: 
 github_username:  opencdsi
 
+dataversion: 4.38
+caseversion: 4.28
+
 # Build settings
 theme: minima
 plugins:

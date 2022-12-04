@@ -2,20 +2,14 @@
 using System.Text.Json;
 
 
-var OutputFolder = "../../../_data/cdsi";
-var IndexBasename = "catalog";
-var FileExtension = "json";
+var OutputFolder = "../../../output";
+var IndexName = "index.json";
+var JsonExtension = ".json";
+var DataCollections = new string[] { "observations", "antigens", "vaccines", "cases" };
 var JsonOptions = new JsonSerializerOptions
 {
     PropertyNamingPolicy = JsonNamingPolicy.CamelCase
 };
-
-Console.WriteLine("Supporting data / testcase export");
-
-string json = JsonSerializer.Serialize(new { Testcases = CaseLibrary.ResourceVersion, SupportingData = SupportingData.ResourceVersion }, JsonOptions);
-
-var dir = Directory.CreateDirectory($"{OutputFolder}");
-File.WriteAllText($"{OutputFolder}/versions.{FileExtension}", json);
 
 string munge(string key)
 {
@@ -27,7 +21,7 @@ void writeItem(object o, string folder, string key)
     string json = JsonSerializer.Serialize(o, JsonOptions);
 
     var dir = Directory.CreateDirectory($"{OutputFolder}/{folder}/");
-    File.WriteAllText($"{dir.FullName}/{key}.{FileExtension}", json);
+    File.WriteAllText($"{dir.FullName}/{key}{JsonExtension}", json);
 }
 
 void writeCatalog(object o, string folder)
@@ -35,13 +29,22 @@ void writeCatalog(object o, string folder)
     var json = JsonSerializer.Serialize(o, JsonOptions);
 
     var dir = Directory.CreateDirectory($"{OutputFolder}/{folder}/");
-    File.WriteAllText($"{dir.FullName}/{IndexBasename}.{FileExtension}", json);
+    File.WriteAllText($"{dir.FullName}/{IndexName}", json);
 }
+
+
+
+Console.WriteLine("Supporting data / testcase export");
+
+string json = JsonSerializer.Serialize(new { Testcases = CaseLibrary.ResourceVersion, SupportingData = SupportingData.ResourceVersion, Collections = DataCollections }, JsonOptions);
+
+var dir = Directory.CreateDirectory($"{OutputFolder}");
+File.WriteAllText($"{OutputFolder}/{IndexName}", json);
 
 writeCatalog(SupportingData.Schedule.Observations.Select(x => new { Idx = x.observationCode, Text = x.observationTitle, Group = string.IsNullOrWhiteSpace(x.indicationText) ? "Indicated" : "Contraindicated" }), "observations");
 foreach (var o in SupportingData.Schedule.Observations)
 {
-    writeItem(o, "observations", o.observationCode);
+    writeItem(o, "observations", munge(o.observationCode));
 }
 
 writeCatalog(SupportingData.Antigens.Select(x => new { Idx = munge(x.Key), Text = x.Key }), "antigens");

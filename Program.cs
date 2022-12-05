@@ -20,7 +20,7 @@ writer.Write(SupportingData.Schedule.Vaccines.GetCatalog(), "vaccines/index.json
 SupportingData.Schedule.Vaccines.ForEach(x => writer.Write(x, $"vaccines/{x.cvx}/index.json"));
 
 writer.Write(SupportingData.Schedule.VaccineGroups.GetCatalog(), "groups/index.json");
-SupportingData.Schedule.VaccineGroups.ForEach(x => writer.Write(new { VaccineGroup = x, Antigens = x.Antigens().GetCatalog() }, $"groups/{x.name.Munge()}/index.json"));
+SupportingData.Schedule.VaccineGroups.ForEach(x => writer.Write(new { VaccineGroup = x, Antigens = x.Antigens() }, $"groups/{x.name.Munge()}/index.json"));
 
 writer.Write(SupportingData.Schedule.Observations.GetCatalog(), "observations/index.json");
 SupportingData.Schedule.Observations.ForEach(x => writer.Write(x, $"observations/{x.observationCode}/index.json"));

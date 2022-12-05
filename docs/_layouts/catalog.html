@@ -6,9 +6,19 @@ layout: default
 
 {% assign key = page.title | downcase %}
 {% assign items = site.data[key] %}
+{% assign groups = items | group_by:"group" %}
 
+{% for group in groups %}
+{% if group.name != "None" %}
+<h3>{{ group.name }}</h3>
+{% endif %}
 <ul>
-{% for item in items %}
+{% for item in group.items %}
+{% if page.catalog == "short" %}
 <li><a href="{{ item.url }}">{{ item.text }}</a></li>
+{% else %}
+<li><a href="{{ item.url }}">{{ item.key }}</a>&nbsp;&nbsp;{{ item.text }}</li>
+{% endif %}
 {% endfor %}
 </ul>
+{% endfor %}

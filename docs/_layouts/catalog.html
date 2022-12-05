@@ -4,21 +4,21 @@ layout: default
 
 <h2>{{ page.title }}</h2>
 
-{% assign key = page.title | downcase %}
-{% assign items = site.data[key] %}
-{% assign groups = items | group_by:"group" %}
+{%- assign key = page.title | downcase -%}
+{%- assign items = site.data[key] -%}
+{%- assign groups = items | group_by:"group" -%}
 
-{% for group in groups %}
-{% if group.name != "None" %}
+{%- for group in groups -%}
+{%- if group.name != "None" -%}
 <h3>{{ group.name }}</h3>
-{% endif %}
+{%- endif -%}
 <ul>
-{% for item in group.items %}
-{% if page.catalog == "short" %}
+{%- for item in group.items -%}
+{%- if page.catalog == "short" -%}
 <li><a href="{{ item.url }}">{{ item.text }}</a></li>
-{% else %}
+{%- else -%}
 <li><a href="{{ item.url }}">{{ item.key }}</a>&nbsp;&nbsp;{{ item.text }}</li>
-{% endif %}
-{% endfor %}
+{%- endif -%}
+{%- endfor -%}
 </ul>
-{% endfor %}
+{%- endfor -%}

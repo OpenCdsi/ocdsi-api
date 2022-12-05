@@ -35,7 +35,7 @@ theme: minima
 plugins:
   - jekyll-feed
 
-header_files:
+header_pages:
   - antigens.md
   - vaccines.md
   - groups.md

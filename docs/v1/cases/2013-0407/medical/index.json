@@ -1,0 +1,1 @@
+{"assessmentDate":"2022-10-19T00:00:00","patient":{"dob":"2011-08-19T00:00:00","gender":"M"},"doses":[{"dateAdministered":"2022-08-19T00:00:00","vaccineName":"HPV9","cvx":"165","mvx":"","evaluationStatus":"Valid","evaluationReason":null},{"dateAdministered":"2022-10-19T00:00:00","vaccineName":"HPV9","cvx":"165","mvx":"","evaluationStatus":"Valid","evaluationReason":null}]}

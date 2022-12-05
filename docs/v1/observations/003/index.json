@@ -1,0 +1,1 @@
+{"observationCode":"003","observationTitle":"Immunocompromised","group":"","indicationText":"","contraindicationText":"Do not vaccinate if the patient is immunocompromised.","clarifyingText":"","codedValues":[{"code":"370388006","codeSystem":"SNOMED","text":"Patient Immunocompromised"},{"code":"VXC27","codeSystem":"CDCPHINVS","text":"Immunodeficiency due to any cause"}]}

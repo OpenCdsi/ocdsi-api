@@ -21,19 +21,19 @@ namespace Exporter
         public static IEnumerable<CatalogItem> GetCatalog(this IEnumerable<string> data)
         {
             return data
-                .Select(x => new CatalogItem { Key = x.Munge(), Text = x, Url = $"/ocdsi-api/v1/{x.Munge()}/index.json" });
+                .Select(x => new CatalogItem { Key = x.Munge(), Text = x, Url = $"v1/{x.Munge()}/index.json" });
         }
         public static IEnumerable<CatalogItem> GetCatalog(this IEnumerable<string> data, string prefix)
         {
             return data
-                .Select(x => new CatalogItem { Key = x.Munge(), Text = x, Url = $"/ocdsi-api/v1/{prefix}/{x.Munge()}/index.json" });
+                .Select(x => new CatalogItem { Key = x.Munge(), Text = x, Url = $"{prefix}/{x.Munge()}/index.json" });
         }
 
         public static IEnumerable<CatalogItem> GetCatalog(this IEnumerable<antigenSupportingData> data)
         {
             return data
                 .Select(x => x.series[0].targetDisease)
-                .Select(x => new CatalogItem { Key = x.Munge(), Text = x, Url = $"/ocdsi-api/v1/antigens/{x.Munge()}/index.json" });
+                .Select(x => new CatalogItem { Key = x.Munge(), Text = x, Url = $"v1/antigens/{x.Munge()}/index.json" });
         }
 
         public static IEnumerable<CatalogItem> GetCatalog(this IEnumerable<antigenSupportingDataSeries> data)
@@ -44,7 +44,7 @@ namespace Exporter
                     Key = x.seriesName.Munge(),
                     Text = x.seriesName,
                     Group = x.seriesType,
-                    Url = $"/ocdsi-api/v1/antigens/{x.targetDisease.Munge()}/series/{x.seriesName.Munge()}/index.json"
+                    Url = $"v1/antigens/{x.targetDisease.Munge()}/series/{x.seriesName.Munge()}/index.json"
                 });
         }
 
@@ -56,7 +56,7 @@ namespace Exporter
                     Key = x.observationCode.Munge(),
                     Text = x.observationTitle,
                     Group = !string.IsNullOrWhiteSpace(x.indicationText) ? "Indicated" : "Contraindicated",
-                    Url = $"/ocdsi-api/v1/observations/{x.observationCode.Munge()}/index.json"
+                    Url = $"v1/observations/{x.observationCode.Munge()}/index.json"
                 });
         }
 
@@ -67,7 +67,7 @@ namespace Exporter
                 {
                     Key = x.cvx,
                     Text = x.shortDescription,
-                    Url = $"/ocdsi-api/v1/vaccines/{x.cvx}/index.json"
+                    Url = $"v1/vaccines/{x.cvx}/index.json"
                 });
         }
 
@@ -78,7 +78,7 @@ namespace Exporter
                 {
                     Key = x.name.Munge(),
                     Text = x.name,
-                    Url = $"/ocdsi-api/v1/groups/{x.name.Munge()}/index.json",
+                    Url = $"v1/groups/{x.name.Munge()}/index.json",
                 });
         }
         public static IEnumerable<CatalogItem> GetCatalog(this IEnumerable<testcase> data)
@@ -89,7 +89,7 @@ namespace Exporter
                     Key = x.CdcTestId,
                     Text = x.GeneralDescription,
                     Group = x.VaccineGroup,
-                    Url = $"/ocdsi-api/v1/cases/{x.CdcTestId}/index.json"
+                    Url = $"v1/cases/{x.CdcTestId}/index.json"
                 });
         }
     }

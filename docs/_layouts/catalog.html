@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<h2>{{ page.title }}</h2>
+
+{% assign key = page.title | downcase %}
+{% assign items = site.data[key] %}
+
+<ul>
+{% for item in items %}
+<li><a href="{{ item.url }}">{{ item.text }}</a></li>
+{% endfor %}
+</ul>

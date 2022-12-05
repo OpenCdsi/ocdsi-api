@@ -1,9 +1,6 @@
 ---
-title: API
 layout: default
 ---
-
-## OpenCdsi API
 
 ### Supporting Data Versions
 

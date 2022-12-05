@@ -1,0 +1,4 @@
+---
+title: Vaccines
+layout: catalog
+---

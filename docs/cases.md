@@ -1,0 +1,4 @@
+---
+title: Cases
+layout: catalog
+---

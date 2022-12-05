@@ -2,7 +2,7 @@
 using OpenCdsi;
 using OpenCdsi.Schedule;
 
-var writer = new JsonWriter { Root = "../../../output" };
+var writer = new JsonWriter { Root = "../../../output/v1" };
 
 writer.Write(VersionInfo.Instance, "metadata.json");
 writer.Write(new[] { "Antigens", "Vaccines", "Observations", "Cases" }.GetCatalog(), "index.json");

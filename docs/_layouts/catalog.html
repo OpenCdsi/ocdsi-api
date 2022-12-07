@@ -33,30 +33,18 @@ layout: default
     <script>
         function toggle(id) {
             var el = document.getElementById(id);
-            var current = sessionStorage['{{ key }}'];
-            sessionStorage.removeItem('{{ key }}');
+            var cur = document.getElementById(sessionStorage['{{ key }}']);
+            if (cur) cur.classList.remove("w3-show");
 
-            hide(current);
-
-            if(current !== id){
-            sessionStorage['{{ key }}'] = id;
-                 show(id);
-                }
-        }
-
-        function show(id) {
-            var x = document.getElementById(id);
-            if (x && x.className.indexOf("w3-show") == -1) {
-                x.className += " w3-show";
+            if (el === cur) { // close current
+                sessionStorage.removeItem('{{ key }}');
+            } else { // open new
+                sessionStorage['{{ key }}'] = id;
+                el.classList.add("w3-show");
             }
         }
 
-        function hide(id) {
-            var x = document.getElementById(id);
-            if (x && x.className.indexOf("w3-show") > -1) {
-                x.className = x.className.replace(" w3-show", "");
-            }
-        }
+        var cur = document.getElementById(sessionStorage['{{ key }}']);
+        if (cur) cur.classList.add('w3-show');
 
-        show(sessionStorage['{{ key }}']);
     </script>

@@ -87,7 +87,7 @@ namespace Exporter
                 .Select(x => new CatalogItem
                 {
                     Key = x.CdcTestId,
-                    Text = x.GeneralDescription,
+                    Text = x.TestcaseName,
                     Group = x.VaccineGroup,
                     Url = $"v1/cases/{x.CdcTestId}/index.json"
                 });

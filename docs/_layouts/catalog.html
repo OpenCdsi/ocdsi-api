@@ -2,23 +2,61 @@
 layout: default
 ---
 
-<h2>{{ page.title }}</h2>
+<h2 class="w3-container w3-left-align w3-theme w3-round">{{ page.title }}</h2>
 
 {%- assign key = page.title | downcase -%}
 {%- assign items = site.data[key] -%}
 {%- assign groups = items | group_by:"group" -%}
 
 {%- for group in groups -%}
-    {%- if group.name != "None" -%}
-        <h3>{{ group.name }}</h3>
-    {%- endif -%}
-    <ul>
-    {%- for item in group.items -%}
-        {%- if page.catalog == "short" -%}
-            <li><a href="{{ item.url }}">{{ item.text }}</a></li>
-        {%- else -%}
-            <li><a href="{{ item.url }}">{{ item.key }}</a>&nbsp;&nbsp;{{ item.text }}</li>
+{%- if group.name != "None" -%}
+{%- capture n -%}{%- increment n -%}{%- endcapture -%}
+{%- capture id -%}{{ key }}-{{ n }}{%- endcapture -%}
+<h3 class="w3-button w3-block w3-left-align w3-theme-l2 w3-round" onClick="toggle('{{ id }}')">{{ group.name }}</h3>
+<ul class="w3-container w3-hide w3-ul" id="{{ id }}">
+    {%- else -%}
+    <ul class="w3-ul">
         {%- endif -%}
-    {%- endfor -%}
+        {%- for item in group.items -%}
+        {%- if page.catalog == "short" -%}
+        <li><a href="{{ item.url }}" class="w3-small w3-button w3-theme-action w3-round">{{ item.text }}</a></li>
+        {%- else -%}
+        <li><a href="{{ item.url }}" class="w3-small w3-button w3-theme-action w3-round">{{ item.key }}</a>
+            <div class="w3-panel w3-text-theme">{{ item.text }}</div>
+        </li>
+        {%- endif -%}
+        {%- endfor -%}
     </ul>
-{%- endfor -%}
+    {%- endfor -%}
+
+
+    <script>
+        function toggle(id) {
+            var el = document.getElementById(id);
+            var current = sessionStorage['{{ key }}'];
+            sessionStorage.removeItem('{{ key }}');
+
+            hide(current);
+
+            if(current !== id){
+            sessionStorage['{{ key }}'] = id;
+                 show(id);
+                }
+        }
+
+        function show(id) {
+            var x = document.getElementById(id);
+            if (x && x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            }
+        }
+
+        function hide(id) {
+            var x = document.getElementById(id);
+            if (x && x.className.indexOf("w3-show") > -1) {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+
+        show(sessionStorage['{{ key }}']);
+    </script>

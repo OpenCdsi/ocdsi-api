@@ -19,9 +19,9 @@ layout: default
         {%- endif -%}
         {%- for item in group.items -%}
         {%- if page.catalog == "short" -%}
-        <li><a href="{{ item.url }}" class="w3-small w3-button w3-theme-action w3-round">{{ item.text }}</a></li>
+        <li><a href="view.html?url={{ item.url }}" class="w3-small w3-button w3-theme-action w3-round">{{ item.text }}</a></li>
         {%- else -%}
-        <li><a href="{{ item.url }}" class="w3-small w3-button w3-theme-action w3-round">{{ item.key }}</a>
+        <li><a href="view.html?url={{ item.url }}" class="w3-small w3-button w3-theme-action w3-round">{{ item.key }}</a>
 &nbsp;&nbsp;<span class="ww3-text-theme">{{ item.text }}</span>
         </li>
         {%- endif -%}

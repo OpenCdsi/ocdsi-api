@@ -14,7 +14,7 @@ namespace Exporter
     {
         public static string Munge(this string key)
         {
-            return key.ToLower().Replace(' ', '_').Replace('-', '_');
+            return key.ToLower().Replace(' ', '_').Replace('-', '_').Replace('/','_');
         }
 
         public static string AsUrl(this IEnumerable<string> list)

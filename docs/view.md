@@ -7,6 +7,7 @@ layout: default
 <h2 id="data-view-header" class="w3-container w3-left-align w3-theme w3-round"></h2>
 
 <pre id="data-view" class="w3-container" style="white-space: pre-wrap;"></pre>
+<pre id="data-view" class="w3-container" style="white-space: pre-wrap;"></pre>
 
 <script>
 var urlSearchParams = new URLSearchParams(window.location.search);

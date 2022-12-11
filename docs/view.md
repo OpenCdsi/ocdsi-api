@@ -4,15 +4,9 @@ layout: default
 ---
 
 
-<h2 class="w3-container w3-left-align w3-theme w3-round">{{ page.title }}</h2>
+<h2 id="data-view-header" class="w3-container w3-left-align w3-theme w3-round">{{ page.title }}</h2>
 
-<div class="w3-card">
-<header class="w3-container w3-theme-l2">
-<h3 id="data-view-header"></h3>
-</header>
-<pre id="data-view" class="w3-container" style="white-space: pre-wrap;">
-</pre>
-</div>
+<pre id="data-view" class="w3-container" style="white-space: pre-wrap;"></pre>
 
 <script>
 var urlSearchParams = new URLSearchParams(window.location.search);

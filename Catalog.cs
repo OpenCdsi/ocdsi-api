@@ -21,19 +21,19 @@ namespace Exporter
         public static IEnumerable<CatalogItem> GetCatalog(this IEnumerable<string> data)
         {
             return data
-                .Select(x => new CatalogItem { Key = x.ToCamelCase(), Text = x, Url = $"v1/{x.ToCamelCase()}/index.json" });
+                .Select(x => new CatalogItem { Key = x.ToKebabCase(), Text = x, Url = $"v1/{x.ToKebabCase()}/index.json" });
         }
         public static IEnumerable<CatalogItem> GetCatalog(this IEnumerable<string> data, string prefix)
         {
             return data
-                .Select(x => new CatalogItem { Key = x.ToCamelCase(), Text = x, Url = $"{prefix}/{x.ToCamelCase()}/index.json" });
+                .Select(x => new CatalogItem { Key = x.ToKebabCase(), Text = x, Url = $"{prefix}/{x.ToKebabCase()}/index.json" });
         }
 
         public static IEnumerable<CatalogItem> GetCatalog(this IEnumerable<antigenSupportingData> data)
         {
             return data
                 .Select(x => x.series[0].targetDisease)
-                .Select(x => new CatalogItem { Key = x.ToCamelCase(), Text = x, Url = $"v1/antigens/{x.ToCamelCase()}/index.json" });
+                .Select(x => new CatalogItem { Key = x.ToKebabCase(), Text = x, Url = $"v1/antigens/{x.ToKebabCase()}/index.json" });
         }
 
         public static IEnumerable<CatalogItem> GetCatalog(this IEnumerable<antigenSupportingDataSeries> data)
@@ -41,10 +41,10 @@ namespace Exporter
             return data
                 .Select(x => new CatalogItem
                 {
-                    Key = x.seriesName.ToCamelCase(),
+                    Key = x.seriesName.ToKebabCase(),
                     Text = x.seriesName,
                     Group = x.seriesType,
-                    Url = $"v1/antigens/{x.targetDisease.ToCamelCase()}/series/{x.seriesName.ToCamelCase()}/index.json"
+                    Url = $"v1/antigens/{x.targetDisease.ToKebabCase()}/series/{x.seriesName.ToKebabCase()}/index.json"
                 });
         }
 
@@ -53,10 +53,10 @@ namespace Exporter
             return data
                 .Select(x => new CatalogItem
                 {
-                    Key = x.observationCode.ToCamelCase(),
+                    Key = x.observationCode.ToKebabCase(),
                     Text = x.observationTitle,
                     Group = !string.IsNullOrWhiteSpace(x.indicationText) ? "Indicated" : "Contraindicated",
-                    Url = $"v1/observations/{x.observationCode.ToCamelCase()}/index.json"
+                    Url = $"v1/observations/{x.observationCode.ToKebabCase()}/index.json"
                 });
         }
 
@@ -76,9 +76,9 @@ namespace Exporter
             return data
                 .Select(x => new CatalogItem
                 {
-                    Key = x.name.ToCamelCase(),
+                    Key = x.name.ToKebabCase(),
                     Text = x.name,
-                    Url = $"v1/groups/{x.name.ToCamelCase()}/index.json",
+                    Url = $"v1/groups/{x.name.ToKebabCase()}/index.json",
                 });
         }
         public static IEnumerable<CatalogItem> GetCatalog(this IEnumerable<testcase> data)

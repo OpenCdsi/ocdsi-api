@@ -34,22 +34,6 @@ namespace Exporter
             return s.Substring(0, 1).ToUpper() + s.Substring(1);
         }
 
-        static string AcronymToWord(string s)
-        {
-            return !Regex.Match(s, "[a-z]").Success
-                                    ? s.ToLower()
-                                    : s;
-        }
-
-        static bool IsAcronym(string s)
-        {
-            return !Regex.Match(s, "[a-z]").Success;
-        }
-
-        static bool HasSpaces(string s)
-        {
-            return Regex.Match(s, @"\s").Success;
-        }
         static IEnumerable<string> ToWords(string s)
         {
             if (Regex.Match(s, @"\s").Success)
@@ -64,7 +48,7 @@ namespace Exporter
                      .Select(x => x.ToLower())
                      .Where(x => x != "");
 
-                return words.Any(x => x.Length == 1)
+                return words.All(x => x.Length == 1)
                     ? new List<string> { string.Join("", words) }
                     : words;
             }

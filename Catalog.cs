@@ -21,19 +21,19 @@ namespace Exporter
         public static IEnumerable<CatalogItem> GetCatalog(this IEnumerable<string> data)
         {
             return data
-                .Select(x => new CatalogItem { Key = x.Munge(), Text = x, Url = $"v1/{x.Munge()}/index.json" });
+                .Select(x => new CatalogItem { Key = x.ToCamelCase(), Text = x, Url = $"v1/{x.ToCamelCase()}/index.json" });
         }
         public static IEnumerable<CatalogItem> GetCatalog(this IEnumerable<string> data, string prefix)
         {
             return data
-                .Select(x => new CatalogItem { Key = x.Munge(), Text = x, Url = $"{prefix}/{x.Munge()}/index.json" });
+                .Select(x => new CatalogItem { Key = x.ToCamelCase(), Text = x, Url = $"{prefix}/{x.ToCamelCase()}/index.json" });
         }
 
         public static IEnumerable<CatalogItem> GetCatalog(this IEnumerable<antigenSupportingData> data)
         {
             return data
                 .Select(x => x.series[0].targetDisease)
-                .Select(x => new CatalogItem { Key = x.Munge(), Text = x, Url = $"v1/antigens/{x.Munge()}/index.json" });
+                .Select(x => new CatalogItem { Key = x.ToCamelCase(), Text = x, Url = $"v1/antigens/{x.ToCamelCase()}/index.json" });
         }
 
         public static IEnumerable<CatalogItem> GetCatalog(this IEnumerable<antigenSupportingDataSeries> data)
@@ -41,10 +41,10 @@ namespace Exporter
             return data
                 .Select(x => new CatalogItem
                 {
-                    Key = x.seriesName.Munge(),
+                    Key = x.seriesName.ToCamelCase(),
                     Text = x.seriesName,
                     Group = x.seriesType,
-                    Url = $"v1/antigens/{x.targetDisease.Munge()}/series/{x.seriesName.Munge()}/index.json"
+                    Url = $"v1/antigens/{x.targetDisease.ToCamelCase()}/series/{x.seriesName.ToCamelCase()}/index.json"
                 });
         }
 
@@ -53,10 +53,10 @@ namespace Exporter
             return data
                 .Select(x => new CatalogItem
                 {
-                    Key = x.observationCode.Munge(),
+                    Key = x.observationCode.ToCamelCase(),
                     Text = x.observationTitle,
                     Group = !string.IsNullOrWhiteSpace(x.indicationText) ? "Indicated" : "Contraindicated",
-                    Url = $"v1/observations/{x.observationCode.Munge()}/index.json"
+                    Url = $"v1/observations/{x.observationCode.ToCamelCase()}/index.json"
                 });
         }
 
@@ -76,9 +76,9 @@ namespace Exporter
             return data
                 .Select(x => new CatalogItem
                 {
-                    Key = x.name.Munge(),
+                    Key = x.name.ToCamelCase(),
                     Text = x.name,
-                    Url = $"v1/groups/{x.name.Munge()}/index.json",
+                    Url = $"v1/groups/{x.name.ToCamelCase()}/index.json",
                 });
         }
         public static IEnumerable<CatalogItem> GetCatalog(this IEnumerable<testcase> data)

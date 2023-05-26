@@ -53,15 +53,15 @@ namespace Exporter
         {
             if (Regex.Match(text, "/|-|_| ").Success)
             {
-                return Regex.Replace(text, "/|-|_", " ").Split(" ").Select(word => word.ToLower());
+                return Regex.Replace(text, "/|-|_", " ").Split(" ").Where(word => word != "").Select(word => word.ToLower());
             }
 
-            if(Regex.Match(text, "[a-z][A-Z]").Success)
+            if (Regex.Match(text, "[a-z][A-Z]").Success)
             {
-                return Regex.Split(text, @"(?<!^)(?=[A-Z])").Select(word=>word.ToLower());
+                return Regex.Split(text, @"(?<!^)(?=[A-Z])").Select(word => word.ToLower());
             }
 
-            return new List<string> { text.ToLower()};
+            return new List<string> { text.ToLower() };
         }
     }
 }

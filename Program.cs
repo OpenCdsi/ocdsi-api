@@ -16,7 +16,12 @@ SupportingData.Antigens.Values.ForEach(x =>
     var key = x.series[0].targetDisease.ToKebabCase();
     writer.Write(x, $"antigens/{key}/index.json");
     writer.Write(x.series.GetCatalog(), $"antigens/{key}/series/index.json");
-    x.series.ForEach(y => writer.Write(y, $"antigens/{key}/series/{y.seriesName.ToKebabCase()}/index.json"));
+    x.series.ForEach(y =>
+    {
+        y.targetDisease = y.targetDisease.ToKebabCase();
+        y.vaccineGroup = y.vaccineGroup.ToKebabCase();
+        writer.Write(y, $"antigens/{key}/series/{y.seriesName.ToKebabCase()}/index.json");
+    });
 });
 
 writer.Write(SupportingData.Schedule.Vaccines.GetCatalog(), "vaccines/index.json");
@@ -31,8 +36,10 @@ writer.Write(SupportingData.Schedule.VaccineGroups.GetCatalog(), "groups/index.j
 dataWriter.Write(SupportingData.Schedule.VaccineGroups.GetCatalog(), "groups.json");
 SupportingData.Schedule.VaccineGroups.ForEach(x =>
 {
-    writer.Write(new { VaccineGroup = x, Antigens = x.Antigens().Select(y => y.ToKebabCase()) }, $"groups/{x.name.ToKebabCase()}/index.json");
-    writer.Write(x.Antigens().Select(y => y.ToKebabCase()), $"groups/{x.name.ToKebabCase()}/antigens/index.json");
+    var antigens = x.Antigens().Select(y => y.ToKebabCase()).ToList();
+    x.name = x.name.ToKebabCase();
+    writer.Write(new { VaccineGroup = x, Antigens = antigens }, $"groups/{x.name}/index.json");
+    writer.Write(antigens, $"groups/{x.name}/antigens/index.json");
 });
 
 writer.Write(SupportingData.Schedule.Observations.GetCatalog(), "observations/index.json");

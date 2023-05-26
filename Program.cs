@@ -31,7 +31,8 @@ writer.Write(SupportingData.Schedule.VaccineGroups.GetCatalog(), "groups/index.j
 dataWriter.Write(SupportingData.Schedule.VaccineGroups.GetCatalog(), "groups.json");
 SupportingData.Schedule.VaccineGroups.ForEach(x =>
 {
-    writer.Write(new { VaccineGroup = x, Antigens = x.Antigens().Select(y=>y.ToKebabCase()) }, $"groups/{x.name.ToKebabCase()}/index.json");
+    writer.Write(new { VaccineGroup = x, Antigens = x.Antigens().Select(y => y.ToKebabCase()) }, $"groups/{x.name.ToKebabCase()}/index.json");
+    writer.Write(x.Antigens().Select(y => y.ToKebabCase()), $"groups/{x.name.ToKebabCase()}/antigens/index.json");
 });
 
 writer.Write(SupportingData.Schedule.Observations.GetCatalog(), "observations/index.json");
@@ -44,5 +45,6 @@ CaseLibrary.Cases.Values.ForEach(x =>
 {
     var key = x.CdcTestId;
     writer.Write(x, $"cases/{key}/index.json");
-    writer.Write(new { x.AssessmentDate, x.Patient, x.Doses }, $"cases/{key}/medical/index.json");
+    writer.Write(new { x.Evaluation, x.Forecast }, $"cases/{key}/results/index.json");
+    writer.Write(new { x.AssessmentDate, x.Patient, x.Doses }, $"cases/{key}/parameters/index.json");
 });

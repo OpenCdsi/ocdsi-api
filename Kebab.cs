@@ -11,47 +11,51 @@ namespace Exporter
 {
     public static class Kebab
     {
-        public static string ToPascalCase(this string s)
+        public static string ToPascalCase(this string text)
         {
-            return string.Join("", ToWords(s).Select(Capitalize));
+            return text.AsWords().AsPascalCase();
         }
-        public static string ToCamelCase(this string s)
+        public static string ToCamelCase(this string text)
         {
-            s = ToPascalCase(s);
-            return s.Substring(0, 1).ToLower() + s.Substring(1);
+            return text.AsWords().AsCamelCase();
         }
-        public static string ToKebabCase(this string s)
+        public static string ToSnakeCase(this string text)
         {
-            return string.Join("-", ToWords(s));
+            return text.AsWords().AsSnakeCase();
         }
-        public static string ToSnakeCase(this string s)
+        public static string ToKebabCase(this string text)
         {
-            return string.Join("_", ToWords(s));
+            return text.AsWords().AsKebabCase();
         }
 
-        static string Capitalize(string s)
+
+        internal static string AsPascalCase(this IEnumerable<string> wordList)
+        {
+            return string.Join("", wordList.Select(Capitalize));
+        }
+        internal static string AsCamelCase(this IEnumerable<string> wordList)
+        {
+            return string.Join("", wordList.Take(1).Concat(wordList.Skip(1).Select(Capitalize)));
+        }
+        internal static string AsKebabCase(this IEnumerable<string> wordList)
+        {
+            return string.Join("-", wordList);
+        }
+        internal static string AsSnakeCase(this IEnumerable<string> wordList)
+        {
+            return string.Join("_", wordList);
+        }
+        internal static string Capitalize(string s)
         {
             return s.Substring(0, 1).ToUpper() + s.Substring(1);
         }
-
-        static IEnumerable<string> ToWords(string s)
+        internal static IEnumerable<string> AsWords(this string text)
         {
-            if (Regex.Match(s, @"\s").Success)
-            {
-                return s.Replace("-", " ").ToLower().Split(' ');
-            }
-            else
-            {
-                var words = Regex.Split(s, @"(?<!^)(?=[A-Z-_])").AsEnumerable();
-
-                words = words.Select(x => Regex.Replace(x, @"[-_]", ""))
-                     .Select(x => x.ToLower())
-                     .Where(x => x != "");
-
-                return words.All(x => x.Length == 1)
-                    ? new List<string> { string.Join("", words) }
-                    : words;
-            }
+            var w= Regex.Replace(text, "/|-|_", " ")
+                   .Split(" ")
+                   .SelectMany(word => Regex.Replace(word, "([a-z])([A-Z])", "$1 $2").Split(" "))
+                   .Select(word=>word.ToLower());
+            return w;
         }
     }
 }

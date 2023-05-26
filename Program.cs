@@ -45,6 +45,6 @@ CaseLibrary.Cases.Values.ForEach(x =>
 {
     var key = x.CdcTestId;
     writer.Write(x, $"cases/{key}/index.json");
-    writer.Write(new { x.Evaluation, x.Forecast }, $"cases/{key}/results/index.json");
-    writer.Write(new { x.AssessmentDate, x.Patient, x.Doses }, $"cases/{key}/parameters/index.json");
+    writer.Write(new { x.Evaluation, x.Forecast }, $"cases/{key}/expected-result/index.json");
+    writer.Write(new { x.AssessmentDate, x.Patient, x.Doses }, $"cases/{key}/test-data/index.json");
 });

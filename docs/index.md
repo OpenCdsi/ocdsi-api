@@ -23,5 +23,5 @@ layout: default
 - /ocdsi-api/v1/groups/*vaccine-group*/antigens/
 - /ocdsi-api/v1/cases/
 - /ocdsi-api/v1/cases/*case-id*/
-- /ocdsi-api/v1/cases/*case-id*/parameters/
-- /ocdsi-api/v1/cases/*case-id*/results/
+- /ocdsi-api/v1/cases/*case-id*/test-data/
+- /ocdsi-api/v1/cases/*case-id*/expected-result/

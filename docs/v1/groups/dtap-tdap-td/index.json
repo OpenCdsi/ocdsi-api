@@ -1,1 +1,1 @@
-{"vaccineGroup":{"name":"DTaP/Tdap/Td","administerFullVaccineGroup":"No"},"antigens":["diphtheria","pertussis","tetanus"]}
+{"vaccineGroup":{"name":"dtap-tdap-td","administerFullVaccineGroup":"No"},"antigens":["diphtheria","pertussis","tetanus"]}

@@ -14,14 +14,14 @@ dataWriter.Write(SupportingData.Antigens.Values.GetCatalog(), "antigens.json");
 SupportingData.Antigens.Values.ForEach(x =>
 {
     var key = x.series[0].targetDisease.ToKebabCase();
-    writer.Write(x, $"antigens/{key}/index.json");
-    writer.Write(x.series.GetCatalog(), $"antigens/{key}/series/index.json");
     x.series.ForEach(y =>
     {
         y.targetDisease = y.targetDisease.ToKebabCase();
         y.vaccineGroup = y.vaccineGroup.ToKebabCase();
         writer.Write(y, $"antigens/{key}/series/{y.seriesName.ToKebabCase()}/index.json");
     });
+    writer.Write(x, $"antigens/{key}/index.json");
+    writer.Write(x.series.GetCatalog(), $"antigens/{key}/series/index.json");
 });
 
 writer.Write(SupportingData.Schedule.Vaccines.GetCatalog(), "vaccines/index.json");

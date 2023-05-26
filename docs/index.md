@@ -20,6 +20,8 @@ layout: default
 - /ocdsi-api/v1/observations/*observation-code*/
 - /ocdsi-api/v1/groups/
 - /ocdsi-api/v1/groups/*vaccine-group*/
+- /ocdsi-api/v1/groups/*vaccine-group*/antigens/
 - /ocdsi-api/v1/cases/
 - /ocdsi-api/v1/cases/*case-id*/
-- /ocdsi-api/v1/cases/*case-id*/medical/
+- /ocdsi-api/v1/cases/*case-id*/parameters/
+- /ocdsi-api/v1/cases/*case-id*/results/

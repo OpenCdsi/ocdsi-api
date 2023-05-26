@@ -1,1 +1,1 @@
-{"cvx":"01","shortDescription":"DTP","association":[{"antigen":"Diphtheria","associationBeginAge":"","associationEndAge":""},{"antigen":"Tetanus","associationBeginAge":"","associationEndAge":""},{"antigen":"Pertussis","associationBeginAge":"","associationEndAge":""}]}
+{"cvx":"01","shortDescription":"DTP","association":[{"antigen":"diphtheria","associationBeginAge":"","associationEndAge":""},{"antigen":"tetanus","associationBeginAge":"","associationEndAge":""},{"antigen":"pertussis","associationBeginAge":"","associationEndAge":""}]}

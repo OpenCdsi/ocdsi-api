@@ -1,1 +1,1 @@
-{"cvx":"51","shortDescription":"Hib-Hep B","association":[{"antigen":"Hib","associationBeginAge":"","associationEndAge":""},{"antigen":"HepB","associationBeginAge":"","associationEndAge":""}]}
+{"cvx":"51","shortDescription":"Hib-Hep B","association":[{"antigen":"hib","associationBeginAge":"","associationEndAge":""},{"antigen":"hep-b","associationBeginAge":"","associationEndAge":""}]}

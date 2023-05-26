@@ -1,1 +1,1 @@
-{"cvx":"193","shortDescription":"Hep A-Hep B, pediatric/adolescent","association":[{"antigen":"HepA","associationBeginAge":"","associationEndAge":""},{"antigen":"HepB","associationBeginAge":"","associationEndAge":""}]}
+{"cvx":"193","shortDescription":"Hep A-Hep B, pediatric/adolescent","association":[{"antigen":"hep-a","associationBeginAge":"","associationEndAge":""},{"antigen":"hep-b","associationBeginAge":"","associationEndAge":""}]}

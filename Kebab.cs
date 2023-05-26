@@ -51,11 +51,17 @@ namespace Exporter
         }
         internal static IEnumerable<string> AsWords(this string text)
         {
-            var w= Regex.Replace(text, "/|-|_", " ")
-                   .Split(" ")
-                   .SelectMany(word => Regex.Replace(word, "([a-z])([A-Z])", "$1 $2").Split(" "))
-                   .Select(word=>word.ToLower());
-            return w;
+            if (Regex.Match(text, "/|-|_| ").Success)
+            {
+                return Regex.Replace(text, "/|-|_", " ").Split(" ").Select(word => word.ToLower());
+            }
+
+            if(Regex.Match(text, "[a-z][A-Z]").Success)
+            {
+                return Regex.Split(text, @"(?<!^)(?=[A-Z])").Select(word=>word.ToLower());
+            }
+
+            return new List<string> { text.ToLower()};
         }
     }
 }

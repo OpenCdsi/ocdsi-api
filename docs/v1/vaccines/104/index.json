@@ -1,1 +1,1 @@
-{"cvx":"104","shortDescription":"Hep A-Hep B","association":[{"antigen":"HepA","associationBeginAge":"","associationEndAge":""},{"antigen":"HepB","associationBeginAge":"","associationEndAge":""}]}
+{"cvx":"104","shortDescription":"Hep A-Hep B","association":[{"antigen":"hep-a","associationBeginAge":"","associationEndAge":""},{"antigen":"hep-b","associationBeginAge":"","associationEndAge":""}]}

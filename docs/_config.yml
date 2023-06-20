@@ -32,7 +32,7 @@ caseversion: 4.28
 
 home:
   name: OpenCDSi.org
-  url: https://opencdsi.org
+  url: https://opencdsi.github.io
 
 # Build settings
 theme: minima

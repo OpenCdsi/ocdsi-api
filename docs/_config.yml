@@ -31,8 +31,12 @@ dataversion: 4.38
 caseversion: 4.28
 
 home:
-  name: OpenCDSi.org
+  name: OpenCDSi API
   url: https://api.opencdsi.org
+  
+org:
+  name: OpenCDSi.org
+  url: https://opencdsi.org
 
 # Build settings
 theme: minima

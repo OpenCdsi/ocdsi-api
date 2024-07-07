@@ -27,9 +27,6 @@ url: "https://api.opencdsi.org" # the base hostname & protocol for your site, e.
 twitter_username: 
 github_username:  opencdsi
 
-dataversion: 4.38
-caseversion: 4.28
-
 home:
   name: OpenCDSi API
   url: https://api.opencdsi.org
@@ -69,5 +66,3 @@ header_pages:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-exclude:
-  - serve.sh

@@ -3,9 +3,17 @@ title: Data View
 layout: default
 ---
 
-
-<h2 id="data-view-header" class="w3-container w3-left-align w3-theme w3-round"></h2>
-<pre id="data-view" class="w3-container" style="white-space: pre-wrap;"></pre>
+<div class="w3-card w3-margin w3-round">
+    <header  class="w3-container w3-theme">
+        <h4 id="data-view-header"></h4>
+    </header>
+      
+    <pre id="data-view" class="w3-container w3-white w3-padding-16" style="white-space: pre-wrap;"></pre>
+      
+    <footer class="w3-container w3-margin-bottom">
+      <a href="javascript:history.back()">Back</a>
+    </footer>
+</div>
 
 <script>
 var urlSearchParams = new URLSearchParams(window.location.search);
@@ -23,15 +31,15 @@ fetch(params.url).then(r=>{
 
 function card(url){
   var components = url.split('/');
-  var txt = `${titlecase(components[1])} ${components[2]}`;
+  var txt = `${titlecase(components[2])} ${components[3]}`;
   var el = document.getElementById('data-view-header');
   el.innerText=txt;
 }
 
 function display(obj){
     var txt =document.createTextNode( JSON.stringify(obj, null, 2));
-    var div = document.getElementById("data-view");
-    div.appendChild(txt); 
+    var el = document.getElementById("data-view");
+    el.appendChild(txt); 
 }
 
 function titlecase(str){

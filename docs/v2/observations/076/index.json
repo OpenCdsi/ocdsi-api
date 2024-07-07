@@ -1,0 +1,16 @@
+{
+    "key": "076",
+    "observationCode": "076",
+    "observationTitle": "Progressive neurologic disorder",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "\n\t\t\t\tDo not vaccinate if the patient has progressive neurologic disorder until a treatment regimen has been\n\t\t\t\testablished and the condition has stabilized.\n\t\t\t",
+    "clarifyingText": "\n\t\t\t\tIncludes infantile spasms, uncontrolled epilepsy, or progressive encephalopathy for the administration of any pertussis-containing\n\t\t\t\tvaccine\n\t\t\t",
+    "codedValues": [
+        {
+            "code": "84757009",
+            "codeSystem": "SNOMED",
+            "text": "Epilepsy [disorder]"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "key": "152",
+    "cvx": "152",
+    "shortDescription": "Pneumococcal Conjugate, unspecified formulation",
+    "association": [
+        {
+            "antigen": "Pneumococcal",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        }
+    ]
+}

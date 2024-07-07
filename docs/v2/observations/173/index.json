@@ -1,0 +1,10 @@
+{
+    "key": "173",
+    "observationCode": "173",
+    "observationTitle": "Moving to JE-endemic country to take up residence",
+    "group": "",
+    "indicationText": "Administer to persons who plan to move to JE-endemic countries to take up residence.",
+    "contraindicationText": "",
+    "clarifyingText": "\n\t\t\t\tEndemic Area and transmission season is determined by country.  Refer to the yellow book for a definition of the transmission season: http://wwwnc.cdc.gov/travel/yellowbook/2014/chapter-3-infectious-diseases-related-to-travel/japanese-encephalitis\n\t\t\t",
+    "codedValues": []
+}

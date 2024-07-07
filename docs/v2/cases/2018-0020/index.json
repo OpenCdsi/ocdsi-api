@@ -1,0 +1,66 @@
+{
+    "key": "2018-0020",
+    "name": "Hep B: Patient is 18 years and has received a previous dose of Hep B vaccine and one dose of Heplisav B vaccine",
+    "cdcTestId": "2018-0020",
+    "changedInVersion": "3.4",
+    "dateAdded": "2018-04-11T20:00:00",
+    "dateUpdated": "2020-06-18T08:07:22.936",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "08",
+                "dateAdministered": "2017-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "RECOMBIVAX-PEDS"
+            },
+            {
+                "cvx": "189",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "DVX",
+                "vaccineName": "HEPLISAV-B"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "All Valid: Forecast Test",
+    "forecast": {
+        "earliestDate": "2020-10-08T00:00:00",
+        "forecastNum": "3",
+        "pastDueDate": "2020-10-08T00:00:00",
+        "recommendedDate": "2020-10-08T00:00:00"
+    },
+    "forecastTestType": "Recommended based on interval",
+    "generalDescription": "This test case describes when a patient is administered a previous dose of Hep B Vaccine, (at age 15)  and one dose of the Hep B (Heplisav) vaccine that the doses are considered to be valid.  Another dose of the vaccine should be forecasted.",
+    "patient": {
+        "dob": "2002-08-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "08",
+                "dateAdministered": "2017-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "RECOMBIVAX-PEDS"
+            },
+            {
+                "cvx": "189",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "DVX",
+                "vaccineName": "HEPLISAV-B"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "Hep B: Patient is 18 years and has received a previous dose of Hep B vaccine and one dose of Heplisav B vaccine",
+    "vaccineGroup": "HepB"
+}

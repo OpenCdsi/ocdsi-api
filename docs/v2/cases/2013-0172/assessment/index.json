@@ -1,0 +1,21 @@
+{
+    "key": "2013-0172",
+    "assessmentDate": "2020-10-15T00:00:00",
+    "patient": {
+        "dob": "2020-05-01T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "158",
+                "dateAdministered": "2020-10-01T00:00:00",
+                "evaluationReason": "Age: Too Young",
+                "evaluationStatus": "Not Valid",
+                "mvx": "SEQ",
+                "vaccineName": "Afluria, quadrivalent"
+            }
+        ]
+    }
+}

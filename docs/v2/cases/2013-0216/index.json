@@ -1,0 +1,82 @@
+{
+    "key": "2013-0216",
+    "name": "Hep B at birth. Comvax at 4 weeks and 6 months.  Series complete for Hep B.  ",
+    "cdcTestId": "2013-0216",
+    "changedInVersion": "1.0",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2018-02-26T10:09:36.698",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "45",
+                "dateAdministered": "2006-02-02T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "Hep B, unspecified formulation"
+            },
+            {
+                "cvx": "51",
+                "dateAdministered": "2006-03-02T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "COMVAX"
+            },
+            {
+                "cvx": "51",
+                "dateAdministered": "2006-08-02T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "COMVAX"
+            }
+        ],
+        "seriesStatus": "Complete"
+    },
+    "evaluationTestType": "Interval: At Minimum",
+    "forecast": {
+        "earliestDate": "0001-01-01T00:00:00",
+        "forecastNum": "-",
+        "pastDueDate": "0001-01-01T00:00:00",
+        "recommendedDate": "0001-01-01T00:00:00"
+    },
+    "forecastTestType": "Not recommended: series complete",
+    "generalDescription": "This test case describes when dose #1 of the Hep B vaccine is administered at birth, dose #2 is administered at an interval of 4 weeks after previous dose , and dose #3 is administered at 6 months after dose #2, that the series is complete. ",
+    "patient": {
+        "dob": "2006-02-02T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "45",
+                "dateAdministered": "2006-02-02T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "Hep B, unspecified formulation"
+            },
+            {
+                "cvx": "51",
+                "dateAdministered": "2006-03-02T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "COMVAX"
+            },
+            {
+                "cvx": "51",
+                "dateAdministered": "2006-08-02T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "COMVAX"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "Hep B at birth. Comvax at 4 weeks and 6 months.  Series complete for Hep B.  ",
+    "vaccineGroup": "HepB"
+}

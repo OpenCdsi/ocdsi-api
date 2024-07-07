@@ -1,0 +1,29 @@
+{
+    "key": "2013-0562",
+    "assessmentDate": "2020-08-13T00:00:00",
+    "patient": {
+        "dob": "2019-07-26T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "03",
+                "dateAdministered": "2020-07-21T00:00:00",
+                "evaluationReason": "Age: Too Young",
+                "evaluationStatus": "Not Valid",
+                "mvx": "MSD",
+                "vaccineName": "M-M-R II"
+            },
+            {
+                "cvx": "94",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "Live Virus Conflict",
+                "evaluationStatus": "Not Valid",
+                "mvx": "MSD",
+                "vaccineName": "PROQUAD"
+            }
+        ]
+    }
+}

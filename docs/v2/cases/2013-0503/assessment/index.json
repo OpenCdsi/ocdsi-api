@@ -1,0 +1,29 @@
+{
+    "key": "2013-0503",
+    "assessmentDate": "2020-08-13T00:00:00",
+    "patient": {
+        "dob": "2009-04-23T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "147",
+                "dateAdministered": "2020-06-23T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "meningococcal MCV4, unspecified formulation"
+            },
+            {
+                "cvx": "147",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "Interval: too short",
+                "evaluationStatus": "Not Valid",
+                "mvx": "",
+                "vaccineName": "meningococcal MCV4, unspecified formulation"
+            }
+        ]
+    }
+}

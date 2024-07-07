@@ -1,0 +1,12 @@
+{
+    "key": "26",
+    "cvx": "26",
+    "shortDescription": "cholera, unspecified formulation",
+    "association": [
+        {
+            "antigen": "Cholera",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        }
+    ]
+}

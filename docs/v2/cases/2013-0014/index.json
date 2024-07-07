@@ -1,0 +1,82 @@
+{
+    "key": "2013-0014",
+    "name": "#3 at age 14 weeks",
+    "cdcTestId": "2013-0014",
+    "changedInVersion": "3.3",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-06-22T13:59:10.499",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "107",
+                "dateAdministered": "2020-06-18T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            },
+            {
+                "cvx": "107",
+                "dateAdministered": "2020-07-16T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            },
+            {
+                "cvx": "107",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Age: At Minimum",
+    "forecast": {
+        "earliestDate": "2021-08-07T00:00:00",
+        "forecastNum": "4",
+        "pastDueDate": "2022-01-03T00:00:00",
+        "recommendedDate": "2021-08-07T00:00:00"
+    },
+    "forecastTestType": "Recommended based on age",
+    "generalDescription": "This test case describes when a child is administered a third dose of the DTAP/Tdap/Td at age 14 weeks that the dose is valid.  Another dose should be forecast.",
+    "patient": {
+        "dob": "2020-05-07T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "107",
+                "dateAdministered": "2020-06-18T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            },
+            {
+                "cvx": "107",
+                "dateAdministered": "2020-07-16T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            },
+            {
+                "cvx": "107",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            }
+        ]
+    },
+    "reasonForChange": "Updated per the 2017 General Best Practice Guidelines which moved the Minimum and Recommended Age to 15 months",
+    "testcaseName": "#3 at age 14 weeks",
+    "vaccineGroup": "DTAP"
+}

@@ -1,0 +1,66 @@
+{
+    "key": "2019-0013",
+    "name": "Dose 2 of Hep A at 6 months -4 days",
+    "cdcTestId": "2019-0013",
+    "changedInVersion": "4.3",
+    "dateAdded": "2019-09-19T20:00:00",
+    "dateUpdated": "2020-05-29T08:30:25.858",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "52",
+                "dateAdministered": "2020-02-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "HAVRIX-ADULT"
+            },
+            {
+                "cvx": "52",
+                "dateAdministered": "2020-08-09T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "HAVRIX-ADULT"
+            }
+        ],
+        "seriesStatus": "Complete"
+    },
+    "evaluationTestType": "Interval: At Absolute Minimum",
+    "forecast": {
+        "earliestDate": "0001-01-01T00:00:00",
+        "forecastNum": "-",
+        "pastDueDate": "0001-01-01T00:00:00",
+        "recommendedDate": "0001-01-01T00:00:00"
+    },
+    "forecastTestType": "Not recommended: series complete",
+    "generalDescription": "This test case describes when an adolescent receives a second dose of the Hep A vaccine at an interval of 6 month- 4 days, that no additional dose  are needed.  The series is complete.",
+    "patient": {
+        "dob": "2002-02-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "52",
+                "dateAdministered": "2020-02-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "HAVRIX-ADULT"
+            },
+            {
+                "cvx": "52",
+                "dateAdministered": "2020-08-09T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "HAVRIX-ADULT"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "Dose 2 of Hep A at 6 months -4 days",
+    "vaccineGroup": "HepA"
+}

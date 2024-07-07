@@ -1,0 +1,50 @@
+{
+    "key": "2013-0698",
+    "name": "# 1 Pediarix at 6 wks-4 days",
+    "cdcTestId": "2013-0698",
+    "changedInVersion": "1.5",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-06-12T15:52:00.082",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "110",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Age: At Absolute Minimum",
+    "forecast": {
+        "earliestDate": "2020-09-14T00:00:00",
+        "forecastNum": "2",
+        "pastDueDate": "2021-01-02T00:00:00",
+        "recommendedDate": "2020-11-06T00:00:00"
+    },
+    "forecastTestType": "Recommended based on age",
+    "generalDescription": "This test case describes when a child is administered a first dose of the Polio vaccine at an interval of 6 months - 4 days that the dose is valid.  Another dose should be forecast.",
+    "patient": {
+        "dob": "2020-07-06T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "110",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            }
+        ]
+    },
+    "reasonForChange": "Rolled birth date forward to 2011 to ensure test was relevant to when ACIP recommendations were made.  Previous dates were before the ACIP recommendations were published.",
+    "testcaseName": "# 1 Pediarix at 6 wks-4 days",
+    "vaccineGroup": "POL"
+}

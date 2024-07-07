@@ -1,0 +1,66 @@
+{
+    "key": "2013-0677",
+    "name": "# 2 Pediarix at 6 yrs 11.5 mo",
+    "cdcTestId": "2013-0677",
+    "changedInVersion": "3.3",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-06-12T08:59:34.69",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "110",
+                "dateAdministered": "2016-08-14T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            },
+            {
+                "cvx": "110",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "All Valid: Forecast Test",
+    "forecast": {
+        "earliestDate": "2021-02-13T00:00:00",
+        "forecastNum": "3",
+        "pastDueDate": "2021-02-13T00:00:00",
+        "recommendedDate": "2021-02-13T00:00:00"
+    },
+    "forecastTestType": "Recommended based on minimum interval from previous dose (catch-up)",
+    "generalDescription": "This test case describes when a child is administered a second dose of the Polio vaccine at 6 years 11.5 months that the dose is valid.  Another dose should be forecast.",
+    "patient": {
+        "dob": "2013-08-30T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "110",
+                "dateAdministered": "2016-08-14T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            },
+            {
+                "cvx": "110",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            }
+        ]
+    },
+    "reasonForChange": "Updated the Forecast number dose to 3. Updated DOB to curb future date issues.",
+    "testcaseName": "# 2 Pediarix at 6 yrs 11.5 mo",
+    "vaccineGroup": "POL"
+}

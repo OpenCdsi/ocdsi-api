@@ -1,0 +1,98 @@
+{
+    "key": "2013-0081",
+    "name": "Pentavalente (Mexico) DTaP/IPV/HIB counts as valid. ",
+    "cdcTestId": "2013-0081",
+    "changedInVersion": "1.0",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-07-06T16:34:45.208",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "170",
+                "dateAdministered": "2019-10-04T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTAP/IPV/HIB - non-US"
+            },
+            {
+                "cvx": "170",
+                "dateAdministered": "2019-12-04T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTAP/IPV/HIB - non-US"
+            },
+            {
+                "cvx": "170",
+                "dateAdministered": "2020-02-04T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTAP/IPV/HIB - non-US"
+            },
+            {
+                "cvx": "170",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTAP/IPV/HIB - non-US"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Vaccine: Off Label",
+    "forecast": {
+        "earliestDate": "2023-06-04T00:00:00",
+        "forecastNum": "5",
+        "pastDueDate": "2026-06-03T00:00:00",
+        "recommendedDate": "2023-06-04T00:00:00"
+    },
+    "forecastTestType": "Recommended based on age",
+    "generalDescription": "This test case describes when a child is administered  4 doses of Pentavalente (Mexico) at appropriate intervals and age that the doses are valid.  Another DTaP (U.S) dose should be forecast.",
+    "patient": {
+        "dob": "2019-06-04T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "170",
+                "dateAdministered": "2019-10-04T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTAP/IPV/HIB - non-US"
+            },
+            {
+                "cvx": "170",
+                "dateAdministered": "2019-12-04T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTAP/IPV/HIB - non-US"
+            },
+            {
+                "cvx": "170",
+                "dateAdministered": "2020-02-04T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTAP/IPV/HIB - non-US"
+            },
+            {
+                "cvx": "170",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTAP/IPV/HIB - non-US"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "Pentavalente (Mexico) DTaP/IPV/HIB counts as valid. ",
+    "vaccineGroup": "DTAP"
+}

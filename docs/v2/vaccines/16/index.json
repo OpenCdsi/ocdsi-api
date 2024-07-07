@@ -1,0 +1,12 @@
+{
+    "key": "16",
+    "cvx": "16",
+    "shortDescription": "influenza, whole",
+    "association": [
+        {
+            "antigen": "Influenza",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        }
+    ]
+}

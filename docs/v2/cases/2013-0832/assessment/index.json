@@ -1,0 +1,29 @@
+{
+    "key": "2013-0832",
+    "assessmentDate": "2020-08-13T00:00:00",
+    "patient": {
+        "dob": "2017-07-17T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "149",
+                "dateAdministered": "2020-07-17T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MED",
+                "vaccineName": "Flumist quadrivalent"
+            },
+            {
+                "cvx": "21",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "Live Virus Conflict",
+                "evaluationStatus": "Not Valid",
+                "mvx": "MSD",
+                "vaccineName": "VARIVAX"
+            }
+        ]
+    }
+}

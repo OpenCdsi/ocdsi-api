@@ -1,0 +1,14 @@
+[
+    {
+        "key": "diphtheria",
+        "name": "Diphtheria"
+    },
+    {
+        "key": "pertussis",
+        "name": "Pertussis"
+    },
+    {
+        "key": "tetanus",
+        "name": "Tetanus"
+    }
+]

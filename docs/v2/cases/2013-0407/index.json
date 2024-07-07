@@ -1,0 +1,66 @@
+{
+    "key": "2013-0407",
+    "name": "#2 @ 11 yrs + 2 mo, male, gardasil",
+    "cdcTestId": "2013-0407",
+    "changedInVersion": "3.2",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-06-15T08:06:44.392",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "165",
+                "dateAdministered": "2020-06-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV9"
+            },
+            {
+                "cvx": "165",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV9"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Interval: At Minimum",
+    "forecast": {
+        "earliestDate": "2020-11-13T00:00:00",
+        "forecastNum": "3",
+        "pastDueDate": "2021-08-09T00:00:00",
+        "recommendedDate": "2020-12-13T00:00:00"
+    },
+    "forecastTestType": "Recommended based on interval",
+    "generalDescription": "This test case describes when the second dose is administered 2 months (less than 5 months) after the first dose, that a third dose of the HPV vaccine should be forecasted.",
+    "patient": {
+        "dob": "2009-06-13T00:00:00",
+        "gender": "M",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "165",
+                "dateAdministered": "2020-06-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV9"
+            },
+            {
+                "cvx": "165",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV9"
+            }
+        ]
+    },
+    "reasonForChange": "Updated to reflect ACIP recommendations for the HPV 2 dose series.",
+    "testcaseName": "#2 @ 11 yrs + 2 mo, male, gardasil",
+    "vaccineGroup": "HPV"
+}

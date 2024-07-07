@@ -1,0 +1,98 @@
+{
+    "key": "2013-0546",
+    "name": "Doses 1 and 2 of MMR and VZ at ages 12 and 13 months",
+    "cdcTestId": "2013-0546",
+    "changedInVersion": "1.0",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2018-01-04T10:53:49.707",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "03",
+                "dateAdministered": "2020-07-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "M-M-R II"
+            },
+            {
+                "cvx": "21",
+                "dateAdministered": "2020-07-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "VARIVAX"
+            },
+            {
+                "cvx": "03",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "M-M-R II"
+            },
+            {
+                "cvx": "21",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "VARIVAX"
+            }
+        ],
+        "seriesStatus": "Complete"
+    },
+    "evaluationTestType": "Age: At Minimum",
+    "forecast": {
+        "earliestDate": "0001-01-01T00:00:00",
+        "forecastNum": "-",
+        "pastDueDate": "0001-01-01T00:00:00",
+        "recommendedDate": "0001-01-01T00:00:00"
+    },
+    "forecastTestType": "Not recommended: series complete",
+    "generalDescription": "This test case describes when the first doses of the MMR  and Varicella vaccines are administered at 12 months of age, and the second doses of those vaccines are administered at 13 months of age, that the doses are considered to be valid.  The series are complete.",
+    "patient": {
+        "dob": "2019-07-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "03",
+                "dateAdministered": "2020-07-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "M-M-R II"
+            },
+            {
+                "cvx": "21",
+                "dateAdministered": "2020-07-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "VARIVAX"
+            },
+            {
+                "cvx": "03",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "M-M-R II"
+            },
+            {
+                "cvx": "21",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "VARIVAX"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "Doses 1 and 2 of MMR and VZ at ages 12 and 13 months",
+    "vaccineGroup": "MMR"
+}

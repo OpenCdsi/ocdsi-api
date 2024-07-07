@@ -1,0 +1,50 @@
+{
+    "key": "2013-0439",
+    "name": "Any dose 26 yrs, female, Cervarix",
+    "cdcTestId": "2013-0439",
+    "changedInVersion": "3.5",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-06-15T08:43:33.445",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "118",
+                "dateAdministered": "2012-05-02T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "CERVARIX"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Age: At Recommended",
+    "forecast": {
+        "earliestDate": "2012-05-30T00:00:00",
+        "forecastNum": "2",
+        "pastDueDate": "2012-08-21T00:00:00",
+        "recommendedDate": "2012-05-30T00:00:00"
+    },
+    "forecastTestType": "Recommended based on interval",
+    "generalDescription": "This test case describes when a patient 26 years of age has received dose number one of the HPV vaccine, that another dose should be forecast.",
+    "patient": {
+        "dob": "1986-05-01T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "118",
+                "dateAdministered": "2012-05-02T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "CERVARIX"
+            }
+        ]
+    },
+    "reasonForChange": "V3.5: Updated Recommended Date to reflect change in supporting data (v3.6) from 8 weeks to 4 weeks.\nV3.0 Updated test came name and date of birth to reflect the age of 26 and to reflect that the second dose of the HPV vaccine should be forecast.",
+    "testcaseName": "Any dose 26 yrs, female, Cervarix",
+    "vaccineGroup": "HPV"
+}

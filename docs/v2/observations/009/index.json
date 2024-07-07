@@ -1,0 +1,16 @@
+{
+    "key": "009",
+    "observationCode": "009",
+    "observationTitle": "Breastfeeding",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient is breastfeeding.",
+    "clarifyingText": "",
+    "codedValues": [
+        {
+            "code": "413712001",
+            "codeSystem": "SNOMED",
+            "text": "Breastfeeding [mother] [observable entity]"
+        }
+    ]
+}

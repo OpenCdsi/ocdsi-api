@@ -1,0 +1,138 @@
+{
+    "key": "hep-a-risk-1-dose-series",
+    "seriesName": "HepA risk 1-dose series",
+    "targetDisease": "HepA",
+    "vaccineGroup": "HepA",
+    "seriesAdminGuidance": [
+        ""
+    ],
+    "seriesType": "Risk",
+    "equivalentSeriesGroups": "",
+    "requiredGender": [
+        ""
+    ],
+    "selectSeries": {
+        "defaultSeries": "No",
+        "productPath": "No",
+        "seriesGroupName": "Increased Risk",
+        "seriesGroup": "3",
+        "seriesPriority": "A",
+        "seriesPreference": "1",
+        "minAgeToStart": "6 months",
+        "maxAgeToStart": "12 months"
+    },
+    "indication": [
+        {
+            "observationCode": {
+                "text": "Travelling Internationally",
+                "code": "048"
+            },
+            "description": "Administer to persons who will be travelling internationally.",
+            "beginAge": "6 months",
+            "endAge": "12 months",
+            "guidance": ""
+        }
+    ],
+    "seriesDose": [
+        {
+            "doseNumber": "Dose 1",
+            "age": [
+                {
+                    "absMinAge": "6 months - 4 days",
+                    "minAge": "6 months",
+                    "earliestRecAge": "6 months",
+                    "latestRecAge": "12 months",
+                    "maxAge": "12 months",
+                    "effectiveDate": "",
+                    "cessationDate": ""
+                }
+            ],
+            "interval": [
+                {
+                    "fromPrevious": null,
+                    "fromTargetDose": null,
+                    "fromMostRecent": null,
+                    "fromRelevantObs": null,
+                    "absMinInt": null,
+                    "minInt": null,
+                    "earliestRecInt": null,
+                    "latestRecInt": null,
+                    "intervalPriority": null,
+                    "effectiveDate": null,
+                    "cessationDate": null
+                }
+            ],
+            "allowableInterval": [
+                {
+                    "fromPrevious": null,
+                    "fromTargetDose": null,
+                    "absMinInt": null,
+                    "effectiveDate": null,
+                    "cessationDate": null
+                }
+            ],
+            "preferableVaccine": [
+                {
+                    "vaccineType": "Hep A, ped/adol, 2 dose",
+                    "cvx": "83",
+                    "beginAge": "12 months",
+                    "endAge": "19 years",
+                    "tradeName": "",
+                    "mvx": "",
+                    "volume": "0.5",
+                    "forecastVaccineType": "N"
+                }
+            ],
+            "allowableVaccine": [
+                {
+                    "vaccineType": "Hep A, pediatric, Unspecified",
+                    "cvx": "31",
+                    "beginAge": "6 months - 4 days",
+                    "endAge": "19 years"
+                },
+                {
+                    "vaccineType": "Hep A, adult",
+                    "cvx": "52",
+                    "beginAge": "6 months - 4 days",
+                    "endAge": ""
+                },
+                {
+                    "vaccineType": "Hep A, ped/adol, 2 dose",
+                    "cvx": "83",
+                    "beginAge": "6 months - 4 days",
+                    "endAge": "19 years"
+                },
+                {
+                    "vaccineType": "Hep A, Unspecified",
+                    "cvx": "85",
+                    "beginAge": "6 months - 4 days",
+                    "endAge": ""
+                },
+                {
+                    "vaccineType": "HepA-HepB",
+                    "cvx": "104",
+                    "beginAge": "6 months - 4 days",
+                    "endAge": ""
+                }
+            ],
+            "inadvertentVaccine": [
+                {
+                    "vaccineType": null,
+                    "cvx": null
+                }
+            ],
+            "conditionalSkip": [
+                {
+                    "context": null,
+                    "setLogic": null,
+                    "set": null
+                }
+            ],
+            "recurringDose": "No",
+            "seasonalRecommendation": {
+                "startDate": null,
+                "endDate": null
+            }
+        }
+    ]
+}

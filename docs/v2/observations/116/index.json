@@ -1,0 +1,36 @@
+{
+    "key": "116",
+    "observationCode": "116",
+    "observationTitle": "Severe allergic reaction after previous dose of Meningococcal B",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Meningococcal B vaccine.",
+    "clarifyingText": "",
+    "codedValues": [
+        {
+            "code": "451281000124102",
+            "codeSystem": "SNOMED",
+            "text": "Adverse reaction caused by meningococcal group B vaccine [disorder]"
+        },
+        {
+            "code": "162",
+            "codeSystem": "CVX",
+            "text": "Meningococcal B, recombinant"
+        },
+        {
+            "code": "163",
+            "codeSystem": "CVX",
+            "text": "Meningococcal B, OMV"
+        },
+        {
+            "code": "164",
+            "codeSystem": "CVX",
+            "text": "Meningococcal B, unspecified"
+        },
+        {
+            "code": "VXC20",
+            "codeSystem": "CDCPHINVS",
+            "text": "Allergy to previous dose of this vaccine or to any of its unlisted vaccine components [anaphylactic]"
+        }
+    ]
+}

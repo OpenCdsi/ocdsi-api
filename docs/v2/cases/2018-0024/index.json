@@ -1,0 +1,32 @@
+{
+    "key": "2018-0024",
+    "name": "Patient 9 years or older with no current seasonal dose",
+    "cdcTestId": "2018-0024",
+    "changedInVersion": "4.4",
+    "dateAdded": "2018-11-26T19:00:00",
+    "dateUpdated": "2020-08-11T08:26:20.565",
+    "evaluation": {
+        "administeredDoses": [],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "No Doses Administered",
+    "forecast": {
+        "earliestDate": "2020-07-01T00:00:00",
+        "forecastNum": "1",
+        "pastDueDate": "0001-01-01T00:00:00",
+        "recommendedDate": "2020-07-01T00:00:00"
+    },
+    "forecastTestType": "Recommended based on age",
+    "generalDescription": "This test case describes when a patient is 9 years or older and does not have a current seasonal dose that a dose should be forecast.",
+    "patient": {
+        "dob": "2010-08-10T00:00:00",
+        "gender": "M",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": []
+    },
+    "reasonForChange": "V4.4: Rolled test cases forward from 2019-2020 season to 2020-2021 season.\nV4.2: Updated forecast dose number from #2 to #1\nV4.1: Rolled test case forward from 2018-19 season to 2019-20 season.",
+    "testcaseName": "Patient 9 years or older with no current seasonal dose",
+    "vaccineGroup": "FLU"
+}

@@ -1,0 +1,53 @@
+{
+    "key": "2013-0619",
+    "assessmentDate": "2012-03-05T00:00:00",
+    "patient": {
+        "dob": "2008-06-06T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "100",
+                "dateAdministered": "2008-08-06T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "WAL",
+                "vaccineName": "PREVNAR 7"
+            },
+            {
+                "cvx": "100",
+                "dateAdministered": "2008-10-06T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "WAL",
+                "vaccineName": "PREVNAR 7"
+            },
+            {
+                "cvx": "100",
+                "dateAdministered": "2008-12-06T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "WAL",
+                "vaccineName": "PREVNAR 7"
+            },
+            {
+                "cvx": "100",
+                "dateAdministered": "2009-12-06T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "WAL",
+                "vaccineName": "PREVNAR 7"
+            },
+            {
+                "cvx": "133",
+                "dateAdministered": "2012-03-05T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PFR",
+                "vaccineName": "PREVNAR 13"
+            }
+        ]
+    }
+}

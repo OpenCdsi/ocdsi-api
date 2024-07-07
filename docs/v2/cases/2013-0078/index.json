@@ -1,0 +1,50 @@
+{
+    "key": "2013-0078",
+    "name": "TriHibit as primary dose.  DTaP=valid.",
+    "cdcTestId": "2013-0078",
+    "changedInVersion": "1.0",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-07-06T12:17:03.728",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "50",
+                "dateAdministered": "2011-07-01T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "TRIHIBIT"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Vaccine: Off Label",
+    "forecast": {
+        "earliestDate": "2011-07-29T00:00:00",
+        "forecastNum": "2",
+        "pastDueDate": "2011-10-28T00:00:00",
+        "recommendedDate": "2011-09-01T00:00:00"
+    },
+    "forecastTestType": "Recommended based on age",
+    "generalDescription": "This test case describes when a child is administered the first dose of DTaP (TriHibit) that the dose is valid.  Another dose should be forecast.",
+    "patient": {
+        "dob": "2011-05-01T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "50",
+                "dateAdministered": "2011-07-01T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "TRIHIBIT"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "TriHibit as primary dose.  DTaP=valid.",
+    "vaccineGroup": "DTAP"
+}

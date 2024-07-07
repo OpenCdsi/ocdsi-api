@@ -1,0 +1,66 @@
+{
+    "key": "2013-0210",
+    "name": "Doses 1 and 2 of Recombvx at ages 11-15 years with ≥ 4 mo interval = series complete. ",
+    "cdcTestId": "2013-0210",
+    "changedInVersion": "1.0",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-06-18T15:24:24.029",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "43",
+                "dateAdministered": "2020-04-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "RECOMBIVAX-ADULT"
+            },
+            {
+                "cvx": "43",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "RECOMBIVAX-ADULT"
+            }
+        ],
+        "seriesStatus": "Complete"
+    },
+    "evaluationTestType": "Interval: At Minimum",
+    "forecast": {
+        "earliestDate": "0001-01-01T00:00:00",
+        "forecastNum": "-",
+        "pastDueDate": "0001-01-01T00:00:00",
+        "recommendedDate": "0001-01-01T00:00:00"
+    },
+    "forecastTestType": "Not recommended: series complete",
+    "generalDescription": "This test case describes when dose #2 of the Hep B Recombivax vaccine is administered at an interval of 6 months from dose #1  to a child age 12 years, that dose is considered to be valid.  The series is complete.",
+    "patient": {
+        "dob": "2007-10-07T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "43",
+                "dateAdministered": "2020-04-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "RECOMBIVAX-ADULT"
+            },
+            {
+                "cvx": "43",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "RECOMBIVAX-ADULT"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "Doses 1 and 2 of Recombvx at ages 11-15 years with ≥ 4 mo interval = series complete. ",
+    "vaccineGroup": "HepB"
+}

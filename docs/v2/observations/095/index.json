@@ -1,0 +1,61 @@
+{
+    "key": "095",
+    "observationCode": "095",
+    "observationTitle": "Severe allergic reaction after previous dose of Meningococcal",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Meningococcal vaccine.",
+    "clarifyingText": "",
+    "codedValues": [
+        {
+            "code": "2219088009",
+            "codeSystem": "SNOMED",
+            "text": "Adverse reaction to meningococcal vaccine [disorder]"
+        },
+        {
+            "code": "451111000124103",
+            "codeSystem": "SNOMED",
+            "text": "Adverse reaction caused by meningococcal conjugate vaccine [disorder]"
+        },
+        {
+            "code": "32",
+            "codeSystem": "CVX",
+            "text": "Meningococcal, MPSV4"
+        },
+        {
+            "code": "108",
+            "codeSystem": "CVX",
+            "text": "Meningococcal ACWY, unspecified"
+        },
+        {
+            "code": "114",
+            "codeSystem": "CVX",
+            "text": "Meningococcal, MCV4P"
+        },
+        {
+            "code": "136",
+            "codeSystem": "CVX",
+            "text": "Meningococcal, MCV4O"
+        },
+        {
+            "code": "147",
+            "codeSystem": "CVX",
+            "text": "MCV4, unspecified"
+        },
+        {
+            "code": "148",
+            "codeSystem": "CVX",
+            "text": "Meningococcal C/Y-HIB PRP"
+        },
+        {
+            "code": "167",
+            "codeSystem": "CVX",
+            "text": "Meningococcal, unknown serogroups"
+        },
+        {
+            "code": "VXC20",
+            "codeSystem": "CDCPHINVS",
+            "text": "Allergy to previous dose of this vaccine or to any of its unlisted vaccine components [anaphylactic]"
+        }
+    ]
+}

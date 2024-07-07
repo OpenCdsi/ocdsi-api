@@ -1,0 +1,82 @@
+{
+    "key": "2020-0001",
+    "name": "Dose#3 administered at least 6 months after 1st valid dose",
+    "cdcTestId": "2020-0001",
+    "changedInVersion": "4.3",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-02-06T10:50:39.063",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "85",
+                "dateAdministered": "2020-02-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "Hep A, unspecified formulation"
+            },
+            {
+                "cvx": "85",
+                "dateAdministered": "2020-07-13T00:00:00",
+                "evaluationReason": "Interval: too short",
+                "evaluationStatus": "Not Valid",
+                "mvx": "",
+                "vaccineName": "Hep A, unspecified formulation"
+            },
+            {
+                "cvx": "85",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "Hep A, unspecified formulation"
+            }
+        ],
+        "seriesStatus": "Complete"
+    },
+    "evaluationTestType": "Interval: Below Absolute Minimum",
+    "forecast": {
+        "earliestDate": "0001-01-01T00:00:00",
+        "forecastNum": "",
+        "pastDueDate": "0001-01-01T00:00:00",
+        "recommendedDate": "0001-01-01T00:00:00"
+    },
+    "forecastTestType": "Recommended based on minimum interval from invalid dose",
+    "generalDescription": "This test case describes when a third dose is administered at least 6 months after the first dose, that the dose is considered to be valid.  The series is complete. The invalid dose (2nd dose administered) is not considered in the spacing.",
+    "patient": {
+        "dob": "2019-02-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "85",
+                "dateAdministered": "2020-02-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "Hep A, unspecified formulation"
+            },
+            {
+                "cvx": "85",
+                "dateAdministered": "2020-07-13T00:00:00",
+                "evaluationReason": "Interval: too short",
+                "evaluationStatus": "Not Valid",
+                "mvx": "",
+                "vaccineName": "Hep A, unspecified formulation"
+            },
+            {
+                "cvx": "85",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "Hep A, unspecified formulation"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "Dose#3 administered at least 6 months after 1st valid dose",
+    "vaccineGroup": "HepA"
+}

@@ -1,0 +1,66 @@
+{
+    "key": "2013-0318",
+    "name": "# 2 at 10 wks-3 days, PRP-OMP series",
+    "cdcTestId": "2013-0318",
+    "changedInVersion": "1.0",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-05-26T11:38:07.518",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "49",
+                "dateAdministered": "2020-07-15T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "PEDVAXHIB"
+            },
+            {
+                "cvx": "49",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "PEDVAXHIB"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "All Valid: Forecast Test",
+    "forecast": {
+        "earliestDate": "2021-06-07T00:00:00",
+        "forecastNum": "3",
+        "pastDueDate": "2021-11-03T00:00:00",
+        "recommendedDate": "2021-06-07T00:00:00"
+    },
+    "forecastTestType": "Recommended based on age",
+    "generalDescription": "This test case describes when a child is administered a second dose of the HIb vaccine at 10 weeks - 3 days that the dose is valid.  Another dose should be forecast.",
+    "patient": {
+        "dob": "2020-06-07T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "49",
+                "dateAdministered": "2020-07-15T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "PEDVAXHIB"
+            },
+            {
+                "cvx": "49",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "PEDVAXHIB"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "# 2 at 10 wks-3 days, PRP-OMP series",
+    "vaccineGroup": "HIB"
+}

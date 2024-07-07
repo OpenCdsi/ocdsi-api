@@ -1,0 +1,17 @@
+{
+    "key": "28",
+    "cvx": "28",
+    "shortDescription": "DT (pediatric)",
+    "association": [
+        {
+            "antigen": "Diphtheria",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        },
+        {
+            "antigen": "Tetanus",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        }
+    ]
+}

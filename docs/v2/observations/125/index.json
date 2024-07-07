@@ -1,0 +1,16 @@
+{
+    "key": "125",
+    "observationCode": "125",
+    "observationTitle": "Tetanus IG administration",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had Tetanus IG administered in the previous 3 months.",
+    "clarifyingText": "",
+    "codedValues": [
+        {
+            "code": "13",
+            "codeSystem": "CVX",
+            "text": "Tetanus immune globulin"
+        }
+    ]
+}

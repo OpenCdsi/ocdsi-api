@@ -1,0 +1,26 @@
+{
+    "key": "172",
+    "observationCode": "172",
+    "observationTitle": "Severe allergic reaction after previous dose of recombinant zoster",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of recombinant zoster vaccine.",
+    "clarifyingText": "",
+    "codedValues": [
+        {
+            "code": "451291000124104",
+            "codeSystem": "SNOMED",
+            "text": "Adverse reaction caused by zoster vaccine [disorder]"
+        },
+        {
+            "code": "187",
+            "codeSystem": "CVX",
+            "text": "Zoster subunit"
+        },
+        {
+            "code": "VXC20",
+            "codeSystem": "CDCPHINVS",
+            "text": "Allergy to previous dose of this vaccine or to any of its unlisted vaccine components [anaphylactic]"
+        }
+    ]
+}

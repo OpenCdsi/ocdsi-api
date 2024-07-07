@@ -1,0 +1,66 @@
+{
+    "key": "2013-0201",
+    "name": "Dose 1 to dose 2 interval 28 days",
+    "cdcTestId": "2013-0201",
+    "changedInVersion": "1.0",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2018-02-09T09:36:49.105",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "08",
+                "dateAdministered": "2020-07-16T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "RECOMBIVAX-PEDS"
+            },
+            {
+                "cvx": "08",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "RECOMBIVAX-PEDS"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Interval: At Minimum",
+    "forecast": {
+        "earliestDate": "2020-12-31T00:00:00",
+        "forecastNum": "3",
+        "pastDueDate": "2022-03-15T00:00:00",
+        "recommendedDate": "2021-01-16T00:00:00"
+    },
+    "forecastTestType": "Recommended based on age",
+    "generalDescription": "This test case desribes when dose #2 of the Hep B vaccine is administered at an interval of 28 days after dose #1 that the dose is considered to be valid.",
+    "patient": {
+        "dob": "2020-07-16T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "08",
+                "dateAdministered": "2020-07-16T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "RECOMBIVAX-PEDS"
+            },
+            {
+                "cvx": "08",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "RECOMBIVAX-PEDS"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "Dose 1 to dose 2 interval 28 days",
+    "vaccineGroup": "HepB"
+}

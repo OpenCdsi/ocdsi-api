@@ -1,0 +1,21 @@
+{
+    "key": "153",
+    "observationCode": "153",
+    "observationTitle": "Phagocytic function - Leukocyte adhesion defect, and myeloperoxidase deficiency",
+    "group": "",
+    "indicationText": "Administer to persons who have a phagocytic function defect [e.g. leukocyte adhesion defect and myeloperoxidase deficiency].",
+    "contraindicationText": "Do not vaccinate if the patient has a phagocytic function defect [e.g. leukocyte adhesion defect and myeloperoxidase deficiency].",
+    "clarifyingText": "Phagocytic deficiencies that are undefined or accompanied by defects in T-cell and NK cell dysfunction (such as a Chediak-Higashi syndrome, Leukocyte Adhesion Deficiency [LAD], and myeloperoxidase deficiency)",
+    "codedValues": [
+        {
+            "code": "77358003",
+            "codeSystem": "SNOMED",
+            "text": "Congenital leukocyte adherence deficiency [disorder]"
+        },
+        {
+            "code": "234433009",
+            "codeSystem": "SNOMED",
+            "text": "Myeloperoxidase deficiency [disorder]"
+        }
+    ]
+}

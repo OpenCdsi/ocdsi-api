@@ -1,0 +1,37 @@
+{
+    "key": "2013-0216",
+    "assessmentDate": "2006-08-02T00:00:00",
+    "patient": {
+        "dob": "2006-02-02T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "45",
+                "dateAdministered": "2006-02-02T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "Hep B, unspecified formulation"
+            },
+            {
+                "cvx": "51",
+                "dateAdministered": "2006-03-02T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "COMVAX"
+            },
+            {
+                "cvx": "51",
+                "dateAdministered": "2006-08-02T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "COMVAX"
+            }
+        ]
+    }
+}

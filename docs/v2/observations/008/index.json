@@ -1,0 +1,10 @@
+{
+    "key": "008",
+    "observationCode": "008",
+    "observationTitle": "Travel to an area of active cholera transmission",
+    "group": "",
+    "indicationText": "Administer to adult travelers (aged 18-64 years) from the United States traveling to an area of active cholera transmission.",
+    "contraindicationText": "",
+    "clarifyingText": "An area of active cholera transmission is defined as a province, state, or other administrative subdivision within a country with endemic or epidemic cholera caused by toxigenic V. cholerae O1 and includes areas with cholera activity within the last year that are prone to recurrence of cholera epidemics; it does not include areas where only rare imported or sporadic cases have been reported.",
+    "codedValues": []
+}

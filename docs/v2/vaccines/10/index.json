@@ -1,0 +1,12 @@
+{
+    "key": "10",
+    "cvx": "10",
+    "shortDescription": "IPV",
+    "association": [
+        {
+            "antigen": "Polio",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        }
+    ]
+}

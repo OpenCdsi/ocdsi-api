@@ -1,0 +1,16 @@
+{
+    "key": "170",
+    "observationCode": "170",
+    "observationTitle": "Onset of pregnancy",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+        {
+            "code": "248986005",
+            "codeSystem": "SNOMED",
+            "text": "Estimated date of conception [observable entity]"
+        }
+    ]
+}

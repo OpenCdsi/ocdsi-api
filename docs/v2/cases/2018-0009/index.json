@@ -1,0 +1,66 @@
+{
+    "key": "2018-0009",
+    "name": "Zoster: ZVL and RZV (Shingrix) vaccine doses administered on the same day/time",
+    "cdcTestId": "2018-0009",
+    "changedInVersion": "3.4",
+    "dateAdded": "2018-03-28T20:00:00",
+    "dateUpdated": "2018-04-19T14:23:08.205",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "121",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "zoster live"
+            },
+            {
+                "cvx": "187",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "zoster recombinant"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Age: At Recommended",
+    "forecast": {
+        "earliestDate": "2020-10-08T00:00:00",
+        "forecastNum": "3",
+        "pastDueDate": "2021-04-09T00:00:00",
+        "recommendedDate": "2020-10-08T00:00:00"
+    },
+    "forecastTestType": "Recommended based on interval",
+    "generalDescription": "This test case describes when a patient receives a dose of ZVL (Shingrix)  and RZV (Zostavax) on the same day, that the doses are considered to be valid.",
+    "patient": {
+        "dob": "1970-08-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "121",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "zoster live"
+            },
+            {
+                "cvx": "187",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "zoster recombinant"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "Zoster: ZVL and RZV (Shingrix) vaccine doses administered on the same day/time",
+    "vaccineGroup": "ZOSTER"
+}

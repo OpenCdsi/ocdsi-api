@@ -1,0 +1,16 @@
+{
+    "key": "022",
+    "observationCode": "022",
+    "observationTitle": "Laboratory Evidence of Immunity for Rubella",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+        {
+            "code": "278968001",
+            "codeSystem": "SNOMED",
+            "text": "Rubella Immune [finding]"
+        }
+    ]
+}

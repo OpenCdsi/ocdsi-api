@@ -1,0 +1,12 @@
+{
+    "key": "91",
+    "cvx": "91",
+    "shortDescription": "typhoid, unspecified formulation",
+    "association": [
+        {
+            "antigen": "Typhoid",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        }
+    ]
+}

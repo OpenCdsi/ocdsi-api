@@ -1,0 +1,21 @@
+{
+    "key": "062",
+    "observationCode": "062",
+    "observationTitle": "Persons whose activities bring them into frequent contact with rabies virus or potentially rabid animals",
+    "group": "",
+    "indicationText": "Administer to persons whose activities bring them into frequent contact with rabies virus or potentially rabid animals.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+        {
+            "code": "24932003",
+            "codeSystem": "SNOMED",
+            "text": "Exposure to [contextual qualifier] [qualifier value]"
+        },
+        {
+            "code": "59881000",
+            "codeSystem": "SNOMED",
+            "text": "Rabies virus [organism]"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "key": "056",
+    "observationCode": "056",
+    "observationTitle": "Health-care workers who have close contact with patients who might be excreting wild polioviruses",
+    "group": "",
+    "indicationText": "Administer to health-care workers who have close contact with patients who might be excreting wild polioviruses.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+        {
+            "code": "223366009",
+            "codeSystem": "SNOMED",
+            "text": "Healthcare professional [occupation]"
+        },
+        {
+            "code": "24932003",
+            "codeSystem": "SNOMED",
+            "text": "Exposure to [contextual qualifier] [qualifier value]"
+        },
+        {
+            "code": "44172002",
+            "codeSystem": "SNOMED",
+            "text": "Human poliovirus [organism]"
+        }
+    ]
+}

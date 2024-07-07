@@ -1,0 +1,50 @@
+{
+    "key": "2015-0022",
+    "name": "Adult Patient has received PCV13 but has no history of PPSV23",
+    "cdcTestId": "2015-0022",
+    "changedInVersion": "1.0",
+    "dateAdded": "2015-06-23T00:00:00",
+    "dateUpdated": "2018-03-08T18:21:02.808",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "133",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PFR",
+                "vaccineName": "PREVNAR 13"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "All Valid: Forecast Test",
+    "forecast": {
+        "earliestDate": "2021-08-13T00:00:00",
+        "forecastNum": "2",
+        "pastDueDate": "0001-01-01T00:00:00",
+        "recommendedDate": "2021-08-13T00:00:00"
+    },
+    "forecastTestType": "Recommended based on interval",
+    "generalDescription": "This test case describes the assessment of a patient > age 65 years with a history of PCV13 vaccine, but no history of the PPSV23 vaccine. ",
+    "patient": {
+        "dob": "1955-08-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "133",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PFR",
+                "vaccineName": "PREVNAR 13"
+            }
+        ]
+    },
+    "reasonForChange": "New test case for version 2.0 which expanded scope into Adult recommendations. Update due to  MMWR (9/4/2015 / Vol.64 / No. 34) changing the minimal and recommended interval from PCV13 to PPSV23 in adults 65+ from 6-12 months to 1 year.",
+    "testcaseName": "Adult Patient has received PCV13 but has no history of PPSV23",
+    "vaccineGroup": "PCV"
+}

@@ -1,0 +1,12 @@
+{
+    "key": "2013-0460",
+    "assessmentDate": "2020-08-13T00:00:00",
+    "patient": {
+        "dob": "2011-09-18T00:00:00",
+        "gender": "M",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": []
+    }
+}

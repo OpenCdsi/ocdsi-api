@@ -1,0 +1,12 @@
+{
+    "key": "151",
+    "cvx": "151",
+    "shortDescription": "influenza, nasal, unspecified formulation",
+    "association": [
+        {
+            "antigen": "Influenza",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        }
+    ]
+}

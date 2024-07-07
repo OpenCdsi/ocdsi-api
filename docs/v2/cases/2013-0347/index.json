@@ -1,0 +1,50 @@
+{
+    "key": "2013-0347",
+    "name": "#1 at 15 months -4 days",
+    "cdcTestId": "2013-0347",
+    "changedInVersion": "1.0",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-05-29T08:20:22.755",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "48",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "ACTHIB"
+            }
+        ],
+        "seriesStatus": "Complete"
+    },
+    "evaluationTestType": "All Valid: Forecast Test",
+    "forecast": {
+        "earliestDate": "0001-01-01T00:00:00",
+        "forecastNum": "-",
+        "pastDueDate": "0001-01-01T00:00:00",
+        "recommendedDate": "0001-01-01T00:00:00"
+    },
+    "forecastTestType": "Not recommended: series complete",
+    "generalDescription": "This test case describes when a child is administered the first dose of the Hib vaccine at 15 months - 4 days that the dose is valid.  No further doses should be forecast.  The series is complete.",
+    "patient": {
+        "dob": "2019-05-17T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "48",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "ACTHIB"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "#1 at 15 months -4 days",
+    "vaccineGroup": "HIB"
+}

@@ -1,0 +1,50 @@
+{
+    "key": "2015-0001",
+    "name": "Varicella: Zoster dose in lieu of  first dose of Varicella for adult patient",
+    "cdcTestId": "2015-0001",
+    "changedInVersion": "1.0",
+    "dateAdded": "2015-06-23T00:00:00",
+    "dateUpdated": "2019-02-12T12:44:50.986",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "121",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "ZOSTAVAX"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Vaccine: Off Label",
+    "forecast": {
+        "earliestDate": "2020-09-10T00:00:00",
+        "forecastNum": "2",
+        "pastDueDate": "2020-10-07T00:00:00",
+        "recommendedDate": "2020-09-10T00:00:00"
+    },
+    "forecastTestType": "Recommended based on interval",
+    "generalDescription": "This test case describes when a ZVL vaccine dose is given in lieu of a Varicella vaccine to an adult less than 50 years, that the dose should be considered as a valid first dose of the Varicella vaccine.",
+    "patient": {
+        "dob": "1984-08-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "121",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "ZOSTAVAX"
+            }
+        ]
+    },
+    "reasonForChange": "Past Due Date was updated to reflect an 8 week interval per ACIP guidelines after last administered dose.",
+    "testcaseName": "Varicella: Zoster dose in lieu of  first dose of Varicella for adult patient",
+    "vaccineGroup": "VAR"
+}

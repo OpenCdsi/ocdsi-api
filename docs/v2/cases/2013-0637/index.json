@@ -1,0 +1,66 @@
+{
+    "key": "2013-0637",
+    "name": "# 1 and # 2 at ≥ 4 years.",
+    "cdcTestId": "2013-0637",
+    "changedInVersion": "3.3",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-06-12T09:22:08.663",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "10",
+                "dateAdministered": "2020-07-16T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "IPOL"
+            },
+            {
+                "cvx": "10",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "IPOL"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "All Valid: Forecast Test",
+    "forecast": {
+        "earliestDate": "2021-02-13T00:00:00",
+        "forecastNum": "3",
+        "pastDueDate": "2023-08-12T00:00:00",
+        "recommendedDate": "2021-02-13T00:00:00"
+    },
+    "forecastTestType": "Recommended based on minimum interval from previous dose (catch-up)",
+    "generalDescription": "This test case describes when a child is administered a first and second dose of the Polio vaccine at greater than 4 years that the doses are valid.  Another dose should be forecast.",
+    "patient": {
+        "dob": "2016-07-16T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "10",
+                "dateAdministered": "2020-07-16T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "IPOL"
+            },
+            {
+                "cvx": "10",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "IPOL"
+            }
+        ]
+    },
+    "reasonForChange": "Updated Forecast dose number to 3.\n\n",
+    "testcaseName": "# 1 and # 2 at ≥ 4 years.",
+    "vaccineGroup": "POL"
+}

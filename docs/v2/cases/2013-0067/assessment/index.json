@@ -1,0 +1,29 @@
+{
+    "key": "2013-0067",
+    "assessmentDate": "2020-08-13T00:00:00",
+    "patient": {
+        "dob": "2013-06-16T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "09",
+                "dateAdministered": "2020-07-16T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MBL",
+                "vaccineName": "TD(GENERIC)"
+            },
+            {
+                "cvx": "115",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "BOOSTRIX"
+            }
+        ]
+    }
+}

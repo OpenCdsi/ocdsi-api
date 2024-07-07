@@ -1,0 +1,45 @@
+{
+    "key": "2013-0081",
+    "assessmentDate": "2020-08-13T00:00:00",
+    "patient": {
+        "dob": "2019-06-04T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "170",
+                "dateAdministered": "2019-10-04T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTAP/IPV/HIB - non-US"
+            },
+            {
+                "cvx": "170",
+                "dateAdministered": "2019-12-04T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTAP/IPV/HIB - non-US"
+            },
+            {
+                "cvx": "170",
+                "dateAdministered": "2020-02-04T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTAP/IPV/HIB - non-US"
+            },
+            {
+                "cvx": "170",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTAP/IPV/HIB - non-US"
+            }
+        ]
+    }
+}

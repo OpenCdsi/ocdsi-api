@@ -1,0 +1,10 @@
+{
+    "key": "002",
+    "observationCode": "002",
+    "observationTitle": "Undergoing elective splenectomy",
+    "group": "",
+    "indicationText": "Administer to persons who are undergoing elective splenectomy if they have not previously received the vaccine.",
+    "contraindicationText": "",
+    "clarifyingText": "Vaccination 14 or more days before splenectomy is suggested",
+    "codedValues": []
+}

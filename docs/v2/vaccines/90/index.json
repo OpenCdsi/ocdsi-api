@@ -1,0 +1,12 @@
+{
+    "key": "90",
+    "cvx": "90",
+    "shortDescription": "Rabies, unspecified formulation",
+    "association": [
+        {
+            "antigen": "Rabies",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        }
+    ]
+}

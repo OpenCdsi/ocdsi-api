@@ -1,0 +1,21 @@
+{
+    "key": "2016-0004",
+    "assessmentDate": "2020-08-13T00:00:00",
+    "patient": {
+        "dob": "2013-08-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "107",
+                "dateAdministered": "2014-01-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            }
+        ]
+    }
+}

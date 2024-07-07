@@ -1,0 +1,12 @@
+{
+    "key": "62",
+    "cvx": "62",
+    "shortDescription": "HPV, quadrivalent",
+    "association": [
+        {
+            "antigen": "HPV",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        }
+    ]
+}

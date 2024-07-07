@@ -1,0 +1,26 @@
+{
+    "key": "106",
+    "observationCode": "106",
+    "observationTitle": "Severe allergic reaction to gentamicin",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction to gentamicin.",
+    "clarifyingText": "",
+    "codedValues": [
+        {
+            "code": "419522004",
+            "codeSystem": "SNOMED",
+            "text": "Gentamycin sensitivity [disorder]"
+        },
+        {
+            "code": "420094007",
+            "codeSystem": "SNOMED",
+            "text": "Gentamicin adverse reaction [disorder]"
+        },
+        {
+            "code": "294469003",
+            "codeSystem": "SNOMED",
+            "text": "Gentamicin allergy [disorder]"
+        }
+    ]
+}

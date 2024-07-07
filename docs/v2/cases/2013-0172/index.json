@@ -1,0 +1,50 @@
+{
+    "key": "2013-0172",
+    "name": "Invalid dose 1st season",
+    "cdcTestId": "2013-0172",
+    "changedInVersion": "4.4",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-08-11T08:23:49.968",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "158",
+                "dateAdministered": "2020-10-01T00:00:00",
+                "evaluationReason": "Age: Too Young",
+                "evaluationStatus": "Not Valid",
+                "mvx": "SEQ",
+                "vaccineName": "Afluria, quadrivalent"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Age: Below Absolute Minimum",
+    "forecast": {
+        "earliestDate": "2020-11-01T00:00:00",
+        "forecastNum": "1",
+        "pastDueDate": "0001-01-01T00:00:00",
+        "recommendedDate": "2020-11-01T00:00:00"
+    },
+    "forecastTestType": "Recommended based on age",
+    "generalDescription": "This test case describes when a child receives his first dose of the influenza vaccine before the age of 6 months, that the dose is not valid and should be repeated at the recommended age.",
+    "patient": {
+        "dob": "2020-05-01T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "158",
+                "dateAdministered": "2020-10-01T00:00:00",
+                "evaluationReason": "Age: Too Young",
+                "evaluationStatus": "Not Valid",
+                "mvx": "SEQ",
+                "vaccineName": "Afluria, quadrivalent"
+            }
+        ]
+    },
+    "reasonForChange": "V4.4: Rolled test cases forward from 2019-2020 season to 2020-2021 season. Updated CVX and MVX  codes to use quadrivalent.\nV4.1: Rolled test cases forward from 2018-19 season to 2019-20 season.\nV3.5: Rolled test cases forward from 2017-18 season to 2018-19 season.",
+    "testcaseName": "Invalid dose 1st season",
+    "vaccineGroup": "FLU"
+}

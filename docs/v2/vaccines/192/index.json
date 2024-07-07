@@ -1,0 +1,12 @@
+{
+    "key": "192",
+    "cvx": "192",
+    "shortDescription": "meningococcal AC polysaccharide",
+    "association": [
+        {
+            "antigen": "Meningococcal",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        }
+    ]
+}

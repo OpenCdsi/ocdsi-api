@@ -1,0 +1,36 @@
+{
+    "key": "113",
+    "observationCode": "113",
+    "observationTitle": "Severe allergic reaction after previous dose of Rabies",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Rabies vaccine.",
+    "clarifyingText": "",
+    "codedValues": [
+        {
+            "code": "293118001",
+            "codeSystem": "SNOMED",
+            "text": "Rabies vaccine adverse reaction [disorder]"
+        },
+        {
+            "code": "18",
+            "codeSystem": "CVX",
+            "text": "Rabies, intramuscular injection"
+        },
+        {
+            "code": "40",
+            "codeSystem": "CVX",
+            "text": "Rabies, intradermal injection"
+        },
+        {
+            "code": "90",
+            "codeSystem": "CVX",
+            "text": "Rabies, unspecified formulation"
+        },
+        {
+            "code": "VXC20",
+            "codeSystem": "CDCPHINVS",
+            "text": "Allergy to previous dose of this vaccine or to any of its unlisted vaccine components [anaphylactic]"
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "key": "2013-0509",
+    "name": "# 1 at age 15 years",
+    "cdcTestId": "2013-0509",
+    "changedInVersion": "1.6",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-06-01T12:22:42.137",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "147",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "meningococcal MCV4, unspecified formulation"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "All Valid: Forecast Test",
+    "forecast": {
+        "earliestDate": "2021-08-05T00:00:00",
+        "forecastNum": "2",
+        "pastDueDate": "2022-09-01T00:00:00",
+        "recommendedDate": "2021-08-05T00:00:00"
+    },
+    "forecastTestType": "Recommended based on age",
+    "generalDescription": "This test case describes when the first dose of a Mening vaccine is administered at 15 years + 8 days, that the dose is considered to be valid.",
+    "patient": {
+        "dob": "2005-08-05T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "147",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "meningococcal MCV4, unspecified formulation"
+            }
+        ]
+    },
+    "reasonForChange": "v1.6: An EIPB clarification has resulted in a change to when dose 2 of MCV should be forecasted and validated.  The second dose must come on or after 16 years (- 4 days) of age to be considered valid.",
+    "testcaseName": "# 1 at age 15 years",
+    "vaccineGroup": "MCV"
+}

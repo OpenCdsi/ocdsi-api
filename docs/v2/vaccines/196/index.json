@@ -1,0 +1,17 @@
+{
+    "key": "196",
+    "cvx": "196",
+    "shortDescription": "Td, adsorbed, preservative free, adult use, Lf unspecified",
+    "association": [
+        {
+            "antigen": "Tetanus",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        },
+        {
+            "antigen": "Diphtheria",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        }
+    ]
+}

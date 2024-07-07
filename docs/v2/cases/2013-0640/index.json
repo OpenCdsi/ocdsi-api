@@ -1,0 +1,82 @@
+{
+    "key": "2013-0640",
+    "name": "Dose # 3 at age 4 years but < 6 months after dose 2.  Valid but child will need a dose # 4. ",
+    "cdcTestId": "2013-0640",
+    "changedInVersion": "1.5",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-06-12T09:21:37.918",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "10",
+                "dateAdministered": "2017-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "IPOL"
+            },
+            {
+                "cvx": "10",
+                "dateAdministered": "2020-04-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "IPOL"
+            },
+            {
+                "cvx": "10",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "IPOL"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "All Valid: Forecast Test",
+    "forecast": {
+        "earliestDate": "2021-02-13T00:00:00",
+        "forecastNum": "4",
+        "pastDueDate": "2023-09-09T00:00:00",
+        "recommendedDate": "2021-02-13T00:00:00"
+    },
+    "forecastTestType": "Recommended based on minimum interval from previous dose (catch-up)",
+    "generalDescription": "This test case describes when a child is administered a third dose of the Polio vaccine at 4 years but less than less 6 months after the second dose that the doses are valid.  Another dose should be forecast.",
+    "patient": {
+        "dob": "2016-08-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "10",
+                "dateAdministered": "2017-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "IPOL"
+            },
+            {
+                "cvx": "10",
+                "dateAdministered": "2020-04-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "IPOL"
+            },
+            {
+                "cvx": "10",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "IPOL"
+            }
+        ]
+    },
+    "reasonForChange": "Rolled birth date forward to 2011 to ensure test was relevant to when ACIP recommendations were made.  \nPrevious dates were before the ACIP recommendations were published.",
+    "testcaseName": "Dose # 3 at age 4 years but < 6 months after dose 2.  Valid but child will need a dose # 4. ",
+    "vaccineGroup": "POL"
+}

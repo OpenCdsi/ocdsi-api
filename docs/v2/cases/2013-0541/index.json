@@ -1,0 +1,50 @@
+{
+    "key": "2013-0541",
+    "name": "MMR # 1 at 12 months-4 days",
+    "cdcTestId": "2013-0541",
+    "changedInVersion": "1.0",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-05-29T15:35:46.452",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "03",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "M-M-R II"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Age: At Absolute Minimum",
+    "forecast": {
+        "earliestDate": "2020-09-17T00:00:00",
+        "forecastNum": "2",
+        "pastDueDate": "2026-09-13T00:00:00",
+        "recommendedDate": "2023-08-17T00:00:00"
+    },
+    "forecastTestType": "Recommended based on age",
+    "generalDescription": "This test case describes when a child is administered the first dose of the MMR vaccine at 12 months - 4 days, that the dose is considered to be valid. ",
+    "patient": {
+        "dob": "2019-08-17T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "03",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "M-M-R II"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "MMR # 1 at 12 months-4 days",
+    "vaccineGroup": "MMR"
+}

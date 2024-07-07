@@ -1,0 +1,32 @@
+{
+    "key": "2016-0021",
+    "name": "Adolescent child 15 years -1 days with no previous history of HPV vaccine",
+    "cdcTestId": "2016-0021",
+    "changedInVersion": "1.0",
+    "dateAdded": "2016-12-02T00:00:00",
+    "dateUpdated": "2020-06-15T09:11:20.033",
+    "evaluation": {
+        "administeredDoses": [],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "No Doses Administered",
+    "forecast": {
+        "earliestDate": "2014-08-14T00:00:00",
+        "forecastNum": "1",
+        "pastDueDate": "2018-09-10T00:00:00",
+        "recommendedDate": "2016-08-14T00:00:00"
+    },
+    "forecastTestType": "Recommended based on interval",
+    "generalDescription": "This test case describes when an adolescent child age 15 years - 1 day has no previous history of the HPV vaccine that the first dose should be forecast.",
+    "patient": {
+        "dob": "2005-08-14T00:00:00",
+        "gender": "M",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": []
+    },
+    "reasonForChange": "v1.0 Corrected forecast dates to match test case title",
+    "testcaseName": "Adolescent child 15 years -1 days with no previous history of HPV vaccine",
+    "vaccineGroup": "HPV"
+}

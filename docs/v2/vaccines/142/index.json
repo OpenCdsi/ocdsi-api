@@ -1,0 +1,12 @@
+{
+    "key": "142",
+    "cvx": "142",
+    "shortDescription": "tetanus toxoid, not adsorbed",
+    "association": [
+        {
+            "antigen": "Tetanus",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        }
+    ]
+}

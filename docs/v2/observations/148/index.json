@@ -1,0 +1,26 @@
+{
+    "key": "148",
+    "observationCode": "148",
+    "observationTitle": "T-lymphocyte [cell-mediated and humoral] - Partial defects",
+    "group": "",
+    "indicationText": "Administer to persons who have partial cell-mediated or humoral T-lymphocyte defects [e.g., most patients with DiGeorge syndrome, Wiskott-Aldrich syndrome, ataxia- telangiectasia].",
+    "contraindicationText": "Do not vaccinate if the patient has partial cell-mediated or humoral T-lymphocyte defects [e.g., most patients with DiGeorge syndrome, Wiskott-Aldrich syndrome, ataxia- telangiectasia].",
+    "clarifyingText": "e.g., most patients with DiGeorge syndrome, Wiskott-Aldrich syndrome, ataxia- telangiectasia",
+    "codedValues": [
+        {
+            "code": "77128003",
+            "codeSystem": "SNOMED",
+            "text": "DiGeorge sequence [disorder]"
+        },
+        {
+            "code": "36070007",
+            "codeSystem": "SNOMED",
+            "text": "Wiskott-Aldrich syndrome [disorder]"
+        },
+        {
+            "code": "68504005",
+            "codeSystem": "SNOMED",
+            "text": "Ataxia-telangiectasia syndrome [disorder]"
+        }
+    ]
+}

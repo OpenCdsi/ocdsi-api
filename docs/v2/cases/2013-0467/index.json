@@ -1,0 +1,66 @@
+{
+    "key": "2013-0467",
+    "name": "# 2 at age 26 yrs 11 months 15 days; forecast # 3; female",
+    "cdcTestId": "2013-0467",
+    "changedInVersion": "4.2",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2019-11-14T06:38:47.836",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "165",
+                "dateAdministered": "2018-08-29T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV9"
+            },
+            {
+                "cvx": "165",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV9"
+            }
+        ],
+        "seriesStatus": "Aged out"
+    },
+    "evaluationTestType": "All Valid: Forecast Test",
+    "forecast": {
+        "earliestDate": "0001-01-01T00:00:00",
+        "forecastNum": "",
+        "pastDueDate": "0001-01-01T00:00:00",
+        "recommendedDate": "0001-01-01T00:00:00"
+    },
+    "forecastTestType": "Not recommended: too old",
+    "generalDescription": "This test case describes when the first and second dose is given after age 15 years that the third dose of the vaccine should be given at the recommended minimum interval.",
+    "patient": {
+        "dob": "1993-08-29T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "165",
+                "dateAdministered": "2018-08-29T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV9"
+            },
+            {
+                "cvx": "165",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV9"
+            }
+        ]
+    },
+    "reasonForChange": "V4.2: Updated test case to remove forecast dose for the third dose of HPV because patient will have reached age 27 before administration of the dose based on newly published MMWR for Shared Clinical Decision Making starting at 27 years.\nV4.0: Updated recommended and past due to reflect general best practice recommendations timing and spacing table 3-1 (Rec. Date in 4 months)",
+    "testcaseName": "# 2 at age 26 yrs 11 months 15 days; forecast # 3; female",
+    "vaccineGroup": "HPV"
+}

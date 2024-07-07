@@ -1,0 +1,66 @@
+{
+    "key": "2013-0719",
+    "name": "Pentacel at 7 yrs; # 1 at age < 12 mo.   Off label use. ",
+    "cdcTestId": "2013-0719",
+    "changedInVersion": "3.3",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-06-15T12:51:33.544",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "10",
+                "dateAdministered": "2014-01-22T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "IPOL"
+            },
+            {
+                "cvx": "120",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "PENTACEL"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Vaccine: Off Label",
+    "forecast": {
+        "earliestDate": "2021-02-13T00:00:00",
+        "forecastNum": "3",
+        "pastDueDate": "2021-02-13T00:00:00",
+        "recommendedDate": "2021-02-13T00:00:00"
+    },
+    "forecastTestType": "Recommended based on minimum interval from previous dose (catch-up)",
+    "generalDescription": "This test case describes when a child is administered a first dose of the Polio vaccine (Pentacel) at less than 12 months of age and a second dose of the vaccine at 7 years of age that the doses are valid.  Another dose should be forecast.",
+    "patient": {
+        "dob": "2013-08-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "10",
+                "dateAdministered": "2014-01-22T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "IPOL"
+            },
+            {
+                "cvx": "120",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "PENTACEL"
+            }
+        ]
+    },
+    "reasonForChange": "Updated the Forecast Dose number to 3. Updated DOB to curb future date issues.",
+    "testcaseName": "Pentacel at 7 yrs; # 1 at age < 12 mo.   Off label use. ",
+    "vaccineGroup": "POL"
+}

@@ -1,0 +1,66 @@
+{
+    "key": "2013-0808",
+    "name": "Dose 1 to dose 2 interval 28-1 days  in child < 13 years",
+    "cdcTestId": "2013-0808",
+    "changedInVersion": "1.6",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2018-01-02T14:28:23.656",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "21",
+                "dateAdministered": "2020-07-17T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "VARIVAX"
+            },
+            {
+                "cvx": "21",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "Interval: too short",
+                "evaluationStatus": "Not Valid",
+                "mvx": "MSD",
+                "vaccineName": "VARIVAX"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Interval: Below Absolute Minimum",
+    "forecast": {
+        "earliestDate": "2020-11-05T00:00:00",
+        "forecastNum": "2",
+        "pastDueDate": "2026-08-12T00:00:00",
+        "recommendedDate": "2023-07-16T00:00:00"
+    },
+    "forecastTestType": "Recommended based on age",
+    "generalDescription": "This test case describes when the 2nd dose of varicella vaccine is administered at 28-1 day in a child < 13 years of age that the dose is considered not valid.",
+    "patient": {
+        "dob": "2019-07-16T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "21",
+                "dateAdministered": "2020-07-17T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "VARIVAX"
+            },
+            {
+                "cvx": "21",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "Interval: too short",
+                "evaluationStatus": "Not Valid",
+                "mvx": "MSD",
+                "vaccineName": "VARIVAX"
+            }
+        ]
+    },
+    "reasonForChange": "v1.6: Incorrect Forecast Test Type was used and has been updated to reflect how the recommended date was forecasted.",
+    "testcaseName": "Dose 1 to dose 2 interval 28-1 days  in child < 13 years",
+    "vaccineGroup": "VAR"
+}

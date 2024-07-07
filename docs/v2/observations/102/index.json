@@ -1,0 +1,21 @@
+{
+    "key": "102",
+    "observationCode": "102",
+    "observationTitle": "Severe allergic reaction to gelatin",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction to gelatin.",
+    "clarifyingText": "",
+    "codedValues": [
+        {
+            "code": "293309006",
+            "codeSystem": "SNOMED",
+            "text": "Gelatin adverse reaction [disorder]"
+        },
+        {
+            "code": "294847001",
+            "codeSystem": "SNOMED",
+            "text": "Gelatin allergy [disorder]"
+        }
+    ]
+}

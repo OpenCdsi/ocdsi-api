@@ -1,0 +1,16 @@
+{
+    "key": "072",
+    "observationCode": "072",
+    "observationTitle": "Intimate exposure to a documented S. typhi carrier",
+    "group": "",
+    "indicationText": "Administer to persons who have intimate exposure to a documented S. typhi carrier.",
+    "contraindicationText": "",
+    "clarifyingText": "e.g., household contact",
+    "codedValues": [
+        {
+            "code": "170484009",
+            "codeSystem": "SNOMED",
+            "text": "Typhoid carrier [finding]"
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "key": "2013-0731",
+    "name": "invalid age dose 1 as first of others",
+    "cdcTestId": "2013-0731",
+    "changedInVersion": "1.1",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-06-15T14:41:46.023",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "120",
+                "dateAdministered": "2020-03-19T00:00:00",
+                "evaluationReason": "Age: Too Young",
+                "evaluationStatus": "Not Valid",
+                "mvx": "PMC",
+                "vaccineName": "PENTACEL"
+            },
+            {
+                "cvx": "120",
+                "dateAdministered": "2020-06-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "PENTACEL"
+            },
+            {
+                "cvx": "120",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "PENTACEL"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Age: Below Absolute Minimum",
+    "forecast": {
+        "earliestDate": "2020-09-10T00:00:00",
+        "forecastNum": "3",
+        "pastDueDate": "2021-10-10T00:00:00",
+        "recommendedDate": "2020-09-10T00:00:00"
+    },
+    "forecastTestType": "Recommended based on minimum interval from previous dose (catch-up)",
+    "generalDescription": "This test case describes when a child is administered an invalid first dose of the Polio vaccine but is administered a repeat and second dose at the appropriate interval that the doses are valid.  Another dose should be forecast.",
+    "patient": {
+        "dob": "2020-02-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "120",
+                "dateAdministered": "2020-03-19T00:00:00",
+                "evaluationReason": "Age: Too Young",
+                "evaluationStatus": "Not Valid",
+                "mvx": "PMC",
+                "vaccineName": "PENTACEL"
+            },
+            {
+                "cvx": "120",
+                "dateAdministered": "2020-06-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "PENTACEL"
+            },
+            {
+                "cvx": "120",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "PENTACEL"
+            }
+        ]
+    },
+    "reasonForChange": "Typo on Past Due Date by one year.  ",
+    "testcaseName": "invalid age dose 1 as first of others",
+    "vaccineGroup": "POL"
+}

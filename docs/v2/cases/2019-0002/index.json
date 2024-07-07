@@ -1,0 +1,66 @@
+{
+    "key": "2019-0002",
+    "name": "Zoster: Dose #2 (Shingrix) administered at 4 weeks - 4 days after dose #1",
+    "cdcTestId": "2019-0002",
+    "changedInVersion": "4.0",
+    "dateAdded": "2018-03-27T20:00:00",
+    "dateUpdated": "2020-06-02T07:09:04.314",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "187",
+                "dateAdministered": "2020-07-16T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "zoster recombinant"
+            },
+            {
+                "cvx": "187",
+                "dateAdministered": "2020-08-09T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "zoster recombinant"
+            }
+        ],
+        "seriesStatus": "Complete"
+    },
+    "evaluationTestType": "All Valid: Forecast Test",
+    "forecast": {
+        "earliestDate": "0001-01-01T00:00:00",
+        "forecastNum": "-",
+        "pastDueDate": "0001-01-01T00:00:00",
+        "recommendedDate": "0001-01-01T00:00:00"
+    },
+    "forecastTestType": "Recommended based on minimum interval from invalid dose",
+    "generalDescription": "This test case describes that when a patient is administered the second dose of Shingrix vaccine at 4 weeks - 4 day, that the dose is considered to be valid.",
+    "patient": {
+        "dob": "1970-07-16T00:00:00",
+        "gender": "M",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "187",
+                "dateAdministered": "2020-07-16T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "zoster recombinant"
+            },
+            {
+                "cvx": "187",
+                "dateAdministered": "2020-08-09T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "zoster recombinant"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "Zoster: Dose #2 (Shingrix) administered at 4 weeks - 4 days after dose #1",
+    "vaccineGroup": "ZOSTER"
+}

@@ -1,0 +1,98 @@
+{
+    "key": "2013-0146",
+    "name": "invalid age dose 3 in midst of others",
+    "cdcTestId": "2013-0146",
+    "changedInVersion": "1.0",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-06-18T09:05:23.822",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "120",
+                "dateAdministered": "2019-08-14T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "PENTACEL"
+            },
+            {
+                "cvx": "120",
+                "dateAdministered": "2019-09-11T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "PENTACEL"
+            },
+            {
+                "cvx": "120",
+                "dateAdministered": "2019-10-08T00:00:00",
+                "evaluationReason": "Age: Too Young",
+                "evaluationStatus": "Not Valid",
+                "mvx": "PMC",
+                "vaccineName": "PENTACEL"
+            },
+            {
+                "cvx": "120",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "PENTACEL"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Age: Below Absolute Minimum",
+    "forecast": {
+        "earliestDate": "2021-02-13T00:00:00",
+        "forecastNum": "4",
+        "pastDueDate": "2021-03-06T00:00:00",
+        "recommendedDate": "2021-02-13T00:00:00"
+    },
+    "forecastTestType": "Recommended based on minimum interval from previous dose (catch-up)",
+    "generalDescription": "",
+    "patient": {
+        "dob": "2019-07-07T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "120",
+                "dateAdministered": "2019-08-14T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "PENTACEL"
+            },
+            {
+                "cvx": "120",
+                "dateAdministered": "2019-09-11T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "PENTACEL"
+            },
+            {
+                "cvx": "120",
+                "dateAdministered": "2019-10-08T00:00:00",
+                "evaluationReason": "Age: Too Young",
+                "evaluationStatus": "Not Valid",
+                "mvx": "PMC",
+                "vaccineName": "PENTACEL"
+            },
+            {
+                "cvx": "120",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "PENTACEL"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "invalid age dose 3 in midst of others",
+    "vaccineGroup": "DTAP"
+}

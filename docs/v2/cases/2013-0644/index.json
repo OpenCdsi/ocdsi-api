@@ -1,0 +1,98 @@
+{
+    "key": "2013-0644",
+    "name": "Dose # 4 at age 4 years-4 days.  Series complete.",
+    "cdcTestId": "2013-0644",
+    "changedInVersion": "1.5",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-06-12T09:21:04.384",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "10",
+                "dateAdministered": "2016-11-17T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "IPOL"
+            },
+            {
+                "cvx": "10",
+                "dateAdministered": "2017-03-17T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "IPOL"
+            },
+            {
+                "cvx": "10",
+                "dateAdministered": "2019-08-18T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "IPOL"
+            },
+            {
+                "cvx": "10",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "IPOL"
+            }
+        ],
+        "seriesStatus": "Complete"
+    },
+    "evaluationTestType": "Age: At Absolute Minimum",
+    "forecast": {
+        "earliestDate": "0001-01-01T00:00:00",
+        "forecastNum": "-",
+        "pastDueDate": "0001-01-01T00:00:00",
+        "recommendedDate": "0001-01-01T00:00:00"
+    },
+    "forecastTestType": "Not recommended: series complete",
+    "generalDescription": "This test case describes when a child is administered a fourth dose of the Polio vaccine at age 4 years - 4 days that the doses are valid.  No further doses should be forecast.  The series is complete.",
+    "patient": {
+        "dob": "2016-08-17T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "10",
+                "dateAdministered": "2016-11-17T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "IPOL"
+            },
+            {
+                "cvx": "10",
+                "dateAdministered": "2017-03-17T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "IPOL"
+            },
+            {
+                "cvx": "10",
+                "dateAdministered": "2019-08-18T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "IPOL"
+            },
+            {
+                "cvx": "10",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "IPOL"
+            }
+        ]
+    },
+    "reasonForChange": "Rolled birth date forward to 2011 to ensure test was relevant to when ACIP recommendations were made.  Previous dates were before the ACIP recommendations were published.",
+    "testcaseName": "Dose # 4 at age 4 years-4 days.  Series complete.",
+    "vaccineGroup": "POL"
+}

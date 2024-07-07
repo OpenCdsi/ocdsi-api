@@ -1,0 +1,16 @@
+{
+    "key": "160",
+    "observationCode": "160",
+    "observationTitle": "Anatomical or functional asplenia",
+    "group": "",
+    "indicationText": "Administer to persons with anatomic or functional asplenia, including sickle cell disease.",
+    "contraindicationText": "Do not vaccinate if the patient has anatomical or functional asplenia.",
+    "clarifyingText": "e.g. Sickle cell disease and other hemoglobinopathies, congenital or acquired asplenia, splenic dysfunction, and splenectomy",
+    "codedValues": [
+        {
+            "code": "707147002",
+            "codeSystem": "SNOMED",
+            "text": "Asplenia [disorder]"
+        }
+    ]
+}

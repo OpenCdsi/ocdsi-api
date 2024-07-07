@@ -1,0 +1,12 @@
+{
+    "key": "05",
+    "cvx": "05",
+    "shortDescription": "measles",
+    "association": [
+        {
+            "antigen": "Measles",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        }
+    ]
+}

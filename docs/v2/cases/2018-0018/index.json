@@ -1,0 +1,66 @@
+{
+    "key": "2018-0018",
+    "name": "Hep B: Patient is 18 years and has received the second dose of the Hep B  (Heplisav) vaccine at 4 weeks - 4 days.",
+    "cdcTestId": "2018-0018",
+    "changedInVersion": "3.4",
+    "dateAdded": "2018-03-28T20:00:00",
+    "dateUpdated": "2020-06-18T15:39:36.391",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "189",
+                "dateAdministered": "2020-07-20T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "Hep B, adjuvanted"
+            },
+            {
+                "cvx": "189",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "Hep B, adjuvanted"
+            }
+        ],
+        "seriesStatus": "Complete"
+    },
+    "evaluationTestType": "All Valid: Forecast Test",
+    "forecast": {
+        "earliestDate": "0001-01-01T00:00:00",
+        "forecastNum": "-",
+        "pastDueDate": "0001-01-01T00:00:00",
+        "recommendedDate": "0001-01-01T00:00:00"
+    },
+    "forecastTestType": "Not recommended: series complete",
+    "generalDescription": "This test case describes when a patient is administered the second dose of the Hep B (Heplisav) vaccine at 4 weeks - 4 days that the dose is considered to be valid.  The series is complete.",
+    "patient": {
+        "dob": "2002-07-20T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "189",
+                "dateAdministered": "2020-07-20T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "Hep B, adjuvanted"
+            },
+            {
+                "cvx": "189",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "Hep B, adjuvanted"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "Hep B: Patient is 18 years and has received the second dose of the Hep B  (Heplisav) vaccine at 4 weeks - 4 days.",
+    "vaccineGroup": "HepB"
+}

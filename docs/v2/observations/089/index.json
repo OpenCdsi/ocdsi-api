@@ -1,0 +1,36 @@
+{
+    "key": "089",
+    "observationCode": "089",
+    "observationTitle": "Severe allergic reaction after previous dose of Varicella",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Varicella vaccine.",
+    "clarifyingText": "",
+    "codedValues": [
+        {
+            "code": "451331000124106",
+            "codeSystem": "SNOMED",
+            "text": "Adverse reaction caused by varicella virus live vaccine [disorder]"
+        },
+        {
+            "code": "21",
+            "codeSystem": "CVX",
+            "text": "Varicella"
+        },
+        {
+            "code": "94",
+            "codeSystem": "CVX",
+            "text": "MMRV"
+        },
+        {
+            "code": "121",
+            "codeSystem": "CVX",
+            "text": "Zoster"
+        },
+        {
+            "code": "VXC20",
+            "codeSystem": "CDCPHINVS",
+            "text": "Allergy to previous dose of this vaccine or to any of its unlisted vaccine components [anaphylactic]"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "key": "2013-0559",
+    "assessmentDate": "2020-08-13T00:00:00",
+    "patient": {
+        "dob": "2019-07-21T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "21",
+                "dateAdministered": "2020-07-16T00:00:00",
+                "evaluationReason": "Age: Too Young",
+                "evaluationStatus": "Not Valid",
+                "mvx": "MSD",
+                "vaccineName": "VARIVAX"
+            },
+            {
+                "cvx": "94",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "PROQUAD"
+            }
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "key": "161",
+    "observationCode": "161",
+    "observationTitle": "Chronic renal disease",
+    "group": "",
+    "indicationText": "Administer to persons with chronic renal disease.",
+    "contraindicationText": "Do not vaccinate if the patient has chronic renal disease.",
+    "clarifyingText": "",
+    "codedValues": [
+        {
+            "code": "709044004",
+            "codeSystem": "SNOMED",
+            "text": "Chronic kidney disease [disorder]"
+        }
+    ]
+}

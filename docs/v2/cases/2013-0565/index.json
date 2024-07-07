@@ -1,0 +1,98 @@
+{
+    "key": "2013-0565",
+    "name": "Correctly administered single antigen M, M and R followed by MMR=series complete",
+    "cdcTestId": "2013-0565",
+    "changedInVersion": "1.0",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2018-03-19T13:45:21.443",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "07",
+                "dateAdministered": "2018-10-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "mumps"
+            },
+            {
+                "cvx": "06",
+                "dateAdministered": "2018-12-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "MERUVAX II"
+            },
+            {
+                "cvx": "05",
+                "dateAdministered": "2019-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "ATTENUVAX"
+            },
+            {
+                "cvx": "03",
+                "dateAdministered": "2018-08-07T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "M-M-R II"
+            }
+        ],
+        "seriesStatus": "Complete"
+    },
+    "evaluationTestType": "Single Antigen Administration",
+    "forecast": {
+        "earliestDate": "0001-01-01T00:00:00",
+        "forecastNum": "-",
+        "pastDueDate": "0001-01-01T00:00:00",
+        "recommendedDate": "0001-01-01T00:00:00"
+    },
+    "forecastTestType": "Not recommended: series complete",
+    "generalDescription": "This test case describes when single antigens M, M, and R are administered to a child >  12 months of age followed by a MMR (4rth )dose a year later, that the doses are considered to be valid.  The series is complete.  ",
+    "patient": {
+        "dob": "2017-08-07T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "07",
+                "dateAdministered": "2018-10-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "mumps"
+            },
+            {
+                "cvx": "06",
+                "dateAdministered": "2018-12-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "MERUVAX II"
+            },
+            {
+                "cvx": "05",
+                "dateAdministered": "2019-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "ATTENUVAX"
+            },
+            {
+                "cvx": "03",
+                "dateAdministered": "2018-08-07T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "M-M-R II"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "Correctly administered single antigen M, M and R followed by MMR=series complete",
+    "vaccineGroup": "MMR"
+}

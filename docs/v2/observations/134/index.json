@@ -1,0 +1,16 @@
+{
+    "key": "134",
+    "observationCode": "134",
+    "observationTitle": "Whole blood transfusion",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has received a whole blood transfusion in the previous 6 months.",
+    "clarifyingText": "",
+    "codedValues": [
+        {
+            "code": "116859006",
+            "codeSystem": "SNOMED",
+            "text": "Transfusion of blood product [procedure]"
+        }
+    ]
+}

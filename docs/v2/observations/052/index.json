@@ -1,0 +1,26 @@
+{
+    "key": "052",
+    "observationCode": "052",
+    "observationTitle": "Laboratory personnel who might be exposed to YFV",
+    "group": "",
+    "indicationText": "Administer to laboratory personnel who might be exposed to virulent YFV or to concentrated preparations of YF vaccine virus strains by direct or indirect contact or by aerosols.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+        {
+            "code": "159282002",
+            "codeSystem": "SNOMED",
+            "text": "Laboratory technician [occupation]"
+        },
+        {
+            "code": "24932003",
+            "codeSystem": "SNOMED",
+            "text": "Exposure to [contextual qualifier] [qualifier value]"
+        },
+        {
+            "code": "26630006",
+            "codeSystem": "SNOMED",
+            "text": "Yellow fever virus [organism]"
+        }
+    ]
+}

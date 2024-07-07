@@ -1,0 +1,29 @@
+{
+    "key": "2013-0210",
+    "assessmentDate": "2020-08-13T00:00:00",
+    "patient": {
+        "dob": "2007-10-07T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "43",
+                "dateAdministered": "2020-04-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "RECOMBIVAX-ADULT"
+            },
+            {
+                "cvx": "43",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "RECOMBIVAX-ADULT"
+            }
+        ]
+    }
+}

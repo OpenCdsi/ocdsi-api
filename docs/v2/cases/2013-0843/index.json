@@ -1,0 +1,66 @@
+{
+    "key": "2013-0843",
+    "name": "# 2 at age 15 mo.",
+    "cdcTestId": "2013-0843",
+    "changedInVersion": "1.0",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2018-01-04T07:25:53.668",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "21",
+                "dateAdministered": "2020-05-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "VARIVAX"
+            },
+            {
+                "cvx": "21",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "VARIVAX"
+            }
+        ],
+        "seriesStatus": "Complete"
+    },
+    "evaluationTestType": "Age: At Minimum",
+    "forecast": {
+        "earliestDate": "0001-01-01T00:00:00",
+        "forecastNum": "-",
+        "pastDueDate": "0001-01-01T00:00:00",
+        "recommendedDate": "0001-01-01T00:00:00"
+    },
+    "forecastTestType": "Not recommended: series complete",
+    "generalDescription": "This test case describes when the second dose of Varicella Vaccine is administered at age 15 months that the dose is considered valid and the series is complete.",
+    "patient": {
+        "dob": "2019-05-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "21",
+                "dateAdministered": "2020-05-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "VARIVAX"
+            },
+            {
+                "cvx": "21",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "VARIVAX"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "# 2 at age 15 mo.",
+    "vaccineGroup": "VAR"
+}

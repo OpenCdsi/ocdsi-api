@@ -1,0 +1,82 @@
+{
+    "key": "2016-0002",
+    "name": "Dose #1 received at 2 years, dose #2 received at 3 years, and dose #3 received at 4 years. Current age 7 yrs",
+    "cdcTestId": "2016-0002",
+    "changedInVersion": "2.2",
+    "dateAdded": "2016-03-15T00:00:00",
+    "dateUpdated": "2020-06-17T16:13:17.106",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "107",
+                "dateAdministered": "2015-10-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            },
+            {
+                "cvx": "107",
+                "dateAdministered": "2016-10-27T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            },
+            {
+                "cvx": "107",
+                "dateAdministered": "2018-01-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "All Valid: Forecast Test",
+    "forecast": {
+        "earliestDate": "2020-08-13T00:00:00",
+        "forecastNum": "4",
+        "pastDueDate": "2020-08-13T00:00:00",
+        "recommendedDate": "2020-08-13T00:00:00"
+    },
+    "forecastTestType": "Recommended based on age",
+    "generalDescription": "",
+    "patient": {
+        "dob": "2013-08-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "107",
+                "dateAdministered": "2015-10-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            },
+            {
+                "cvx": "107",
+                "dateAdministered": "2016-10-27T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            },
+            {
+                "cvx": "107",
+                "dateAdministered": "2018-01-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            }
+        ]
+    },
+    "reasonForChange": "New logic concerning Tdap",
+    "testcaseName": "Dose #1 received at 2 years, dose #2 received at 3 years, and dose #3 received at 4 years. Current age 7 yrs",
+    "vaccineGroup": "DTAP"
+}

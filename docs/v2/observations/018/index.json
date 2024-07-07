@@ -1,0 +1,16 @@
+{
+    "key": "018",
+    "observationCode": "018",
+    "observationTitle": "Laboratory Evidence of Immunity or confirmation of Hepatitis A disease",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+        {
+            "code": "278971009",
+            "codeSystem": "SNOMED",
+            "text": "Hepatitis A Immune [Finding]"
+        }
+    ]
+}

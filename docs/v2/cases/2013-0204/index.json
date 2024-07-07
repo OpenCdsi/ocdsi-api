@@ -1,0 +1,82 @@
+{
+    "key": "2013-0204",
+    "name": "Dose 2 to dose 3 interval is 8 weeks.  Series complete.",
+    "cdcTestId": "2013-0204",
+    "changedInVersion": "1.0",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2018-08-24T08:29:21.03",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "08",
+                "dateAdministered": "2020-02-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "Hep B, adolescent or pediatric"
+            },
+            {
+                "cvx": "08",
+                "dateAdministered": "2020-06-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "Hep B, adolescent or pediatric"
+            },
+            {
+                "cvx": "08",
+                "dateAdministered": "2020-08-08T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "Hep B, adolescent or pediatric"
+            }
+        ],
+        "seriesStatus": "Complete"
+    },
+    "evaluationTestType": "Interval: At Minimum",
+    "forecast": {
+        "earliestDate": "0001-01-01T00:00:00",
+        "forecastNum": "-",
+        "pastDueDate": "0001-01-01T00:00:00",
+        "recommendedDate": "0001-01-01T00:00:00"
+    },
+    "forecastTestType": "Not recommended: series complete",
+    "generalDescription": "This test case describes when dose #3 of the Hep B vaccine is administered at an interval of 8 weeks after dose #2, that the dose is considered to be valid. The series is complete.",
+    "patient": {
+        "dob": "2019-12-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "08",
+                "dateAdministered": "2020-02-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "Hep B, adolescent or pediatric"
+            },
+            {
+                "cvx": "08",
+                "dateAdministered": "2020-06-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "Hep B, adolescent or pediatric"
+            },
+            {
+                "cvx": "08",
+                "dateAdministered": "2020-08-08T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "Hep B, adolescent or pediatric"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "Dose 2 to dose 3 interval is 8 weeks.  Series complete.",
+    "vaccineGroup": "HepB"
+}

@@ -1,0 +1,82 @@
+{
+    "key": "2013-0536",
+    "name": "3 single antigen doses: 1 Measles; 1 Mumps; 1 Rubella",
+    "cdcTestId": "2013-0536",
+    "changedInVersion": "1.1",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2018-03-19T13:39:42.905",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "07",
+                "dateAdministered": "2020-04-21T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "mumps"
+            },
+            {
+                "cvx": "06",
+                "dateAdministered": "2020-05-21T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "MERUVAX II"
+            },
+            {
+                "cvx": "05",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "ATTENUVAX"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Single Antigen Administration",
+    "forecast": {
+        "earliestDate": "2020-09-10T00:00:00",
+        "forecastNum": "2",
+        "pastDueDate": "2026-05-18T00:00:00",
+        "recommendedDate": "2023-04-21T00:00:00"
+    },
+    "forecastTestType": "Recommended based on age",
+    "generalDescription": "This test case describes when a child is administered single antigen doses of Measles, Mumps, and Rubella, at the minimum age of 12 months, that a second doses of the vaccines are recommended.",
+    "patient": {
+        "dob": "2019-04-21T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "07",
+                "dateAdministered": "2020-04-21T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "mumps"
+            },
+            {
+                "cvx": "06",
+                "dateAdministered": "2020-05-21T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "MERUVAX II"
+            },
+            {
+                "cvx": "05",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "ATTENUVAX"
+            }
+        ]
+    },
+    "reasonForChange": "Renamed to better reflect test case.",
+    "testcaseName": "3 single antigen doses: 1 Measles; 1 Mumps; 1 Rubella",
+    "vaccineGroup": "MMR"
+}

@@ -1,0 +1,32 @@
+{
+    "key": "2013-0482",
+    "name": "Female, age 14.  HPV recommended",
+    "cdcTestId": "2013-0482",
+    "changedInVersion": "1.0",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-06-15T09:00:07.931",
+    "evaluation": {
+        "administeredDoses": [],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "No Doses Administered",
+    "forecast": {
+        "earliestDate": "2015-08-13T00:00:00",
+        "forecastNum": "1",
+        "pastDueDate": "2019-09-09T00:00:00",
+        "recommendedDate": "2017-08-13T00:00:00"
+    },
+    "forecastTestType": "Recommended based on age",
+    "generalDescription": "This test case describes when an adolescent, age 14 years, has no history of the HPV vaccine that the first dose should be forecast.",
+    "patient": {
+        "dob": "2006-08-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": []
+    },
+    "reasonForChange": "",
+    "testcaseName": "Female, age 14.  HPV recommended",
+    "vaccineGroup": "HPV"
+}

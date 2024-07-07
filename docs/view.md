@@ -3,16 +3,16 @@ title: Data View
 layout: default
 ---
 
-<div class="w3-card w3-margin w3-round">
-    <header  class="w3-container w3-theme">
-        <h4 id="data-view-header"></h4>
-    </header>
+<div class="w3-card">
+    <div class="w3-container w3-theme">
+    <h4 id="data-view-header"></h4>
+    </div>
       
     <pre id="data-view" class="w3-container w3-white w3-padding-16" style="white-space: pre-wrap;"></pre>
       
-    <footer class="w3-container w3-margin-bottom">
+    <div class="w3-container w3-margin-bottom">
       <a href="javascript:history.back()">Back</a>
-    </footer>
+    </div>
 </div>
 
 <script>

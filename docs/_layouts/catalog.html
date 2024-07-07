@@ -2,16 +2,16 @@
 layout: default
 ---
 
-<h2 class="w3-container w3-left-align w3-theme w3-round">{{ page.title }}</h2>
+<h2 class="w3-container w3-left-align w3-theme">{{ page.title }}</h2>
 
 {%- assign key = page.title | downcase -%}
 {%- assign items = site.data[key] -%}
 
 {%- for item in items -%}   
-<div class="w3-card w3-margin w3-round">
-    <header class="w3-container w3-theme">
+<div class="w3-card w3-section">
+    <div class="w3-container w3-theme">
         <h4>{{ item.name }}</h4>
-      </header>
+      </div>
 
       {%- if item.text and item.text != '' -%}
       <div class="w3-container w3-padding-16">
@@ -19,9 +19,9 @@ layout: default
       </div>
       {%- endif -%}
       
-      <footer class="w3-container w3-margin-bottom">
+      <div class="w3-container w3-margin-bottom">
         <a href="view.html?url=/v2/{{ key }}/{{ item.key }}">Details</a>
-      </footer>
+      </div>
 
 </div>
 {%- endfor -%}

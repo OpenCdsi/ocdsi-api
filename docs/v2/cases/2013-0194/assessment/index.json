@@ -1,0 +1,29 @@
+{
+    "key": "2013-0194",
+    "assessmentDate": "2020-08-13T00:00:00",
+    "patient": {
+        "dob": "2019-02-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "85",
+                "dateAdministered": "2020-02-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "Hep A, unspecified formulation"
+            },
+            {
+                "cvx": "85",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "Hep A, unspecified formulation"
+            }
+        ]
+    }
+}

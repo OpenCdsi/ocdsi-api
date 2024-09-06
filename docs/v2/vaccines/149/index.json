@@ -1,0 +1,12 @@
+{
+    "key": "149",
+    "cvx": "149",
+    "shortDescription": "influenza, live, intranasal, quadrivalent",
+    "association": [
+        {
+            "antigen": "Influenza",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "key": "2018-0009",
+    "assessmentDate": "2020-08-13T00:00:00",
+    "patient": {
+        "dob": "1970-08-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "121",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "zoster live"
+            },
+            {
+                "cvx": "187",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "zoster recombinant"
+            }
+        ]
+    }
+}

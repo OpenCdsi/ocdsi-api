@@ -1,0 +1,21 @@
+{
+    "key": "043",
+    "observationCode": "043",
+    "observationTitle": "Alcoholism",
+    "group": "",
+    "indicationText": "Administer to persons who have alcoholism.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+        {
+            "code": "228281002",
+            "codeSystem": "SNOMED",
+            "text": "Problem drinker [finding]"
+        },
+        {
+            "code": "7200002",
+            "codeSystem": "SNOMED",
+            "text": "Alcoholism [disorder]"
+        }
+    ]
+}

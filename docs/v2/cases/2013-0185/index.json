@@ -1,0 +1,32 @@
+{
+    "key": "2013-0185",
+    "name": "Infant forecasting",
+    "cdcTestId": "2013-0185",
+    "changedInVersion": "1.0",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2017-11-15T07:00:08.468",
+    "evaluation": {
+        "administeredDoses": [],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "No Doses Administered",
+    "forecast": {
+        "earliestDate": "2021-08-13T00:00:00",
+        "forecastNum": "1",
+        "pastDueDate": "2022-09-09T00:00:00",
+        "recommendedDate": "2021-08-13T00:00:00"
+    },
+    "forecastTestType": "Recommended based on age",
+    "generalDescription": "This test case describes when assessing a newborn for the first dose of the 2-dose Hep A vaccine that it is not recommended until at least 12 months of age.",
+    "patient": {
+        "dob": "2020-08-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": []
+    },
+    "reasonForChange": "",
+    "testcaseName": "Infant forecasting",
+    "vaccineGroup": "HepA"
+}

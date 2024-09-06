@@ -1,0 +1,50 @@
+{
+    "key": "2013-0112",
+    "name": "# 1 Pediarix at 6 wks-4 days",
+    "cdcTestId": "2013-0112",
+    "changedInVersion": "1.0",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-06-16T15:59:23.184",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "110",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Age: At Absolute Minimum",
+    "forecast": {
+        "earliestDate": "2020-09-14T00:00:00",
+        "forecastNum": "2",
+        "pastDueDate": "2021-01-02T00:00:00",
+        "recommendedDate": "2020-11-06T00:00:00"
+    },
+    "forecastTestType": "Recommended based on age",
+    "generalDescription": "",
+    "patient": {
+        "dob": "2020-07-06T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "110",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "# 1 Pediarix at 6 wks-4 days",
+    "vaccineGroup": "DTAP"
+}

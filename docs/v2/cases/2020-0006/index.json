@@ -1,0 +1,66 @@
+{
+    "key": "2020-0006",
+    "name": "Adult patient with dose #2 of DTaP/Tdap/Td at 4 weeks - 4 days",
+    "cdcTestId": "2020-0006",
+    "changedInVersion": "4.3",
+    "dateAdded": "2020-02-09T19:00:00",
+    "dateUpdated": "2020-06-18T09:10:19.438",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "115",
+                "dateAdministered": "2020-07-20T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "Tdap"
+            },
+            {
+                "cvx": "139",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "Td(adult) unspecified formulation"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Interval: At Absolute minimum",
+    "forecast": {
+        "earliestDate": "2021-02-13T00:00:00",
+        "forecastNum": "3",
+        "pastDueDate": "2021-02-13T00:00:00",
+        "recommendedDate": "2021-02-13T00:00:00"
+    },
+    "forecastTestType": "Recommended based on interval",
+    "generalDescription": "This test case describes when a patient has received the second dose of DTap/Tdap/Td vaccine at 4 weeks - 4 days that the dose should be considered valid and that another dose should be forecast.",
+    "patient": {
+        "dob": "1989-07-20T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "115",
+                "dateAdministered": "2020-07-20T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "Tdap"
+            },
+            {
+                "cvx": "139",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "Td(adult) unspecified formulation"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "Adult patient with dose #2 of DTaP/Tdap/Td at 4 weeks - 4 days",
+    "vaccineGroup": "DTAP"
+}

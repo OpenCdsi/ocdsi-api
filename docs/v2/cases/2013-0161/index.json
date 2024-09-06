@@ -1,0 +1,50 @@
+{
+    "key": "2013-0161",
+    "name": "# 1 Pentacel at 6 wks",
+    "cdcTestId": "2013-0161",
+    "changedInVersion": "1.0",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2018-02-13T10:43:55.149",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "120",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "PENTACEL"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Age: At Minimum",
+    "forecast": {
+        "earliestDate": "2020-09-10T00:00:00",
+        "forecastNum": "2",
+        "pastDueDate": "2020-12-29T00:00:00",
+        "recommendedDate": "2020-11-02T00:00:00"
+    },
+    "forecastTestType": "Recommended based on age",
+    "generalDescription": "",
+    "patient": {
+        "dob": "2020-07-02T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "120",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "PENTACEL"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "# 1 Pentacel at 6 wks",
+    "vaccineGroup": "DTAP"
+}

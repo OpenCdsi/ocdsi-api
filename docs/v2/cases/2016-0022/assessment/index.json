@@ -1,0 +1,45 @@
+{
+    "key": "2016-0022",
+    "assessmentDate": "2020-08-13T00:00:00",
+    "patient": {
+        "dob": "2019-12-23T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "08",
+                "dateAdministered": "2020-03-23T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "RECOMBIVAX-PEDS"
+            },
+            {
+                "cvx": "08",
+                "dateAdministered": "2020-05-25T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "RECOMBIVAX-PEDS"
+            },
+            {
+                "cvx": "08",
+                "dateAdministered": "2020-07-14T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "RECOMBIVAX-PEDS"
+            },
+            {
+                "cvx": "08",
+                "dateAdministered": "2020-08-10T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "RECOMBIVAX-PEDS"
+            }
+        ]
+    }
+}

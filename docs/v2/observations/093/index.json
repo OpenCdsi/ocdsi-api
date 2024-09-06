@@ -1,0 +1,46 @@
+{
+    "key": "093",
+    "observationCode": "093",
+    "observationTitle": "Severe allergic reaction after previous dose of Rubella",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Rubella vaccine.",
+    "clarifyingText": "",
+    "codedValues": [
+        {
+            "code": "293119009",
+            "codeSystem": "SNOMED",
+            "text": "Rubella vaccine adverse reaction [disorder]"
+        },
+        {
+            "code": "03",
+            "codeSystem": "CVX",
+            "text": "MMR"
+        },
+        {
+            "code": "04",
+            "codeSystem": "CVX",
+            "text": "Measles/Rubella"
+        },
+        {
+            "code": "06",
+            "codeSystem": "CVX",
+            "text": "Rubella"
+        },
+        {
+            "code": "38",
+            "codeSystem": "CVX",
+            "text": "Rubella/Mumps"
+        },
+        {
+            "code": "94",
+            "codeSystem": "CVX",
+            "text": "MMRV"
+        },
+        {
+            "code": "VXC20",
+            "codeSystem": "CDCPHINVS",
+            "text": "Allergy to previous dose of this vaccine or to any of its unlisted vaccine components [anaphylactic]"
+        }
+    ]
+}

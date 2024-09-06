@@ -1,0 +1,37 @@
+{
+    "key": "2013-0478",
+    "assessmentDate": "2020-08-13T00:00:00",
+    "patient": {
+        "dob": "2008-12-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "165",
+                "dateAdministered": "2020-02-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV9"
+            },
+            {
+                "cvx": "165",
+                "dateAdministered": "2020-03-05T00:00:00",
+                "evaluationReason": "Interval: too short",
+                "evaluationStatus": "Not Valid",
+                "mvx": "",
+                "vaccineName": "HPV9"
+            },
+            {
+                "cvx": "165",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV9"
+            }
+        ]
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "key": "2013-0083",
+    "name": "Kinrix at age 4 months as dose 2 of DTaP.  Off label but valid. ",
+    "cdcTestId": "2013-0083",
+    "changedInVersion": "1.0",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-07-13T16:04:31.64",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "107",
+                "dateAdministered": "2020-06-19T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            },
+            {
+                "cvx": "130",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "KINRIX"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Vaccine: Off Label",
+    "forecast": {
+        "earliestDate": "2020-09-10T00:00:00",
+        "forecastNum": "3",
+        "pastDueDate": "2020-12-10T00:00:00",
+        "recommendedDate": "2020-10-13T00:00:00"
+    },
+    "forecastTestType": "Recommended based on age",
+    "generalDescription": "This test case describes when a child is administered a dose of Kinrix as a second dose of DTaP in the vaccine series, at four months of age, that the dose is valid.  Another dose should be forecast.",
+    "patient": {
+        "dob": "2020-04-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "107",
+                "dateAdministered": "2020-06-19T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            },
+            {
+                "cvx": "130",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "KINRIX"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "Kinrix at age 4 months as dose 2 of DTaP.  Off label but valid. ",
+    "vaccineGroup": "DTAP"
+}

@@ -1,0 +1,82 @@
+{
+    "key": "2013-0414",
+    "name": "#3 @ 9 yrs, 24 weeks, 0 days, male, gardasil",
+    "cdcTestId": "2013-0414",
+    "changedInVersion": "1.1",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-06-15T08:34:44.082",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "165",
+                "dateAdministered": "2020-02-27T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV9"
+            },
+            {
+                "cvx": "165",
+                "dateAdministered": "2020-03-26T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV9"
+            },
+            {
+                "cvx": "165",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV9"
+            }
+        ],
+        "seriesStatus": "Complete"
+    },
+    "evaluationTestType": "Age: At Minimum",
+    "forecast": {
+        "earliestDate": "0001-01-01T00:00:00",
+        "forecastNum": "-",
+        "pastDueDate": "0001-01-01T00:00:00",
+        "recommendedDate": "0001-01-01T00:00:00"
+    },
+    "forecastTestType": "Not recommended: series complete",
+    "generalDescription": "This test case describes when a child is administered a third dose of the HPV vaccine at 24 weeks that the dose is considered to be valid.  The series is complete.",
+    "patient": {
+        "dob": "2011-02-27T00:00:00",
+        "gender": "M",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "165",
+                "dateAdministered": "2020-02-27T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV9"
+            },
+            {
+                "cvx": "165",
+                "dateAdministered": "2020-03-26T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV9"
+            },
+            {
+                "cvx": "165",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV9"
+            }
+        ]
+    },
+    "reasonForChange": "v1.1 Dose 1 must be Gardasil for it to be valid and match test case purpose.",
+    "testcaseName": "#3 @ 9 yrs, 24 weeks, 0 days, male, gardasil",
+    "vaccineGroup": "HPV"
+}

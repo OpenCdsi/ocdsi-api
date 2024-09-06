@@ -1,0 +1,12 @@
+{
+    "key": "118",
+    "cvx": "118",
+    "shortDescription": "HPV, bivalent",
+    "association": [
+        {
+            "antigen": "HPV",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        }
+    ]
+}

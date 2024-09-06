@@ -1,0 +1,17 @@
+{
+    "key": "148",
+    "cvx": "148",
+    "shortDescription": "Meningococcal C/Y-HIB PRP",
+    "association": [
+        {
+            "antigen": "Meningococcal",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        },
+        {
+            "antigen": "Hib",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        }
+    ]
+}

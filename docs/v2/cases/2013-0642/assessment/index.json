@@ -1,0 +1,45 @@
+{
+    "key": "2013-0642",
+    "assessmentDate": "2020-08-13T00:00:00",
+    "patient": {
+        "dob": "2019-02-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "10",
+                "dateAdministered": "2019-04-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "IPOL"
+            },
+            {
+                "cvx": "10",
+                "dateAdministered": "2019-06-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "IPOL"
+            },
+            {
+                "cvx": "10",
+                "dateAdministered": "2019-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "IPOL"
+            },
+            {
+                "cvx": "10",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "IPOL"
+            }
+        ]
+    }
+}

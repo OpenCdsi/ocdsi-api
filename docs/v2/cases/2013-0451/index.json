@@ -1,0 +1,66 @@
+{
+    "key": "2013-0451",
+    "name": "#1 @ 8 yrs - 5 days, #2 @ 9 yrs - 5 days",
+    "cdcTestId": "2013-0451",
+    "changedInVersion": "1.0",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-06-15T08:48:26.687",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "165",
+                "dateAdministered": "2019-08-13T00:00:00",
+                "evaluationReason": "Age: Too Young",
+                "evaluationStatus": "Not Valid",
+                "mvx": "",
+                "vaccineName": "HPV9"
+            },
+            {
+                "cvx": "165",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "Age: Too Young",
+                "evaluationStatus": "Not Valid",
+                "mvx": "",
+                "vaccineName": "HPV9"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Age: Below Absolute Minimum",
+    "forecast": {
+        "earliestDate": "2020-08-18T00:00:00",
+        "forecastNum": "1",
+        "pastDueDate": "2024-09-14T00:00:00",
+        "recommendedDate": "2022-08-18T00:00:00"
+    },
+    "forecastTestType": "Recommended based on age",
+    "generalDescription": "This test case describes when a child is administered dose number one of the HPV vaccine at 8 years - 5 days and dose number two at 9 years - 5 days that the doses are not valid.  Another dose should be forecast.",
+    "patient": {
+        "dob": "2011-08-18T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "165",
+                "dateAdministered": "2019-08-13T00:00:00",
+                "evaluationReason": "Age: Too Young",
+                "evaluationStatus": "Not Valid",
+                "mvx": "",
+                "vaccineName": "HPV9"
+            },
+            {
+                "cvx": "165",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "Age: Too Young",
+                "evaluationStatus": "Not Valid",
+                "mvx": "",
+                "vaccineName": "HPV9"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "#1 @ 8 yrs - 5 days, #2 @ 9 yrs - 5 days",
+    "vaccineGroup": "HPV"
+}

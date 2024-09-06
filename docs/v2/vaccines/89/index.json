@@ -1,0 +1,12 @@
+{
+    "key": "89",
+    "cvx": "89",
+    "shortDescription": "polio, unspecified formulation",
+    "association": [
+        {
+            "antigen": "Polio",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        }
+    ]
+}

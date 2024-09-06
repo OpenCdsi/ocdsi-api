@@ -1,0 +1,61 @@
+{
+    "key": "2013-0034",
+    "assessmentDate": "2020-08-13T00:00:00",
+    "patient": {
+        "dob": "2017-02-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "107",
+                "dateAdministered": "2017-04-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            },
+            {
+                "cvx": "107",
+                "dateAdministered": "2017-06-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            },
+            {
+                "cvx": "107",
+                "dateAdministered": "2017-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            },
+            {
+                "cvx": "107",
+                "dateAdministered": "2019-02-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            },
+            {
+                "cvx": "107",
+                "dateAdministered": "2019-05-13T00:00:00",
+                "evaluationReason": "Age: Too Young",
+                "evaluationStatus": "Not Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            },
+            {
+                "cvx": "107",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "Age: Too Young",
+                "evaluationStatus": "Not Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            }
+        ]
+    }
+}

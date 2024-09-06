@@ -1,0 +1,12 @@
+{
+    "key": "17",
+    "cvx": "17",
+    "shortDescription": "Hib, unspecified formulation",
+    "association": [
+        {
+            "antigen": "Hib",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        }
+    ]
+}

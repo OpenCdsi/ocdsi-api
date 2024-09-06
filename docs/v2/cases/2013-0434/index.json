@@ -1,0 +1,82 @@
+{
+    "key": "2013-0434",
+    "name": "#3 @ 11 yrs + 6 mo, female, Cervarix ",
+    "cdcTestId": "2013-0434",
+    "changedInVersion": "1.0",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-06-15T08:43:11.585",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "118",
+                "dateAdministered": "2011-05-01T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "CERVARIX"
+            },
+            {
+                "cvx": "118",
+                "dateAdministered": "2011-07-01T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "CERVARIX"
+            },
+            {
+                "cvx": "118",
+                "dateAdministered": "2011-11-01T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "CERVARIX"
+            }
+        ],
+        "seriesStatus": "Complete"
+    },
+    "evaluationTestType": "Age: At Recommended",
+    "forecast": {
+        "earliestDate": "0001-01-01T00:00:00",
+        "forecastNum": "-",
+        "pastDueDate": "0001-01-01T00:00:00",
+        "recommendedDate": "0001-01-01T00:00:00"
+    },
+    "forecastTestType": "Not recommended: series complete",
+    "generalDescription": "This test case describes when a child is administered the third dose of the HPV vaccine at 6 months from dose one, that the dose is valid.  Series is complete.",
+    "patient": {
+        "dob": "2000-05-01T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "118",
+                "dateAdministered": "2011-05-01T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "CERVARIX"
+            },
+            {
+                "cvx": "118",
+                "dateAdministered": "2011-07-01T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "CERVARIX"
+            },
+            {
+                "cvx": "118",
+                "dateAdministered": "2011-11-01T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "CERVARIX"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "#3 @ 11 yrs + 6 mo, female, Cervarix ",
+    "vaccineGroup": "HPV"
+}

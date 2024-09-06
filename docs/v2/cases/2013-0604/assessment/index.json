@@ -1,0 +1,45 @@
+{
+    "key": "2013-0604",
+    "assessmentDate": "2020-08-13T00:00:00",
+    "patient": {
+        "dob": "2019-08-01T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "133",
+                "dateAdministered": "2019-09-11T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PFR",
+                "vaccineName": "PREVNAR 13"
+            },
+            {
+                "cvx": "133",
+                "dateAdministered": "2019-10-08T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PFR",
+                "vaccineName": "PREVNAR 13"
+            },
+            {
+                "cvx": "133",
+                "dateAdministered": "2019-10-19T00:00:00",
+                "evaluationReason": "Age: Too Young",
+                "evaluationStatus": "Not Valid",
+                "mvx": "PFR",
+                "vaccineName": "PREVNAR 13"
+            },
+            {
+                "cvx": "133",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PFR",
+                "vaccineName": "PREVNAR 13"
+            }
+        ]
+    }
+}

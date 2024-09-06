@@ -1,0 +1,16 @@
+{
+    "key": "068",
+    "observationCode": "068",
+    "observationTitle": "In drug abuse treatment and prevention facility",
+    "group": "",
+    "indicationText": "Administer to persons who are in a drug abuse treatment and prevention facility.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+        {
+            "code": "20078004",
+            "codeSystem": "SNOMED",
+            "text": "Substance abuse treatment center [environment]"
+        }
+    ]
+}

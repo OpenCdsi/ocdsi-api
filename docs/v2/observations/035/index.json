@@ -1,0 +1,10 @@
+{
+    "key": "035",
+    "observationCode": "035",
+    "observationTitle": "Antimicrobial or antimalarial taken within 72 hours",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient  has taken antimicrobial or antimalarial medications  within the previous 72 hours.",
+    "clarifyingText": "A longer interval should be considered for long-acting antimicrobials [e.g., the antimalarial agents mefloquine and chloroquine and the combinations atovaquone/proguanil and pyrimethamine/sulfadoxine can, at doses used for prophylaxis, be administered together with the Ty21a vaccine; however, the manufacturer advises that other antimalarial agents only be administered at least 3 days after the last vaccine dose).",
+    "codedValues": []
+}

@@ -1,0 +1,22 @@
+{
+    "key": "03",
+    "cvx": "03",
+    "shortDescription": "MMR",
+    "association": [
+        {
+            "antigen": "Measles",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        },
+        {
+            "antigen": "Mumps",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        },
+        {
+            "antigen": "Rubella",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "key": "50",
+    "cvx": "50",
+    "shortDescription": "DTaP-Hib",
+    "association": [
+        {
+            "antigen": "Diphtheria",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        },
+        {
+            "antigen": "Tetanus",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        },
+        {
+            "antigen": "Pertussis",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        },
+        {
+            "antigen": "Hib",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        }
+    ]
+}

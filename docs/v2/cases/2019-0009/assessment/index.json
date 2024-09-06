@@ -1,0 +1,21 @@
+{
+    "key": "2019-0009",
+    "assessmentDate": "2020-08-13T00:00:00",
+    "patient": {
+        "dob": "1955-08-13T00:00:00",
+        "gender": "M",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "33",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "pneumococcal polysaccharide PPV23"
+            }
+        ]
+    }
+}

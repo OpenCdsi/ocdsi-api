@@ -1,0 +1,21 @@
+{
+    "key": "2013-0418",
+    "assessmentDate": "2011-04-27T00:00:00",
+    "patient": {
+        "dob": "2002-05-01T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "118",
+                "dateAdministered": "2011-04-27T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "CERVARIX"
+            }
+        ]
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "key": "057",
+    "observationCode": "057",
+    "observationTitle": "Public safety worker exposed to blood or infection body fluids",
+    "group": "",
+    "indicationText": "Administer to public safety workers exposed to blood or infection body fluids",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+        {
+            "code": "26369006",
+            "codeSystem": "SNOMED",
+            "text": "Public health nurse [occupation]"
+        },
+        {
+            "code": "68867008",
+            "codeSystem": "SNOMED",
+            "text": "Public health dentist [occupation]"
+        },
+        {
+            "code": "307969004",
+            "codeSystem": "SNOMED",
+            "text": "Public health officer [occupation]"
+        },
+        {
+            "code": "56466003",
+            "codeSystem": "SNOMED",
+            "text": "Public health physician [occupation]"
+        },
+        {
+            "code": "56079002",
+            "codeSystem": "SNOMED",
+            "text": "Public health veterinarian [occupation]"
+        },
+        {
+            "code": "60008001",
+            "codeSystem": "SNOMED",
+            "text": "Public health nutritionist [occupation]"
+        },
+        {
+            "code": "24932003",
+            "codeSystem": "SNOMED",
+            "text": "Exposure to [contextual qualifier] [qualifier value]"
+        },
+        {
+            "code": "87612001",
+            "codeSystem": "SNOMED",
+            "text": "Blood [substance]"
+        },
+        {
+            "code": "32457005",
+            "codeSystem": "SNOMED",
+            "text": "Body fluid [substance]"
+        }
+    ]
+}

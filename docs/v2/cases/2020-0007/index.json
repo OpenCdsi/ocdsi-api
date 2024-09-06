@@ -1,0 +1,66 @@
+{
+    "key": "2020-0007",
+    "name": "Adult patient with dose #2 of DTaP/Tdap/Td at 4 weeks - 5 days",
+    "cdcTestId": "2020-0007",
+    "changedInVersion": "4.3",
+    "dateAdded": "2020-02-09T19:00:00",
+    "dateUpdated": "2020-06-18T09:10:31.743",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "115",
+                "dateAdministered": "2020-07-21T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "Tdap"
+            },
+            {
+                "cvx": "139",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "Interval: too short",
+                "evaluationStatus": "Not Valid",
+                "mvx": "",
+                "vaccineName": "Td(adult) unspecified formulation"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Interval: Below Absolute Minimum",
+    "forecast": {
+        "earliestDate": "2020-09-10T00:00:00",
+        "forecastNum": "2",
+        "pastDueDate": "2020-09-10T00:00:00",
+        "recommendedDate": "2020-09-10T00:00:00"
+    },
+    "forecastTestType": "Recommended based on interval",
+    "generalDescription": "This test case describes when a patient has received the second dose of DTaP/Tdap/Td vaccine at 4 weeks - 5 days that the dose should not be considered to be valid.  Another dose should be forecast.",
+    "patient": {
+        "dob": "1989-07-21T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "115",
+                "dateAdministered": "2020-07-21T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "Tdap"
+            },
+            {
+                "cvx": "139",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "Interval: too short",
+                "evaluationStatus": "Not Valid",
+                "mvx": "",
+                "vaccineName": "Td(adult) unspecified formulation"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "Adult patient with dose #2 of DTaP/Tdap/Td at 4 weeks - 5 days",
+    "vaccineGroup": "DTAP"
+}

@@ -1,0 +1,29 @@
+{
+    "key": "2018-0017",
+    "assessmentDate": "2020-08-13T00:00:00",
+    "patient": {
+        "dob": "2002-07-21T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "189",
+                "dateAdministered": "2020-07-21T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "Hep B, adjuvanted"
+            },
+            {
+                "cvx": "189",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "Interval: too short",
+                "evaluationStatus": "Not Valid",
+                "mvx": "",
+                "vaccineName": "Hep B, adjuvanted"
+            }
+        ]
+    }
+}

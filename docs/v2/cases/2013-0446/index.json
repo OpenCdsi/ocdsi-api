@@ -1,0 +1,82 @@
+{
+    "key": "2013-0446",
+    "name": "#3 with interval of 12 weeks - 5 days from #2",
+    "cdcTestId": "2013-0446",
+    "changedInVersion": "3.2",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2018-02-13T14:12:23.358",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "165",
+                "dateAdministered": "2020-04-20T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV9"
+            },
+            {
+                "cvx": "165",
+                "dateAdministered": "2020-05-26T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV9"
+            },
+            {
+                "cvx": "165",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "Interval: too short",
+                "evaluationStatus": "Not Valid",
+                "mvx": "",
+                "vaccineName": "HPV9"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Interval: At Below Absolute Minimum",
+    "forecast": {
+        "earliestDate": "2020-11-05T00:00:00",
+        "forecastNum": "3",
+        "pastDueDate": "2021-06-16T00:00:00",
+        "recommendedDate": "2020-11-05T00:00:00"
+    },
+    "forecastTestType": "Recommended based on minimum interval from invalid dose",
+    "generalDescription": "This test case describes when a third dose is administered an at an interval of 12 weeks - 5 days that a repeat dose should be forecasted 12 weeks later.",
+    "patient": {
+        "dob": "2009-04-20T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "165",
+                "dateAdministered": "2020-04-20T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV9"
+            },
+            {
+                "cvx": "165",
+                "dateAdministered": "2020-05-26T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV9"
+            },
+            {
+                "cvx": "165",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "Interval: too short",
+                "evaluationStatus": "Not Valid",
+                "mvx": "",
+                "vaccineName": "HPV9"
+            }
+        ]
+    },
+    "reasonForChange": "Updated the Forecasted Recommended Date to reflect current ACIP recommendation for interval from invalid dose.",
+    "testcaseName": "#3 with interval of 12 weeks - 5 days from #2",
+    "vaccineGroup": "HPV"
+}

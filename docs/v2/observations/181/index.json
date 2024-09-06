@@ -1,0 +1,16 @@
+{
+    "key": "181",
+    "observationCode": "181",
+    "observationTitle": "Multiple myeloma",
+    "group": "",
+    "indicationText": "Administer to persons with multiple myeloma.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+        {
+            "code": "109989006",
+            "codeSystem": "SNOMED",
+            "text": "Multiple myeloma [disorder]"
+        }
+    ]
+}

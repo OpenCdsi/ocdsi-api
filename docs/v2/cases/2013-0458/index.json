@@ -1,0 +1,82 @@
+{
+    "key": "2013-0458",
+    "name": "#1 @ 9 yrs - 5 days, #2 @ 9 yrs + 4 weeks, #3 @ 9 yrs, 8 weeks",
+    "cdcTestId": "2013-0458",
+    "changedInVersion": "3.2",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-06-15T08:46:04.356",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "165",
+                "dateAdministered": "2020-06-13T00:00:00",
+                "evaluationReason": "Age: Too Young",
+                "evaluationStatus": "Not Valid",
+                "mvx": "",
+                "vaccineName": "HPV9"
+            },
+            {
+                "cvx": "165",
+                "dateAdministered": "2020-07-16T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV9"
+            },
+            {
+                "cvx": "165",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV9"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Age: At Minimum",
+    "forecast": {
+        "earliestDate": "2020-12-16T00:00:00",
+        "forecastNum": "3",
+        "pastDueDate": "2021-09-12T00:00:00",
+        "recommendedDate": "2021-01-16T00:00:00"
+    },
+    "forecastTestType": "Recommended based on interval",
+    "generalDescription": "This test case describes when a valid second dose is administered at an interval of 4 weeks -4 days but before 5 months that a repeat dose  should be forecasted.",
+    "patient": {
+        "dob": "2011-06-18T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "165",
+                "dateAdministered": "2020-06-13T00:00:00",
+                "evaluationReason": "Age: Too Young",
+                "evaluationStatus": "Not Valid",
+                "mvx": "",
+                "vaccineName": "HPV9"
+            },
+            {
+                "cvx": "165",
+                "dateAdministered": "2020-07-16T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV9"
+            },
+            {
+                "cvx": "165",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV9"
+            }
+        ]
+    },
+    "reasonForChange": "Updated to reflect ACIP recommendations for the HPV 2 dose series.",
+    "testcaseName": "#1 @ 9 yrs - 5 days, #2 @ 9 yrs + 4 weeks, #3 @ 9 yrs, 8 weeks",
+    "vaccineGroup": "HPV"
+}

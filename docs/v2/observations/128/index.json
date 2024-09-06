@@ -1,0 +1,16 @@
+{
+    "key": "128",
+    "observationCode": "128",
+    "observationTitle": "Rabies IG administration",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had Rabies IG administered in the previous 4 months.",
+    "clarifyingText": "",
+    "codedValues": [
+        {
+            "code": "34",
+            "codeSystem": "CVX",
+            "text": "Rabies immune globulin"
+        }
+    ]
+}

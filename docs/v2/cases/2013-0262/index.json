@@ -1,0 +1,98 @@
+{
+    "key": "2013-0262",
+    "name": "dose 3 to 4 Pediarix, interval 4 mo-1 day",
+    "cdcTestId": "2013-0262",
+    "changedInVersion": "1.0",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2018-02-09T13:53:56.982",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "110",
+                "dateAdministered": "2019-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            },
+            {
+                "cvx": "110",
+                "dateAdministered": "2019-10-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            },
+            {
+                "cvx": "110",
+                "dateAdministered": "2020-04-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            },
+            {
+                "cvx": "110",
+                "dateAdministered": "2020-08-12T00:00:00",
+                "evaluationReason": "Series Already Complete",
+                "evaluationStatus": "Extraneous",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            }
+        ],
+        "seriesStatus": "Complete"
+    },
+    "evaluationTestType": "Extra Doses",
+    "forecast": {
+        "earliestDate": "0001-01-01T00:00:00",
+        "forecastNum": "-",
+        "pastDueDate": "0001-01-01T00:00:00",
+        "recommendedDate": "0001-01-01T00:00:00"
+    },
+    "forecastTestType": "Not recommended: series complete",
+    "generalDescription": "This test case describes when an extra dose ( dose #4) of the HepB vaccine is administered at an interval of 4 months - 1 day, that the dose is considered to be extraneous. The series is complete.",
+    "patient": {
+        "dob": "2019-06-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "110",
+                "dateAdministered": "2019-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            },
+            {
+                "cvx": "110",
+                "dateAdministered": "2019-10-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            },
+            {
+                "cvx": "110",
+                "dateAdministered": "2020-04-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            },
+            {
+                "cvx": "110",
+                "dateAdministered": "2020-08-12T00:00:00",
+                "evaluationReason": "Series Already Complete",
+                "evaluationStatus": "Extraneous",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "dose 3 to 4 Pediarix, interval 4 mo-1 day",
+    "vaccineGroup": "HepB"
+}

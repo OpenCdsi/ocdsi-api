@@ -1,0 +1,29 @@
+{
+    "key": "2019-0012",
+    "assessmentDate": "2020-08-13T00:00:00",
+    "patient": {
+        "dob": "2002-02-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "52",
+                "dateAdministered": "2020-02-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "HAVRIX-ADULT"
+            },
+            {
+                "cvx": "52",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "HAVRIX-ADULT"
+            }
+        ]
+    }
+}

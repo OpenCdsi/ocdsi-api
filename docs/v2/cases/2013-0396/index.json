@@ -1,0 +1,50 @@
+{
+    "key": "2013-0396",
+    "name": "#1 @ 9 yrs - 4 days, male, gardasil ",
+    "cdcTestId": "2013-0396",
+    "changedInVersion": "3.2",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-06-08T15:12:14.86",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "165",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV9"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Age: At Absolute Minimum",
+    "forecast": {
+        "earliestDate": "2021-01-13T00:00:00",
+        "forecastNum": "2",
+        "pastDueDate": "2021-10-10T00:00:00",
+        "recommendedDate": "2021-02-13T00:00:00"
+    },
+    "forecastTestType": "Recommended based on interval",
+    "generalDescription": "This test case describes whether or not the first dose is valid at age 9 years - 4 days and thus forecast the second dose of the HPV 2 dose series.",
+    "patient": {
+        "dob": "2011-08-17T00:00:00",
+        "gender": "M",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "165",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV9"
+            }
+        ]
+    },
+    "reasonForChange": "Updated to reflect current ACIP Recommendations for the 2 dose HPV vaccine.",
+    "testcaseName": "#1 @ 9 yrs - 4 days, male, gardasil ",
+    "vaccineGroup": "HPV"
+}

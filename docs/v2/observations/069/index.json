@@ -1,0 +1,16 @@
+{
+    "key": "069",
+    "observationCode": "069",
+    "observationTitle": "In correctional facility",
+    "group": "",
+    "indicationText": "Administer to persons who are in a correctional facility.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+        {
+            "code": "257656006",
+            "codeSystem": "SNOMED",
+            "text": "Penal institution [environment]"
+        }
+    ]
+}

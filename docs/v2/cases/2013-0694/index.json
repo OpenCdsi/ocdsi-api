@@ -1,0 +1,114 @@
+{
+    "key": "2013-0694",
+    "name": "# 5 Pediarix at 7 yrs.  Off label",
+    "cdcTestId": "2013-0694",
+    "changedInVersion": "3.3",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-06-12T09:58:10.464",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "110",
+                "dateAdministered": "2013-11-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            },
+            {
+                "cvx": "110",
+                "dateAdministered": "2014-02-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            },
+            {
+                "cvx": "110",
+                "dateAdministered": "2014-05-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            },
+            {
+                "cvx": "110",
+                "dateAdministered": "2015-02-28T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            },
+            {
+                "cvx": "110",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            }
+        ],
+        "seriesStatus": "Complete"
+    },
+    "evaluationTestType": "Vaccine: Off Label",
+    "forecast": {
+        "earliestDate": "0001-01-01T00:00:00",
+        "forecastNum": "-",
+        "pastDueDate": "0001-01-01T00:00:00",
+        "recommendedDate": "0001-01-01T00:00:00"
+    },
+    "forecastTestType": "Not recommended: series complete",
+    "generalDescription": "This test case describes when a child is administered a fifth dose of the Polio vaccine at at age 7 years that the dose is valid.  No further doses should be forecast.  The series is complete.",
+    "patient": {
+        "dob": "2013-08-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "110",
+                "dateAdministered": "2013-11-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            },
+            {
+                "cvx": "110",
+                "dateAdministered": "2014-02-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            },
+            {
+                "cvx": "110",
+                "dateAdministered": "2014-05-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            },
+            {
+                "cvx": "110",
+                "dateAdministered": "2015-02-28T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            },
+            {
+                "cvx": "110",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            }
+        ]
+    },
+    "reasonForChange": "Updated to curb future vaccine adminstration dates",
+    "testcaseName": "# 5 Pediarix at 7 yrs.  Off label",
+    "vaccineGroup": "POL"
+}

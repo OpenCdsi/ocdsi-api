@@ -1,0 +1,50 @@
+{
+    "key": "2013-0589",
+    "name": "Dose 1 PCV 13 at 24 m-4 days.  Series complete. ",
+    "cdcTestId": "2013-0589",
+    "changedInVersion": "1.0",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-05-29T07:31:40.317",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "133",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PFR",
+                "vaccineName": "PREVNAR 13"
+            }
+        ],
+        "seriesStatus": "Complete"
+    },
+    "evaluationTestType": "All Valid: Forecast Test",
+    "forecast": {
+        "earliestDate": "0001-01-01T00:00:00",
+        "forecastNum": "-",
+        "pastDueDate": "0001-01-01T00:00:00",
+        "recommendedDate": "0001-01-01T00:00:00"
+    },
+    "forecastTestType": "Not recommended: series complete",
+    "generalDescription": "This test case describes when a child is administered the first  dose of the Pneumococcal 13 vaccine at 24 months - 4 days, that the dose is considered to be valid. No additional doses are recommended.  The series is complete.",
+    "patient": {
+        "dob": "2018-08-17T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "133",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PFR",
+                "vaccineName": "PREVNAR 13"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "Dose 1 PCV 13 at 24 m-4 days.  Series complete. ",
+    "vaccineGroup": "PCV"
+}

@@ -1,0 +1,82 @@
+{
+    "key": "2013-0213",
+    "name": "Hep at birth.  Comvax at 6 wks and 6 mo. Hep series complete. ",
+    "cdcTestId": "2013-0213",
+    "changedInVersion": "1.0",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2018-02-26T10:06:19.601",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "08",
+                "dateAdministered": "2004-02-04T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "RECOMBIVAX-PEDS"
+            },
+            {
+                "cvx": "51",
+                "dateAdministered": "2004-03-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "COMVAX"
+            },
+            {
+                "cvx": "51",
+                "dateAdministered": "2004-08-04T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "COMVAX"
+            }
+        ],
+        "seriesStatus": "Complete"
+    },
+    "evaluationTestType": "All Valid: Forecast Test",
+    "forecast": {
+        "earliestDate": "0001-01-01T00:00:00",
+        "forecastNum": "-",
+        "pastDueDate": "0001-01-01T00:00:00",
+        "recommendedDate": "0001-01-01T00:00:00"
+    },
+    "forecastTestType": "Not recommended: series complete",
+    "generalDescription": "This test case describes when dose #1 of the Hep B vaccine is administered at birth, dose #2 is administered at an interval of 6 weeks after previous dose , and dose #3 is administered at 6 months after dose #2, that the series is complete. ",
+    "patient": {
+        "dob": "2004-02-04T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "08",
+                "dateAdministered": "2004-02-04T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "RECOMBIVAX-PEDS"
+            },
+            {
+                "cvx": "51",
+                "dateAdministered": "2004-03-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "COMVAX"
+            },
+            {
+                "cvx": "51",
+                "dateAdministered": "2004-08-04T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "COMVAX"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "Hep at birth.  Comvax at 6 wks and 6 mo. Hep series complete. ",
+    "vaccineGroup": "HepB"
+}

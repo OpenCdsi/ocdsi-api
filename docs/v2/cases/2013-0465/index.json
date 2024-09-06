@@ -1,0 +1,82 @@
+{
+    "key": "2013-0465",
+    "name": "# 3 at age 9 years 16 weeks-1 days. ",
+    "cdcTestId": "2013-0465",
+    "changedInVersion": "2.1",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-06-15T08:52:45.288",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "137",
+                "dateAdministered": "2010-11-30T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV, unspecified formulation"
+            },
+            {
+                "cvx": "137",
+                "dateAdministered": "2010-12-28T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV, unspecified formulation"
+            },
+            {
+                "cvx": "137",
+                "dateAdministered": "2011-03-22T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV, unspecified formulation"
+            }
+        ],
+        "seriesStatus": "Complete"
+    },
+    "evaluationTestType": "Interval: At Absolute Minimum",
+    "forecast": {
+        "earliestDate": "0001-01-01T00:00:00",
+        "forecastNum": "-",
+        "pastDueDate": "0001-01-01T00:00:00",
+        "recommendedDate": "0001-01-01T00:00:00"
+    },
+    "forecastTestType": "Not recommended: series complete",
+    "generalDescription": "This test case describes when an adolescent child is administered a third dose of the HPV vaccine at 16 weeks minus 1 day after the first dose that the dose is considered to be valid.  The series is complete. (Prior to 12/16/16, 16 weeks - 4 days was allowed to be used as an Absolute Minimum Interval from Target Dose #1).",
+    "patient": {
+        "dob": "2001-12-01T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "137",
+                "dateAdministered": "2010-11-30T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV, unspecified formulation"
+            },
+            {
+                "cvx": "137",
+                "dateAdministered": "2010-12-28T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV, unspecified formulation"
+            },
+            {
+                "cvx": "137",
+                "dateAdministered": "2011-03-22T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV, unspecified formulation"
+            }
+        ]
+    },
+    "reasonForChange": "v2.1 Removal of Age requirements to allow for a more aligned dosing schedule based on intervals rather than age.",
+    "testcaseName": "# 3 at age 9 years 16 weeks-1 days. ",
+    "vaccineGroup": "HPV"
+}

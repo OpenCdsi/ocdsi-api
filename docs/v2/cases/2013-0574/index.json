@@ -1,0 +1,66 @@
+{
+    "key": "2013-0574",
+    "name": "Dose 1 to dose 2 interval 28-4 days ",
+    "cdcTestId": "2013-0574",
+    "changedInVersion": "1.0",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-05-29T16:09:59.129",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "03",
+                "dateAdministered": "2020-07-20T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "M-M-R II"
+            },
+            {
+                "cvx": "03",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "M-M-R II"
+            }
+        ],
+        "seriesStatus": "Complete"
+    },
+    "evaluationTestType": "Interval: At Absolute Minimum",
+    "forecast": {
+        "earliestDate": "0001-01-01T00:00:00",
+        "forecastNum": "-",
+        "pastDueDate": "0001-01-01T00:00:00",
+        "recommendedDate": "0001-01-01T00:00:00"
+    },
+    "forecastTestType": "Not recommended: series complete",
+    "generalDescription": "This test case describes when a child is administered the second dose of the MMR vaccine at an interval of 28 -4 days, that the dose is considered to be valid. The series is complete. ",
+    "patient": {
+        "dob": "2019-06-20T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "03",
+                "dateAdministered": "2020-07-20T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "M-M-R II"
+            },
+            {
+                "cvx": "03",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "M-M-R II"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "Dose 1 to dose 2 interval 28-4 days ",
+    "vaccineGroup": "MMR"
+}

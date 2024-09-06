@@ -1,0 +1,26 @@
+{
+    "key": "011",
+    "observationCode": "011",
+    "observationTitle": "Cochlear implants",
+    "group": "",
+    "indicationText": "Administer to persons who have cochlear implants.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+        {
+            "code": "449840001",
+            "codeSystem": "SNOMED",
+            "text": "Cochlear prosthesis in situ [finding]"
+        },
+        {
+            "code": "43252007",
+            "codeSystem": "SNOMED",
+            "text": "Cochlear prosthesis, device [physical object]"
+        },
+        {
+            "code": "359612003",
+            "codeSystem": "SNOMED",
+            "text": "Implantation of cochlear prosthetic device [procedure]"
+        }
+    ]
+}

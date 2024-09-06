@@ -1,0 +1,37 @@
+{
+    "key": "2013-0661",
+    "assessmentDate": "2016-10-16T00:00:00",
+    "patient": {
+        "dob": "2011-10-16T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "02",
+                "dateAdministered": "2011-12-16T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "OPV"
+            },
+            {
+                "cvx": "02",
+                "dateAdministered": "2012-02-16T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "OPV"
+            },
+            {
+                "cvx": "10",
+                "dateAdministered": "2016-10-16T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "IPOL"
+            }
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "key": "061",
+    "observationCode": "061",
+    "observationTitle": "Animal handlers",
+    "group": "",
+    "indicationText": "Administer to animal handlers.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+        {
+            "code": "159091009",
+            "codeSystem": "SNOMED",
+            "text": "Trainer - performing animals [occupation]"
+        }
+    ]
+}

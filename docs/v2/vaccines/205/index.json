@@ -1,0 +1,12 @@
+{
+    "key": "205",
+    "cvx": "205",
+    "shortDescription": "Influenza vaccine, quadrivalent, adjuvanted",
+    "association": [
+        {
+            "antigen": "Influenza",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        }
+    ]
+}

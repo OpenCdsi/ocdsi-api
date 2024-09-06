@@ -1,0 +1,50 @@
+{
+    "key": "2018-0001",
+    "name": "Zoster: Patient has received dose 1 of the RZV (Shingrix) series",
+    "cdcTestId": "2018-0001",
+    "changedInVersion": "3.4",
+    "dateAdded": "2018-03-27T20:00:00",
+    "dateUpdated": "2018-04-19T11:13:58.975",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "187",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "zoster recombinant"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "All Valid: Forecast Test",
+    "forecast": {
+        "earliestDate": "2020-10-08T00:00:00",
+        "forecastNum": "2",
+        "pastDueDate": "2021-04-09T00:00:00",
+        "recommendedDate": "2020-10-08T00:00:00"
+    },
+    "forecastTestType": "Recommended based on interval",
+    "generalDescription": "This test case describes when a patient is administered dose #1 of the RZV vaccine, that a second dose should be forecast.",
+    "patient": {
+        "dob": "1970-08-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "187",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "zoster recombinant"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "Zoster: Patient has received dose 1 of the RZV (Shingrix) series",
+    "vaccineGroup": "ZOSTER"
+}

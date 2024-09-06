@@ -1,0 +1,12 @@
+{
+    "key": "150",
+    "cvx": "150",
+    "shortDescription": "influenza, injectable, quadrivalent, preservative free",
+    "association": [
+        {
+            "antigen": "Influenza",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        }
+    ]
+}

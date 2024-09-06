@@ -1,0 +1,29 @@
+{
+    "key": "2013-0319",
+    "assessmentDate": "2020-08-13T00:00:00",
+    "patient": {
+        "dob": "2019-08-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "48",
+                "dateAdministered": "2019-10-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "ACTHIB"
+            },
+            {
+                "cvx": "48",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "ACTHIB"
+            }
+        ]
+    }
+}

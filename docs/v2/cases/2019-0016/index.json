@@ -1,0 +1,50 @@
+{
+    "key": "2019-0016",
+    "name": "Adult with a dose of the influenza vaccine",
+    "cdcTestId": "2019-0016",
+    "changedInVersion": "4.4",
+    "dateAdded": "2018-11-26T19:00:00",
+    "dateUpdated": "2020-08-11T08:30:01.283",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "158",
+                "dateAdministered": "2020-09-01T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "Fluzone, Quadrivalent"
+            }
+        ],
+        "seriesStatus": "Complete"
+    },
+    "evaluationTestType": "All Valid: Forecast Test",
+    "forecast": {
+        "earliestDate": "0001-01-01T00:00:00",
+        "forecastNum": "-",
+        "pastDueDate": "0001-01-01T00:00:00",
+        "recommendedDate": "0001-01-01T00:00:00"
+    },
+    "forecastTestType": "Not Recommended: series complete",
+    "generalDescription": "This test case describes when an adult patient has received a dose of the  influenza vaccine, that no additional doses are needed. Series is complete for the season.",
+    "patient": {
+        "dob": "1983-09-01T00:00:00",
+        "gender": "M",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "158",
+                "dateAdministered": "2020-09-01T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "Fluzone, Quadrivalent"
+            }
+        ]
+    },
+    "reasonForChange": "V4.4: Rolled test cases forward from 2019-2020 season to 2020-2021 season.",
+    "testcaseName": "Adult with a dose of the influenza vaccine",
+    "vaccineGroup": "FLU"
+}

@@ -1,0 +1,66 @@
+{
+    "key": "2013-0296",
+    "name": "dose 1 to 2, interval 4 weeks -5 days",
+    "cdcTestId": "2013-0296",
+    "changedInVersion": "1.0",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-05-22T12:04:56.88",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "48",
+                "dateAdministered": "2020-07-21T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "ACTHIB"
+            },
+            {
+                "cvx": "48",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "Interval: too short",
+                "evaluationStatus": "Not Valid",
+                "mvx": "PMC",
+                "vaccineName": "ACTHIB"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Interval: Below Absolute Minimum",
+    "forecast": {
+        "earliestDate": "2020-09-10T00:00:00",
+        "forecastNum": "2",
+        "pastDueDate": "2020-11-17T00:00:00",
+        "recommendedDate": "2020-09-21T00:00:00"
+    },
+    "forecastTestType": "Recommended based on age",
+    "generalDescription": "This test case describes when a child is administered the second dose of the Hib vaccine at an interval of 4 weeks - 5 days that the dose is Extraneous.  No further does should be forecast.  The series is complete.",
+    "patient": {
+        "dob": "2020-05-21T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "48",
+                "dateAdministered": "2020-07-21T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "ACTHIB"
+            },
+            {
+                "cvx": "48",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "Interval: too short",
+                "evaluationStatus": "Not Valid",
+                "mvx": "PMC",
+                "vaccineName": "ACTHIB"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "dose 1 to 2, interval 4 weeks -5 days",
+    "vaccineGroup": "HIB"
+}

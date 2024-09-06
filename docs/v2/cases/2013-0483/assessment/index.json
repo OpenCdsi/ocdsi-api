@@ -1,0 +1,21 @@
+{
+    "key": "2013-0483",
+    "assessmentDate": "2011-06-20T00:00:00",
+    "patient": {
+        "dob": "2000-06-18T00:00:00",
+        "gender": "M",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "118",
+                "dateAdministered": "2011-06-20T00:00:00",
+                "evaluationReason": "Inadvertent Vaccine",
+                "evaluationStatus": "Not Valid",
+                "mvx": "SKB",
+                "vaccineName": "CERVARIX"
+            }
+        ]
+    }
+}

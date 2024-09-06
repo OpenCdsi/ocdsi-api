@@ -1,0 +1,66 @@
+{
+    "key": "2018-0005",
+    "name": "Zoster: Dose #2 (Shingrix) administered at 4 weeks - 1 days after dose #1",
+    "cdcTestId": "2018-0005",
+    "changedInVersion": "4.0",
+    "dateAdded": "2018-03-27T20:00:00",
+    "dateUpdated": "2020-05-29T08:33:46.927",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "187",
+                "dateAdministered": "2020-07-16T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "zoster recombinant"
+            },
+            {
+                "cvx": "187",
+                "dateAdministered": "2020-08-12T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "zoster recombinant"
+            }
+        ],
+        "seriesStatus": "Complete"
+    },
+    "evaluationTestType": "Interval: At Absolute Minimum ",
+    "forecast": {
+        "earliestDate": "0001-01-01T00:00:00",
+        "forecastNum": "",
+        "pastDueDate": "0001-01-01T00:00:00",
+        "recommendedDate": "0001-01-01T00:00:00"
+    },
+    "forecastTestType": "Not recommended: series complete",
+    "generalDescription": "This test case describes when an adult patient is administered the second dose of Shingrix vaccine at 4 weeks - 1 day, that the dose is considered to be valid.",
+    "patient": {
+        "dob": "1970-07-16T00:00:00",
+        "gender": "M",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "187",
+                "dateAdministered": "2020-07-16T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "zoster recombinant"
+            },
+            {
+                "cvx": "187",
+                "dateAdministered": "2020-08-12T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "zoster recombinant"
+            }
+        ]
+    },
+    "reasonForChange": "V4.0 Per SME Guidance, the four day grace period can be used. Second dose has been changed to \"valid\".\nV3.5: Previous version was calculating the forecast from the first dose. This has been corrected to be from the previous dose (invalid dose #2).",
+    "testcaseName": "Zoster: Dose #2 (Shingrix) administered at 4 weeks - 1 days after dose #1",
+    "vaccineGroup": "ZOSTER"
+}

@@ -1,0 +1,50 @@
+{
+    "key": "2013-0531",
+    "name": "1 single antigen dose at 12M: 1 Measles",
+    "cdcTestId": "2013-0531",
+    "changedInVersion": "1.4",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2019-08-22T07:26:15.516",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "05",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "ATTENUVAX"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Single Antigen Administration",
+    "forecast": {
+        "earliestDate": "2020-09-13T00:00:00",
+        "forecastNum": "1",
+        "pastDueDate": "2021-01-09T00:00:00",
+        "recommendedDate": "2020-09-13T00:00:00"
+    },
+    "forecastTestType": "Recommended based on minimum interval from previous dose (catch-up)",
+    "generalDescription": "This test case describes when a child is administered single antigen dose of Measles, at the minimum age of 12 months that the a second dose is recommended.",
+    "patient": {
+        "dob": "2019-08-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "05",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "ATTENUVAX"
+            }
+        ]
+    },
+    "reasonForChange": "Renamed to better reflect test case. V1.4: Updated Earliest and Recommended date to adjust dates out 3 days.  Previous recommendation was 4 weeks from single dose administration, but this would result in the dose being forecasted too early for the second Measles at 13 months.",
+    "testcaseName": "1 single antigen dose at 12M: 1 Measles",
+    "vaccineGroup": "MMR"
+}

@@ -1,0 +1,29 @@
+{
+    "key": "2013-0752",
+    "assessmentDate": "2020-08-13T00:00:00",
+    "patient": {
+        "dob": "2014-08-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "120",
+                "dateAdministered": "2015-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "PENTACEL"
+            },
+            {
+                "cvx": "120",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "PENTACEL"
+            }
+        ]
+    }
+}

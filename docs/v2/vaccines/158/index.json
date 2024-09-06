@@ -1,0 +1,12 @@
+{
+    "key": "158",
+    "cvx": "158",
+    "shortDescription": "influenza, injectable, quadrivalent",
+    "association": [
+        {
+            "antigen": "Influenza",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        }
+    ]
+}

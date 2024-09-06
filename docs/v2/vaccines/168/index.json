@@ -1,0 +1,12 @@
+{
+    "key": "168",
+    "cvx": "168",
+    "shortDescription": "influenza, trivalent, adjuvanted",
+    "association": [
+        {
+            "antigen": "Influenza",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        }
+    ]
+}

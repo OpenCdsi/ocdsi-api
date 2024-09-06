@@ -1,0 +1,37 @@
+{
+    "key": "2013-0213",
+    "assessmentDate": "2004-08-04T00:00:00",
+    "patient": {
+        "dob": "2004-02-04T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "08",
+                "dateAdministered": "2004-02-04T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "RECOMBIVAX-PEDS"
+            },
+            {
+                "cvx": "51",
+                "dateAdministered": "2004-03-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "COMVAX"
+            },
+            {
+                "cvx": "51",
+                "dateAdministered": "2004-08-04T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "COMVAX"
+            }
+        ]
+    }
+}

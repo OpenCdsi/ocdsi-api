@@ -1,0 +1,66 @@
+{
+    "key": "2018-0003",
+    "name": "Zoster: Dose #2 (Shingrix) administered at 4 weeks after dose #1",
+    "cdcTestId": "2018-0003",
+    "changedInVersion": "3.4",
+    "dateAdded": "2018-03-27T20:00:00",
+    "dateUpdated": "2018-04-19T13:54:24.956",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "187",
+                "dateAdministered": "2020-07-16T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "zoster recombinant"
+            },
+            {
+                "cvx": "187",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "zoster recombinant"
+            }
+        ],
+        "seriesStatus": "Complete"
+    },
+    "evaluationTestType": "All Valid: Forecast Test",
+    "forecast": {
+        "earliestDate": "0001-01-01T00:00:00",
+        "forecastNum": "-",
+        "pastDueDate": "0001-01-01T00:00:00",
+        "recommendedDate": "0001-01-01T00:00:00"
+    },
+    "forecastTestType": "Not recommended: series complete",
+    "generalDescription": "This test case describes when a patient is administered dose #2 of the RZV vaccine 4 weeks after the first dose that the series is considered complete.",
+    "patient": {
+        "dob": "1970-07-16T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "187",
+                "dateAdministered": "2020-07-16T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "zoster recombinant"
+            },
+            {
+                "cvx": "187",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "zoster recombinant"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "Zoster: Dose #2 (Shingrix) administered at 4 weeks after dose #1",
+    "vaccineGroup": "ZOSTER"
+}

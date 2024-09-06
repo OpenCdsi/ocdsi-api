@@ -1,0 +1,82 @@
+{
+    "key": "2013-0593",
+    "name": "Dose # 3 PCV 13 at 6 mo.",
+    "cdcTestId": "2013-0593",
+    "changedInVersion": "1.0",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2018-01-04T09:55:39.658",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "133",
+                "dateAdministered": "2020-04-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PFR",
+                "vaccineName": "PREVNAR 13"
+            },
+            {
+                "cvx": "133",
+                "dateAdministered": "2020-06-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PFR",
+                "vaccineName": "PREVNAR 13"
+            },
+            {
+                "cvx": "133",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PFR",
+                "vaccineName": "PREVNAR 13"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Age: At Recommended",
+    "forecast": {
+        "earliestDate": "2021-02-13T00:00:00",
+        "forecastNum": "4",
+        "pastDueDate": "2021-07-10T00:00:00",
+        "recommendedDate": "2021-02-13T00:00:00"
+    },
+    "forecastTestType": "Recommended based on age",
+    "generalDescription": "This test case describes when dose #3 of the Pneumococcal 13 vaccine is administered to a child at 6 months, that the dose is considered to be valid.",
+    "patient": {
+        "dob": "2020-02-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "133",
+                "dateAdministered": "2020-04-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PFR",
+                "vaccineName": "PREVNAR 13"
+            },
+            {
+                "cvx": "133",
+                "dateAdministered": "2020-06-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PFR",
+                "vaccineName": "PREVNAR 13"
+            },
+            {
+                "cvx": "133",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PFR",
+                "vaccineName": "PREVNAR 13"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "Dose # 3 PCV 13 at 6 mo.",
+    "vaccineGroup": "PCV"
+}

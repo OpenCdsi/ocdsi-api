@@ -1,0 +1,37 @@
+{
+    "key": "132",
+    "cvx": "132",
+    "shortDescription": "DTaP-IPV-HIB-HEP B, historical",
+    "association": [
+        {
+            "antigen": "Diphtheria",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        },
+        {
+            "antigen": "Tetanus",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        },
+        {
+            "antigen": "Pertussis",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        },
+        {
+            "antigen": "Polio",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        },
+        {
+            "antigen": "Hib",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        },
+        {
+            "antigen": "HepB",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "key": "154",
+    "observationCode": "154",
+    "observationTitle": "HIV/AIDS - severely immunocompromised",
+    "group": "",
+    "indicationText": "Administer to persons who have HIV/AIDS and are severely immunocompromised [See the CDC general recommendations for a definition of \"severely immunocompromised\"].",
+    "contraindicationText": "Do not vaccinate if the patient has HIV/AIDS and is severely immunocompromised [See the CDC general recommendations for a definition of \"severely immunocompromised\"].",
+    "clarifyingText": "See CDC general recommendations for guidance on defining \"severely immunocompromised\"",
+    "codedValues": [
+        {
+            "code": "62479008",
+            "codeSystem": "SNOMED",
+            "text": "Acquired immune deficiency syndrome [disorder]"
+        }
+    ]
+}

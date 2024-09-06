@@ -1,0 +1,66 @@
+{
+    "key": "2013-0022",
+    "name": "Age 7.  Two DTaP˂ 12 months old.  Needs Tdap.",
+    "cdcTestId": "2013-0022",
+    "changedInVersion": "1.0",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-06-22T16:38:11.13",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "107",
+                "dateAdministered": "2013-11-09T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            },
+            {
+                "cvx": "107",
+                "dateAdministered": "2014-02-15T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "All Valid: Forecast Test",
+    "forecast": {
+        "earliestDate": "2020-08-13T00:00:00",
+        "forecastNum": "3",
+        "pastDueDate": "2020-08-13T00:00:00",
+        "recommendedDate": "2020-08-13T00:00:00"
+    },
+    "forecastTestType": "Recommended based on age",
+    "generalDescription": "This test case describes a child who is currently age seven years but was administered two doses of the DTaP vaccine at less than 12 months of age that the doses are valid and that another dose should be forecast (preferably Tdap).",
+    "patient": {
+        "dob": "2013-08-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "107",
+                "dateAdministered": "2013-11-09T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            },
+            {
+                "cvx": "107",
+                "dateAdministered": "2014-02-15T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "Age 7.  Two DTaP˂ 12 months old.  Needs Tdap.",
+    "vaccineGroup": "DTAP"
+}

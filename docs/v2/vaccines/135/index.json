@@ -1,0 +1,12 @@
+{
+    "key": "135",
+    "cvx": "135",
+    "shortDescription": "Influenza, high dose seasonal",
+    "association": [
+        {
+            "antigen": "Influenza",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "key": "2013-0666",
+    "name": "Dose 3 given as Kinrix at age 6 mos.  Off label but valid.",
+    "cdcTestId": "2013-0666",
+    "changedInVersion": "1.0",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-06-11T16:30:40.587",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "10",
+                "dateAdministered": "2020-04-15T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "IPOL"
+            },
+            {
+                "cvx": "10",
+                "dateAdministered": "2020-06-17T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "IPOL"
+            },
+            {
+                "cvx": "130",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "KINRIX"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Vaccine: Off Label",
+    "forecast": {
+        "earliestDate": "2024-02-13T00:00:00",
+        "forecastNum": "4",
+        "pastDueDate": "2027-03-12T00:00:00",
+        "recommendedDate": "2024-02-13T00:00:00"
+    },
+    "forecastTestType": "Recommended based on age",
+    "generalDescription": "This test case describes when a child is administered a third dose of the Polio (Kinrix - allowable) vaccine at age 6 months that the dose is valid.  Another dose should be forecast.",
+    "patient": {
+        "dob": "2020-02-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "10",
+                "dateAdministered": "2020-04-15T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "IPOL"
+            },
+            {
+                "cvx": "10",
+                "dateAdministered": "2020-06-17T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "IPOL"
+            },
+            {
+                "cvx": "130",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "KINRIX"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "Dose 3 given as Kinrix at age 6 mos.  Off label but valid.",
+    "vaccineGroup": "POL"
+}

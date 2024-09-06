@@ -1,0 +1,12 @@
+{
+    "key": "190",
+    "cvx": "190",
+    "shortDescription": "Typhoid conjugate vaccine (TCV)",
+    "association": [
+        {
+            "antigen": "Typhoid",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        }
+    ]
+}

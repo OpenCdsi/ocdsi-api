@@ -1,0 +1,16 @@
+{
+    "key": "167",
+    "observationCode": "167",
+    "observationTitle": "Nephrotic Syndrome",
+    "group": "",
+    "indicationText": "Administer to persons with nephrotic syndrome.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+        {
+            "code": "52254009",
+            "codeSystem": "SNOMED",
+            "text": "Nephrotic syndrome [disorder]"
+        }
+    ]
+}

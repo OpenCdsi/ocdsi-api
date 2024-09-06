@@ -1,0 +1,66 @@
+{
+    "key": "2019-0025",
+    "name": "Adult patient with dose #2 at 4 weeks - 4 days",
+    "cdcTestId": "2019-0025",
+    "changedInVersion": "4.2",
+    "dateAdded": "2019-11-13T19:00:00",
+    "dateUpdated": "2020-06-02T08:42:24.687",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "21",
+                "dateAdministered": "2020-07-20T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "varicella"
+            },
+            {
+                "cvx": "21",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "varicella"
+            }
+        ],
+        "seriesStatus": "Complete"
+    },
+    "evaluationTestType": "Interval: At Absolute Minimum",
+    "forecast": {
+        "earliestDate": "0001-01-01T00:00:00",
+        "forecastNum": "",
+        "pastDueDate": "0001-01-01T00:00:00",
+        "recommendedDate": "0001-01-01T00:00:00"
+    },
+    "forecastTestType": "Not recommended: series complete",
+    "generalDescription": "This test cases describes when an adult patient has been administered the second dose of the Varicella vaccine at 4 weeks - 4 days, that no additional doses should be forecast.  Series is complete.",
+    "patient": {
+        "dob": "1989-07-20T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "21",
+                "dateAdministered": "2020-07-20T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "varicella"
+            },
+            {
+                "cvx": "21",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "varicella"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "Adult patient with dose #2 at 4 weeks - 4 days",
+    "vaccineGroup": "VAR"
+}

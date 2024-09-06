@@ -1,0 +1,27 @@
+{
+    "key": "130",
+    "cvx": "130",
+    "shortDescription": "DTaP-IPV",
+    "association": [
+        {
+            "antigen": "Diphtheria",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        },
+        {
+            "antigen": "Tetanus",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        },
+        {
+            "antigen": "Pertussis",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        },
+        {
+            "antigen": "Polio",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        }
+    ]
+}

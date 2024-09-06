@@ -1,0 +1,66 @@
+{
+    "key": "2013-0771",
+    "name": "Dose 1 to dose 2 Rotarix interval 28 days",
+    "cdcTestId": "2013-0771",
+    "changedInVersion": "1.0",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2017-12-07T11:37:33.879",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "119",
+                "dateAdministered": "2020-07-16T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "ROTARIX"
+            },
+            {
+                "cvx": "119",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "ROTARIX"
+            }
+        ],
+        "seriesStatus": "Complete"
+    },
+    "evaluationTestType": "Interval: At Minimum",
+    "forecast": {
+        "earliestDate": "0001-01-01T00:00:00",
+        "forecastNum": "-",
+        "pastDueDate": "0001-01-01T00:00:00",
+        "recommendedDate": "0001-01-01T00:00:00"
+    },
+    "forecastTestType": "Not recommended: series complete",
+    "generalDescription": "This test case describes when dose #2 of Rotarix is administered at an interval of 28 days that the dose is considered to be valid.",
+    "patient": {
+        "dob": "2020-05-16T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "119",
+                "dateAdministered": "2020-07-16T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "ROTARIX"
+            },
+            {
+                "cvx": "119",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "ROTARIX"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "Dose 1 to dose 2 Rotarix interval 28 days",
+    "vaccineGroup": "ROTA"
+}

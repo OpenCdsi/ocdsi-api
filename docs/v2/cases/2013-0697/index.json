@@ -1,0 +1,98 @@
+{
+    "key": "2013-0697",
+    "name": "invalid age dose 3 in midst of others",
+    "cdcTestId": "2013-0697",
+    "changedInVersion": "1.5",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-06-12T15:49:41.226",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "110",
+                "dateAdministered": "2019-09-26T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            },
+            {
+                "cvx": "110",
+                "dateAdministered": "2019-10-22T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            },
+            {
+                "cvx": "110",
+                "dateAdministered": "2019-11-13T00:00:00",
+                "evaluationReason": "Age: Too Young",
+                "evaluationStatus": "Not Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            },
+            {
+                "cvx": "110",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Age: Below Absolute Minimum",
+    "forecast": {
+        "earliestDate": "2023-08-13T00:00:00",
+        "forecastNum": "4",
+        "pastDueDate": "2026-09-09T00:00:00",
+        "recommendedDate": "2023-08-13T00:00:00"
+    },
+    "forecastTestType": "Recommended based on age",
+    "generalDescription": "This test case describes when a child is administered an invalid third dose of the Polio vaccine but is administered a repeat  dose at an interval greater than or equal to 4 weeks that the repeat dose is valid.  Another dose should be forecast.",
+    "patient": {
+        "dob": "2019-08-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "110",
+                "dateAdministered": "2019-09-26T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            },
+            {
+                "cvx": "110",
+                "dateAdministered": "2019-10-22T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            },
+            {
+                "cvx": "110",
+                "dateAdministered": "2019-11-13T00:00:00",
+                "evaluationReason": "Age: Too Young",
+                "evaluationStatus": "Not Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            },
+            {
+                "cvx": "110",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            }
+        ]
+    },
+    "reasonForChange": "Rolled birth date forward to 2011 to ensure test was relevant to when ACIP recommendations were made.  Previous dates were before the ACIP recommendations were published.",
+    "testcaseName": "invalid age dose 3 in midst of others",
+    "vaccineGroup": "POL"
+}

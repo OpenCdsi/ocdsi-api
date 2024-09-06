@@ -1,0 +1,114 @@
+{
+    "key": "2013-0619",
+    "name": "4 doses of PCV 7 and 1 dose of PCV 13=series complete",
+    "cdcTestId": "2013-0619",
+    "changedInVersion": "1.3",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2018-03-02T08:47:03.985",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "100",
+                "dateAdministered": "2008-08-06T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "WAL",
+                "vaccineName": "PREVNAR 7"
+            },
+            {
+                "cvx": "100",
+                "dateAdministered": "2008-10-06T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "WAL",
+                "vaccineName": "PREVNAR 7"
+            },
+            {
+                "cvx": "100",
+                "dateAdministered": "2008-12-06T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "WAL",
+                "vaccineName": "PREVNAR 7"
+            },
+            {
+                "cvx": "100",
+                "dateAdministered": "2009-12-06T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "WAL",
+                "vaccineName": "PREVNAR 7"
+            },
+            {
+                "cvx": "133",
+                "dateAdministered": "2012-03-05T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PFR",
+                "vaccineName": "PREVNAR 13"
+            }
+        ],
+        "seriesStatus": "Complete"
+    },
+    "evaluationTestType": "All Valid: Forecast Test",
+    "forecast": {
+        "earliestDate": "0001-01-01T00:00:00",
+        "forecastNum": "-",
+        "pastDueDate": "0001-01-01T00:00:00",
+        "recommendedDate": "0001-01-01T00:00:00"
+    },
+    "forecastTestType": "Not recommended: series complete",
+    "generalDescription": "This test case describes when 4 doses of the PCV 7 vaccine and 1 dose of the PCV13 vaccine has been administered that the doses are considered to be valid.  The series is complete.",
+    "patient": {
+        "dob": "2008-06-06T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "100",
+                "dateAdministered": "2008-08-06T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "WAL",
+                "vaccineName": "PREVNAR 7"
+            },
+            {
+                "cvx": "100",
+                "dateAdministered": "2008-10-06T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "WAL",
+                "vaccineName": "PREVNAR 7"
+            },
+            {
+                "cvx": "100",
+                "dateAdministered": "2008-12-06T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "WAL",
+                "vaccineName": "PREVNAR 7"
+            },
+            {
+                "cvx": "100",
+                "dateAdministered": "2009-12-06T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "WAL",
+                "vaccineName": "PREVNAR 7"
+            },
+            {
+                "cvx": "133",
+                "dateAdministered": "2012-03-05T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PFR",
+                "vaccineName": "PREVNAR 13"
+            }
+        ]
+    },
+    "reasonForChange": "The fourth dose of PCV7 was marked as Not Valid.  In fact this was a valid administration.  The PCV13 which followed completed the series. V1.3 updated Evaluation Test Type",
+    "testcaseName": "4 doses of PCV 7 and 1 dose of PCV 13=series complete",
+    "vaccineGroup": "PCV"
+}

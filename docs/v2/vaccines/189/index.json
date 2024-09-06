@@ -1,0 +1,12 @@
+{
+    "key": "189",
+    "cvx": "189",
+    "shortDescription": "Hep B, adjuvanted",
+    "association": [
+        {
+            "antigen": "HepB",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        }
+    ]
+}

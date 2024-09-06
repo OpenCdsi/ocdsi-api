@@ -1,0 +1,50 @@
+{
+    "key": "2013-0425",
+    "name": "#1 @ 9 yrs - 0 days, male, Cervarix",
+    "cdcTestId": "2013-0425",
+    "changedInVersion": "3.2",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2018-02-13T14:04:01.542",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "118",
+                "dateAdministered": "2011-05-01T00:00:00",
+                "evaluationReason": "Inadvertent Vaccine",
+                "evaluationStatus": "Not Valid",
+                "mvx": "SKB",
+                "vaccineName": "CERVARIX"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Inadvertent vaccine",
+    "forecast": {
+        "earliestDate": "2011-05-01T00:00:00",
+        "forecastNum": "1",
+        "pastDueDate": "2015-05-28T00:00:00",
+        "recommendedDate": "2013-05-01T00:00:00"
+    },
+    "forecastTestType": "Recommended based on age",
+    "generalDescription": "This test case describes when the Cervarix vaccine is administered to a male that the dose is not valid and that a subsequent dose of a preferred or allowed vaccine should be administered as soon as possible.",
+    "patient": {
+        "dob": "2002-05-01T00:00:00",
+        "gender": "M",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "118",
+                "dateAdministered": "2011-05-01T00:00:00",
+                "evaluationReason": "Inadvertent Vaccine",
+                "evaluationStatus": "Not Valid",
+                "mvx": "SKB",
+                "vaccineName": "CERVARIX"
+            }
+        ]
+    },
+    "reasonForChange": "Updated reason code on dose #1 to Inadvertent vaccine. Inadvertent Administration.",
+    "testcaseName": "#1 @ 9 yrs - 0 days, male, Cervarix",
+    "vaccineGroup": "HPV"
+}

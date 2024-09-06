@@ -1,0 +1,16 @@
+{
+    "key": "129",
+    "observationCode": "129",
+    "observationTitle": "Varicella IG administration",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had Varicella IG administered in the previous 5 months.",
+    "clarifyingText": "",
+    "codedValues": [
+        {
+            "code": "36",
+            "codeSystem": "CVX",
+            "text": "Varicella zoster immune globulin"
+        }
+    ]
+}

@@ -1,0 +1,98 @@
+{
+    "key": "2017-0003",
+    "name": "DTaP - Dose 3 to dose 4 interval 4 months-4 days",
+    "cdcTestId": "2017-0003",
+    "changedInVersion": "3.3",
+    "dateAdded": "2017-06-12T00:00:00",
+    "dateUpdated": "2020-06-17T16:15:16.68",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "107",
+                "dateAdministered": "2019-09-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            },
+            {
+                "cvx": "107",
+                "dateAdministered": "2019-11-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            },
+            {
+                "cvx": "107",
+                "dateAdministered": "2020-04-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            },
+            {
+                "cvx": "107",
+                "dateAdministered": "2020-08-09T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "All Valid: Forecast Test",
+    "forecast": {
+        "earliestDate": "2023-07-13T00:00:00",
+        "forecastNum": "5",
+        "pastDueDate": "2026-07-12T00:00:00",
+        "recommendedDate": "2023-07-13T00:00:00"
+    },
+    "forecastTestType": "Recommended based on interval",
+    "generalDescription": "This test case describes when  dose #4 of DTaP is administered at least 4 months -4 days from Dose #3 that the dose is considered to be valid.",
+    "patient": {
+        "dob": "2019-07-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "107",
+                "dateAdministered": "2019-09-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            },
+            {
+                "cvx": "107",
+                "dateAdministered": "2019-11-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            },
+            {
+                "cvx": "107",
+                "dateAdministered": "2020-04-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            },
+            {
+                "cvx": "107",
+                "dateAdministered": "2020-08-09T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            }
+        ]
+    },
+    "reasonForChange": "Updated to allow the grace period for dose #4 of DTaP.",
+    "testcaseName": "DTaP - Dose 3 to dose 4 interval 4 months-4 days",
+    "vaccineGroup": "DTAP"
+}

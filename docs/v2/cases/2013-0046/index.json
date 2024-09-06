@@ -1,0 +1,82 @@
+{
+    "key": "2013-0046",
+    "name": "Dose 2 to dose 3 interval 28-4 days",
+    "cdcTestId": "2013-0046",
+    "changedInVersion": "3.3",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-06-29T12:05:28.374",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "107",
+                "dateAdministered": "2020-06-10T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            },
+            {
+                "cvx": "107",
+                "dateAdministered": "2020-07-18T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            },
+            {
+                "cvx": "107",
+                "dateAdministered": "2020-08-11T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Interval: At Absolute Minimum",
+    "forecast": {
+        "earliestDate": "2021-08-01T00:00:00",
+        "forecastNum": "4",
+        "pastDueDate": "2021-12-28T00:00:00",
+        "recommendedDate": "2021-08-01T00:00:00"
+    },
+    "forecastTestType": "Recommended based on age",
+    "generalDescription": "This test case describes when a child is administered dose three of the DTaP vaccine at an interval of 28 - 4 days after the second dose that the dose is valid.  Another dose should be forecast.",
+    "patient": {
+        "dob": "2020-05-01T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "107",
+                "dateAdministered": "2020-06-10T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            },
+            {
+                "cvx": "107",
+                "dateAdministered": "2020-07-18T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            },
+            {
+                "cvx": "107",
+                "dateAdministered": "2020-08-11T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            }
+        ]
+    },
+    "reasonForChange": "Updated per the 2017 General Best Practice Guidelines which moved the Minimum and Recommended Age to 15 months",
+    "testcaseName": "Dose 2 to dose 3 interval 28-4 days",
+    "vaccineGroup": "DTAP"
+}

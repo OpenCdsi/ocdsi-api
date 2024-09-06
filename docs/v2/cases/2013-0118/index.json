@@ -1,0 +1,98 @@
+{
+    "key": "2013-0118",
+    "name": "dose 3 to 4 Pediarix, interval 6m-4 days",
+    "cdcTestId": "2013-0118",
+    "changedInVersion": "1.0",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-06-16T15:59:56.392",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "110",
+                "dateAdministered": "2019-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            },
+            {
+                "cvx": "110",
+                "dateAdministered": "2019-10-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            },
+            {
+                "cvx": "110",
+                "dateAdministered": "2020-02-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            },
+            {
+                "cvx": "110",
+                "dateAdministered": "2020-08-09T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "All Valid: Forecast Test",
+    "forecast": {
+        "earliestDate": "2023-06-13T00:00:00",
+        "forecastNum": "5",
+        "pastDueDate": "2026-06-12T00:00:00",
+        "recommendedDate": "2023-06-13T00:00:00"
+    },
+    "forecastTestType": "Recommended based on age",
+    "generalDescription": "",
+    "patient": {
+        "dob": "2019-06-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "110",
+                "dateAdministered": "2019-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            },
+            {
+                "cvx": "110",
+                "dateAdministered": "2019-10-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            },
+            {
+                "cvx": "110",
+                "dateAdministered": "2020-02-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            },
+            {
+                "cvx": "110",
+                "dateAdministered": "2020-08-09T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "dose 3 to 4 Pediarix, interval 6m-4 days",
+    "vaccineGroup": "DTAP"
+}

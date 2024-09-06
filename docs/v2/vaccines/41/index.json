@@ -1,0 +1,12 @@
+{
+    "key": "41",
+    "cvx": "41",
+    "shortDescription": "typhoid, parenteral",
+    "association": [
+        {
+            "antigen": "Typhoid",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        }
+    ]
+}

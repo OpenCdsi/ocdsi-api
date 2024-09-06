@@ -1,0 +1,66 @@
+{
+    "key": "2018-0004",
+    "name": "Zoster: Dose #2 of Shingrix administered at one year after dose #1",
+    "cdcTestId": "2018-0004",
+    "changedInVersion": "3.4",
+    "dateAdded": "2018-03-27T20:00:00",
+    "dateUpdated": "2020-05-29T08:32:48.877",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "187",
+                "dateAdministered": "2019-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "zoster recombinant"
+            },
+            {
+                "cvx": "187",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "zoster recombinant"
+            }
+        ],
+        "seriesStatus": "Complete"
+    },
+    "evaluationTestType": "All Valid: Forecast Test",
+    "forecast": {
+        "earliestDate": "0001-01-01T00:00:00",
+        "forecastNum": "-",
+        "pastDueDate": "0001-01-01T00:00:00",
+        "recommendedDate": "0001-01-01T00:00:00"
+    },
+    "forecastTestType": "Not recommended: series complete",
+    "generalDescription": "This test case describes when an adult patient is administered the second dose, of the Shingrix vaccine, at one year later that the dose is considered to be valid. Series is complete.",
+    "patient": {
+        "dob": "1968-08-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "187",
+                "dateAdministered": "2019-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "zoster recombinant"
+            },
+            {
+                "cvx": "187",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "zoster recombinant"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "Zoster: Dose #2 of Shingrix administered at one year after dose #1",
+    "vaccineGroup": "ZOSTER"
+}

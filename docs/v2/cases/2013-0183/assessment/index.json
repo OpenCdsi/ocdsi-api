@@ -1,0 +1,29 @@
+{
+    "key": "2013-0183",
+    "assessmentDate": "2020-09-24T00:00:00",
+    "patient": {
+        "dob": "2020-02-01T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "88",
+                "dateAdministered": "2020-09-01T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "influenza, unspecified formulation"
+            },
+            {
+                "cvx": "88",
+                "dateAdministered": "2020-09-24T00:00:00",
+                "evaluationReason": "Interval: too short",
+                "evaluationStatus": "Not Valid",
+                "mvx": "",
+                "vaccineName": "influenza, unspecified formulation"
+            }
+        ]
+    }
+}

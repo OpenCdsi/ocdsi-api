@@ -1,0 +1,114 @@
+{
+    "key": "2013-0030",
+    "name": "#5 at age 4 years-5 days",
+    "cdcTestId": "2013-0030",
+    "changedInVersion": "1.0",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-06-23T14:16:59.313",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "107",
+                "dateAdministered": "2016-10-18T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            },
+            {
+                "cvx": "107",
+                "dateAdministered": "2016-11-18T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            },
+            {
+                "cvx": "107",
+                "dateAdministered": "2017-01-18T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            },
+            {
+                "cvx": "107",
+                "dateAdministered": "2017-08-19T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            },
+            {
+                "cvx": "107",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "Age: Too Young",
+                "evaluationStatus": "Not Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Age: Below Absolute Minimum",
+    "forecast": {
+        "earliestDate": "2021-02-13T00:00:00",
+        "forecastNum": "5",
+        "pastDueDate": "2023-08-17T00:00:00",
+        "recommendedDate": "2021-02-13T00:00:00"
+    },
+    "forecastTestType": "Recommended based on minimum interval from invalid dose",
+    "generalDescription": "This test case describes when a child is administered a fifth dose of the DTaP vaccine at an interval of 4 years - 5 days that the dose is not valid.  A repeat dose should be forecast.",
+    "patient": {
+        "dob": "2016-08-18T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "107",
+                "dateAdministered": "2016-10-18T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            },
+            {
+                "cvx": "107",
+                "dateAdministered": "2016-11-18T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            },
+            {
+                "cvx": "107",
+                "dateAdministered": "2017-01-18T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            },
+            {
+                "cvx": "107",
+                "dateAdministered": "2017-08-19T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            },
+            {
+                "cvx": "107",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "Age: Too Young",
+                "evaluationStatus": "Not Valid",
+                "mvx": "",
+                "vaccineName": "DTaP, unspecified formulation"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "#5 at age 4 years-5 days",
+    "vaccineGroup": "DTAP"
+}

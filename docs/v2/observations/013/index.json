@@ -1,0 +1,16 @@
+{
+    "key": "013",
+    "observationCode": "013",
+    "observationTitle": "Severe Combined Immunodeficiency [SCID]",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has Severe Combined Immunodeficiency [SCID].",
+    "clarifyingText": "",
+    "codedValues": [
+        {
+            "code": "31323000",
+            "codeSystem": "SNOMED",
+            "text": "Severe combined immunodeficiency disease [disorder]"
+        }
+    ]
+}

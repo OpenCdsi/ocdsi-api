@@ -1,0 +1,82 @@
+{
+    "key": "2013-0450",
+    "name": "#3 with interval of 16 weeks from #1 ",
+    "cdcTestId": "2013-0450",
+    "changedInVersion": "1.0",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-06-15T08:47:58.709",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "137",
+                "dateAdministered": "2010-05-01T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV, unspecified formulation"
+            },
+            {
+                "cvx": "137",
+                "dateAdministered": "2010-05-29T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV, unspecified formulation"
+            },
+            {
+                "cvx": "137",
+                "dateAdministered": "2010-08-21T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV, unspecified formulation"
+            }
+        ],
+        "seriesStatus": "Complete"
+    },
+    "evaluationTestType": "Interval: At Minimum",
+    "forecast": {
+        "earliestDate": "0001-01-01T00:00:00",
+        "forecastNum": "-",
+        "pastDueDate": "0001-01-01T00:00:00",
+        "recommendedDate": "0001-01-01T00:00:00"
+    },
+    "forecastTestType": "Not recommended: series complete",
+    "generalDescription": "This test case describes when a child is administered a third dose of the HPV vaccine at 16 weeks after the first dose that the dose is  valid.  The series is complete. (Prior to 12/16/16, 16 weeks - 4 days was allowed to be used as an Absolute Minimum Interval from Target Dose #1).",
+    "patient": {
+        "dob": "2000-05-01T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "137",
+                "dateAdministered": "2010-05-01T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV, unspecified formulation"
+            },
+            {
+                "cvx": "137",
+                "dateAdministered": "2010-05-29T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV, unspecified formulation"
+            },
+            {
+                "cvx": "137",
+                "dateAdministered": "2010-08-21T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV, unspecified formulation"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "#3 with interval of 16 weeks from #1 ",
+    "vaccineGroup": "HPV"
+}

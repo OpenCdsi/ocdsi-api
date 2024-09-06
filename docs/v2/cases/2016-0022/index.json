@@ -1,0 +1,98 @@
+{
+    "key": "2016-0022",
+    "name": "Hep B- Dose #4 administered < 8 weeks after dose #3.",
+    "cdcTestId": "2016-0022",
+    "changedInVersion": "3.3",
+    "dateAdded": "2016-12-02T00:00:00",
+    "dateUpdated": "2020-06-18T08:17:34.04",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "08",
+                "dateAdministered": "2020-03-23T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "RECOMBIVAX-PEDS"
+            },
+            {
+                "cvx": "08",
+                "dateAdministered": "2020-05-25T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "RECOMBIVAX-PEDS"
+            },
+            {
+                "cvx": "08",
+                "dateAdministered": "2020-07-14T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "RECOMBIVAX-PEDS"
+            },
+            {
+                "cvx": "08",
+                "dateAdministered": "2020-08-10T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "RECOMBIVAX-PEDS"
+            }
+        ],
+        "seriesStatus": "Complete"
+    },
+    "evaluationTestType": "All Valid: Forecast Test",
+    "forecast": {
+        "earliestDate": "0001-01-01T00:00:00",
+        "forecastNum": "-",
+        "pastDueDate": "0001-01-01T00:00:00",
+        "recommendedDate": "0001-01-01T00:00:00"
+    },
+    "forecastTestType": "Recommended based on interval",
+    "generalDescription": "This test cases describes when a patient is administered dose #4 at less than 8 weeks after dose #3  and at least 16 weeks after dose #1 that the dose is considered to be valid. The series is complete.",
+    "patient": {
+        "dob": "2019-12-23T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "08",
+                "dateAdministered": "2020-03-23T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "RECOMBIVAX-PEDS"
+            },
+            {
+                "cvx": "08",
+                "dateAdministered": "2020-05-25T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "RECOMBIVAX-PEDS"
+            },
+            {
+                "cvx": "08",
+                "dateAdministered": "2020-07-14T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "RECOMBIVAX-PEDS"
+            },
+            {
+                "cvx": "08",
+                "dateAdministered": "2020-08-10T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "RECOMBIVAX-PEDS"
+            }
+        ]
+    },
+    "reasonForChange": "v3.3: Updated the evaluation type to All Valid: Forecast Test",
+    "testcaseName": "Hep B- Dose #4 administered < 8 weeks after dose #3.",
+    "vaccineGroup": "HepB"
+}

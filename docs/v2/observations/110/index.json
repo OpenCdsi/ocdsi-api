@@ -1,0 +1,21 @@
+{
+    "key": "110",
+    "observationCode": "110",
+    "observationTitle": "Hypersensitivity to yeast",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has a hypersensitivity to yeast.",
+    "clarifyingText": "",
+    "codedValues": [
+        {
+            "code": "703936006",
+            "codeSystem": "SNOMED",
+            "text": "Allergy to yeast [disorder]"
+        },
+        {
+            "code": "VXC18",
+            "codeSystem": "CDCPHINVS",
+            "text": "Allergy to baker's yeast [anaphylactic]"
+        }
+    ]
+}

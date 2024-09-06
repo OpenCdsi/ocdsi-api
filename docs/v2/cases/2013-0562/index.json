@@ -1,0 +1,66 @@
+{
+    "key": "2013-0562",
+    "name": "Interval of < 24 days between an invalid MMR and a subsequent MMRV=no valid MMR's",
+    "cdcTestId": "2013-0562",
+    "changedInVersion": "1.0",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2018-01-04T11:06:59.62",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "03",
+                "dateAdministered": "2020-07-21T00:00:00",
+                "evaluationReason": "Age: Too Young",
+                "evaluationStatus": "Not Valid",
+                "mvx": "MSD",
+                "vaccineName": "M-M-R II"
+            },
+            {
+                "cvx": "94",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "Live Virus Conflict",
+                "evaluationStatus": "Not Valid",
+                "mvx": "MSD",
+                "vaccineName": "PROQUAD"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Live Virus: Below Minimum",
+    "forecast": {
+        "earliestDate": "2020-09-10T00:00:00",
+        "forecastNum": "1",
+        "pastDueDate": "2020-12-23T00:00:00",
+        "recommendedDate": "2020-09-10T00:00:00"
+    },
+    "forecastTestType": "Recommended based on minimum interval from live virus vaccine",
+    "generalDescription": "This test case describes when the first dose of the MMR vaccine is administered before 12 months - 4 days and a MMRV vaccine (ProQuad)  is administered less than 28 days later, that neither are the doses are valid.",
+    "patient": {
+        "dob": "2019-07-26T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "03",
+                "dateAdministered": "2020-07-21T00:00:00",
+                "evaluationReason": "Age: Too Young",
+                "evaluationStatus": "Not Valid",
+                "mvx": "MSD",
+                "vaccineName": "M-M-R II"
+            },
+            {
+                "cvx": "94",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "Live Virus Conflict",
+                "evaluationStatus": "Not Valid",
+                "mvx": "MSD",
+                "vaccineName": "PROQUAD"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "Interval of < 24 days between an invalid MMR and a subsequent MMRV=no valid MMR's",
+    "vaccineGroup": "MMR"
+}

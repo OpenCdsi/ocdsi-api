@@ -1,0 +1,66 @@
+{
+    "key": "2013-0488",
+    "name": "#2 @ 16 yr - 4 days, MCV4",
+    "cdcTestId": "2013-0488",
+    "changedInVersion": "1.6",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-06-01T09:53:37.143",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "114",
+                "dateAdministered": "2015-08-17T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "MENACTRA"
+            },
+            {
+                "cvx": "114",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "MENACTRA"
+            }
+        ],
+        "seriesStatus": "Complete"
+    },
+    "evaluationTestType": "Age: At Absolute Minimum",
+    "forecast": {
+        "earliestDate": "0001-01-01T00:00:00",
+        "forecastNum": "-",
+        "pastDueDate": "0001-01-01T00:00:00",
+        "recommendedDate": "0001-01-01T00:00:00"
+    },
+    "forecastTestType": "Not recommended: series complete",
+    "generalDescription": "This test case describes when dose #2 of a Mening vaccine is given at 16 years - 4 days, that the dose is considered valid.  The series is complete. ",
+    "patient": {
+        "dob": "2004-08-17T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "114",
+                "dateAdministered": "2015-08-17T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "MENACTRA"
+            },
+            {
+                "cvx": "114",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "MENACTRA"
+            }
+        ]
+    },
+    "reasonForChange": "v1.6: Updated Test case to reflect new absolute minimum age on dose 2 based on EIPB clarification",
+    "testcaseName": "#2 @ 16 yr - 4 days, MCV4",
+    "vaccineGroup": "MCV"
+}

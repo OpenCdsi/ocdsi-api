@@ -1,0 +1,114 @@
+{
+    "key": "2013-0691",
+    "name": "# 5 Pediarix at 4 yrs -5 days.",
+    "cdcTestId": "2013-0691",
+    "changedInVersion": "3.3",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-06-12T09:35:58.491",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "110",
+                "dateAdministered": "2016-10-18T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            },
+            {
+                "cvx": "110",
+                "dateAdministered": "2016-11-18T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            },
+            {
+                "cvx": "110",
+                "dateAdministered": "2017-03-19T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            },
+            {
+                "cvx": "110",
+                "dateAdministered": "2017-11-27T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            },
+            {
+                "cvx": "110",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "Age: Too Young",
+                "evaluationStatus": "Not Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Age: Below Absolute Minimum",
+    "forecast": {
+        "earliestDate": "2021-02-13T00:00:00",
+        "forecastNum": "5",
+        "pastDueDate": "2023-09-14T00:00:00",
+        "recommendedDate": "2021-02-13T00:00:00"
+    },
+    "forecastTestType": "Recommended based on age",
+    "generalDescription": "This test case describes when a child is administered a fifth dose of the Polio vaccine at age 4 years - 5 days that the dose is not valid.  A repeat dose should be forecast.",
+    "patient": {
+        "dob": "2016-08-18T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "110",
+                "dateAdministered": "2016-10-18T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            },
+            {
+                "cvx": "110",
+                "dateAdministered": "2016-11-18T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            },
+            {
+                "cvx": "110",
+                "dateAdministered": "2017-03-19T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            },
+            {
+                "cvx": "110",
+                "dateAdministered": "2017-11-27T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            },
+            {
+                "cvx": "110",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "Age: Too Young",
+                "evaluationStatus": "Not Valid",
+                "mvx": "SKB",
+                "vaccineName": "PEDIARIX"
+            }
+        ]
+    },
+    "reasonForChange": "Updated the Forecast dose number to 5.",
+    "testcaseName": "# 5 Pediarix at 4 yrs -5 days.",
+    "vaccineGroup": "POL"
+}

@@ -1,0 +1,50 @@
+{
+    "key": "2016-0017",
+    "name": "Adolescent child age 15 with one dose of the HPV vaccine",
+    "cdcTestId": "2016-0017",
+    "changedInVersion": "3.4",
+    "dateAdded": "2016-12-02T00:00:00",
+    "dateUpdated": "2020-06-15T09:09:35.826",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "165",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "Gardasil 9"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "All Valid: Forecast Test",
+    "forecast": {
+        "earliestDate": "2020-09-10T00:00:00",
+        "forecastNum": "2",
+        "pastDueDate": "2020-12-02T00:00:00",
+        "recommendedDate": "2020-09-10T00:00:00"
+    },
+    "forecastTestType": "Recommended based on interval",
+    "generalDescription": "This test case describes when an adolescent child age 15 years has been administered the first dose of the HPV vaccine that another dose should be forecast.",
+    "patient": {
+        "dob": "2005-03-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "165",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "Gardasil 9"
+            }
+        ]
+    },
+    "reasonForChange": "v3.4: Earliest Recommended Date was changed from 8 weeks to 4 weeks on Dose 2 per HPV MMWR language.",
+    "testcaseName": "Adolescent child age 15 with one dose of the HPV vaccine",
+    "vaccineGroup": "HPV"
+}

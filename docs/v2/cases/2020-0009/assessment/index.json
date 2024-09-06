@@ -1,0 +1,37 @@
+{
+    "key": "2020-0009",
+    "assessmentDate": "2020-08-13T00:00:00",
+    "patient": {
+        "dob": "1989-01-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "115",
+                "dateAdministered": "2020-01-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "Tdap"
+            },
+            {
+                "cvx": "139",
+                "dateAdministered": "2020-02-10T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "Td(adult) unspecified formulation"
+            },
+            {
+                "cvx": "139",
+                "dateAdministered": "2020-08-06T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "Td(adult) unspecified formulation"
+            }
+        ]
+    }
+}

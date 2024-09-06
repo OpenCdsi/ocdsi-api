@@ -1,0 +1,16 @@
+{
+    "key": "019",
+    "observationCode": "019",
+    "observationTitle": "Laboratory Evidence of Immunity or confirmation of Hepatitis B disease",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+        {
+            "code": "271511000",
+            "codeSystem": "SNOMED",
+            "text": "Hepatitis B Immune [Finding]"
+        }
+    ]
+}

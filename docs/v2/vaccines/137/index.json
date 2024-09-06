@@ -1,0 +1,12 @@
+{
+    "key": "137",
+    "cvx": "137",
+    "shortDescription": "HPV, unspecified formulation",
+    "association": [
+        {
+            "antigen": "HPV",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        }
+    ]
+}

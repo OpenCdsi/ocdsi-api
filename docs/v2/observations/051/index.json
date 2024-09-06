@@ -1,0 +1,36 @@
+{
+    "key": "051",
+    "observationCode": "051",
+    "observationTitle": "Microbiology laboratorians who work frequently with S. typhi",
+    "group": "",
+    "indicationText": "Administer to persons who are microbiology laboratorians who work frequently with S. typhi.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+        {
+            "code": "159138004",
+            "codeSystem": "SNOMED",
+            "text": "Microbiologist [occupation]"
+        },
+        {
+            "code": "14698002",
+            "codeSystem": "SNOMED",
+            "text": "Medical microbiologist [occupation]"
+        },
+        {
+            "code": "159282002",
+            "codeSystem": "SNOMED",
+            "text": "Laboratory technician [occupation]"
+        },
+        {
+            "code": "24932003",
+            "codeSystem": "SNOMED",
+            "text": "Exposure to [contextual qualifier] [qualifier value]"
+        },
+        {
+            "code": "5595000",
+            "codeSystem": "SNOMED",
+            "text": "Salmonella Typhi [organism]"
+        }
+    ]
+}

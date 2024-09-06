@@ -1,0 +1,987 @@
+{
+    "key": "rabies",
+    "name": "Rabies",
+    "immunity": {
+        "clinicalHistory": null,
+        "dateOfBirth": null
+    },
+    "contraindications": {
+        "vaccineGroup": [
+            {
+                "observationCode": "080",
+                "observationTitle": "Adverse reaction to vaccine component",
+                "contraindicationText": "Do not vaccinate if the patient has had an adverse reaction to a vaccine component.",
+                "contraindicationGuidance": "",
+                "beginAge": "",
+                "endAge": ""
+            },
+            {
+                "observationCode": "113",
+                "observationTitle": "Severe allergic reaction after previous dose of Rabies",
+                "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Rabies vaccine.",
+                "contraindicationGuidance": "",
+                "beginAge": "",
+                "endAge": ""
+            }
+        ],
+        "vaccine": null
+    },
+    "series": [
+        {
+            "key": "rabies-risk-3-dose-continuous-series",
+            "seriesName": "Rabies risk 3-dose continuous series",
+            "targetDisease": "Rabies",
+            "vaccineGroup": "Rabies",
+            "seriesAdminGuidance": [
+                "The 6 month booster should only be given after a serum sample has been tested for rabies virus neutralizing antibody. The booster should be administered if the serum titer fails to maintain a value of at least complete neutralization of a 1:5 serum dilution by rapid fluorescent focus inhibition test."
+            ],
+            "seriesType": "Risk",
+            "equivalentSeriesGroups": "",
+            "requiredGender": [
+                ""
+            ],
+            "selectSeries": {
+                "defaultSeries": "No",
+                "productPath": "No",
+                "seriesGroupName": "Increased Risk",
+                "seriesGroup": "1",
+                "seriesPriority": "A",
+                "seriesPreference": "1",
+                "minAgeToStart": "0 days",
+                "maxAgeToStart": ""
+            },
+            "indication": [
+                {
+                    "observationCode": {
+                        "text": "Rabies researchers",
+                        "code": "053"
+                    },
+                    "description": "Administer to Rabies researchers.",
+                    "beginAge": "0 days",
+                    "endAge": "",
+                    "guidance": ""
+                }
+            ],
+            "seriesDose": [
+                {
+                    "doseNumber": "Dose 1",
+                    "age": [
+                        {
+                            "absMinAge": "0 days",
+                            "minAge": "0 days",
+                            "earliestRecAge": "0 days",
+                            "latestRecAge": "",
+                            "maxAge": "",
+                            "effectiveDate": "",
+                            "cessationDate": ""
+                        }
+                    ],
+                    "interval": [
+                        {
+                            "fromPrevious": null,
+                            "fromTargetDose": null,
+                            "fromMostRecent": null,
+                            "fromRelevantObs": null,
+                            "absMinInt": null,
+                            "minInt": null,
+                            "earliestRecInt": null,
+                            "latestRecInt": null,
+                            "intervalPriority": null,
+                            "effectiveDate": null,
+                            "cessationDate": null
+                        }
+                    ],
+                    "allowableInterval": [
+                        {
+                            "fromPrevious": null,
+                            "fromTargetDose": null,
+                            "absMinInt": null,
+                            "effectiveDate": null,
+                            "cessationDate": null
+                        }
+                    ],
+                    "preferableVaccine": [
+                        {
+                            "vaccineType": "Rabies - IM Diploid cell culture",
+                            "cvx": "175",
+                            "beginAge": "0 days",
+                            "endAge": "",
+                            "tradeName": "",
+                            "mvx": "",
+                            "volume": "1",
+                            "forecastVaccineType": "N"
+                        },
+                        {
+                            "vaccineType": "Rabies - IM fibroblast culture",
+                            "cvx": "176",
+                            "beginAge": "0 days",
+                            "endAge": "",
+                            "tradeName": "",
+                            "mvx": "",
+                            "volume": "1",
+                            "forecastVaccineType": "N"
+                        }
+                    ],
+                    "allowableVaccine": [
+                        {
+                            "vaccineType": "Rabies, intramuscular injection",
+                            "cvx": "18",
+                            "beginAge": "0 days",
+                            "endAge": ""
+                        },
+                        {
+                            "vaccineType": "Rabies, unspecified formulation",
+                            "cvx": "90",
+                            "beginAge": "0 days",
+                            "endAge": ""
+                        },
+                        {
+                            "vaccineType": "Rabies - IM Diploid cell culture",
+                            "cvx": "175",
+                            "beginAge": "0 days",
+                            "endAge": ""
+                        },
+                        {
+                            "vaccineType": "Rabies - IM fibroblast culture",
+                            "cvx": "176",
+                            "beginAge": "0 days",
+                            "endAge": ""
+                        }
+                    ],
+                    "inadvertentVaccine": [
+                        {
+                            "vaccineType": null,
+                            "cvx": null
+                        }
+                    ],
+                    "conditionalSkip": [
+                        {
+                            "context": null,
+                            "setLogic": null,
+                            "set": null
+                        }
+                    ],
+                    "recurringDose": "No",
+                    "seasonalRecommendation": {
+                        "startDate": null,
+                        "endDate": null
+                    }
+                },
+                {
+                    "doseNumber": "Dose 2",
+                    "age": [
+                        {
+                            "absMinAge": "",
+                            "minAge": "",
+                            "earliestRecAge": "",
+                            "latestRecAge": "",
+                            "maxAge": "",
+                            "effectiveDate": "",
+                            "cessationDate": ""
+                        }
+                    ],
+                    "interval": [
+                        {
+                            "fromPrevious": "Y",
+                            "fromTargetDose": "",
+                            "fromMostRecent": "",
+                            "fromRelevantObs": {
+                                "text": null,
+                                "code": null
+                            },
+                            "absMinInt": "7 days",
+                            "minInt": "7 days",
+                            "earliestRecInt": "7 days",
+                            "latestRecInt": "",
+                            "intervalPriority": "",
+                            "effectiveDate": "",
+                            "cessationDate": ""
+                        }
+                    ],
+                    "allowableInterval": [
+                        {
+                            "fromPrevious": null,
+                            "fromTargetDose": null,
+                            "absMinInt": null,
+                            "effectiveDate": null,
+                            "cessationDate": null
+                        }
+                    ],
+                    "preferableVaccine": [
+                        {
+                            "vaccineType": "Rabies - IM Diploid cell culture",
+                            "cvx": "175",
+                            "beginAge": "0 days",
+                            "endAge": "",
+                            "tradeName": "",
+                            "mvx": "",
+                            "volume": "1",
+                            "forecastVaccineType": "N"
+                        },
+                        {
+                            "vaccineType": "Rabies - IM fibroblast culture",
+                            "cvx": "176",
+                            "beginAge": "0 days",
+                            "endAge": "",
+                            "tradeName": "",
+                            "mvx": "",
+                            "volume": "1",
+                            "forecastVaccineType": "N"
+                        }
+                    ],
+                    "allowableVaccine": [
+                        {
+                            "vaccineType": "Rabies, intramuscular injection",
+                            "cvx": "18",
+                            "beginAge": "0 days",
+                            "endAge": ""
+                        },
+                        {
+                            "vaccineType": "Rabies, unspecified formulation",
+                            "cvx": "90",
+                            "beginAge": "0 days",
+                            "endAge": ""
+                        },
+                        {
+                            "vaccineType": "Rabies - IM Diploid cell culture",
+                            "cvx": "175",
+                            "beginAge": "0 days",
+                            "endAge": ""
+                        },
+                        {
+                            "vaccineType": "Rabies - IM fibroblast culture",
+                            "cvx": "176",
+                            "beginAge": "0 days",
+                            "endAge": ""
+                        }
+                    ],
+                    "inadvertentVaccine": [
+                        {
+                            "vaccineType": null,
+                            "cvx": null
+                        }
+                    ],
+                    "conditionalSkip": [
+                        {
+                            "context": null,
+                            "setLogic": null,
+                            "set": null
+                        }
+                    ],
+                    "recurringDose": "No",
+                    "seasonalRecommendation": {
+                        "startDate": null,
+                        "endDate": null
+                    }
+                },
+                {
+                    "doseNumber": "Dose 3",
+                    "age": [
+                        {
+                            "absMinAge": "",
+                            "minAge": "",
+                            "earliestRecAge": "",
+                            "latestRecAge": "",
+                            "maxAge": "",
+                            "effectiveDate": "",
+                            "cessationDate": ""
+                        }
+                    ],
+                    "interval": [
+                        {
+                            "fromPrevious": "Y",
+                            "fromTargetDose": "",
+                            "fromMostRecent": "",
+                            "fromRelevantObs": {
+                                "text": null,
+                                "code": null
+                            },
+                            "absMinInt": "14 days",
+                            "minInt": "14 days",
+                            "earliestRecInt": "14 days",
+                            "latestRecInt": "21 days",
+                            "intervalPriority": "",
+                            "effectiveDate": "",
+                            "cessationDate": ""
+                        }
+                    ],
+                    "allowableInterval": [
+                        {
+                            "fromPrevious": null,
+                            "fromTargetDose": null,
+                            "absMinInt": null,
+                            "effectiveDate": null,
+                            "cessationDate": null
+                        }
+                    ],
+                    "preferableVaccine": [
+                        {
+                            "vaccineType": "Rabies - IM Diploid cell culture",
+                            "cvx": "175",
+                            "beginAge": "0 days",
+                            "endAge": "",
+                            "tradeName": "",
+                            "mvx": "",
+                            "volume": "1",
+                            "forecastVaccineType": "N"
+                        },
+                        {
+                            "vaccineType": "Rabies - IM fibroblast culture",
+                            "cvx": "176",
+                            "beginAge": "0 days",
+                            "endAge": "",
+                            "tradeName": "",
+                            "mvx": "",
+                            "volume": "1",
+                            "forecastVaccineType": "N"
+                        }
+                    ],
+                    "allowableVaccine": [
+                        {
+                            "vaccineType": "Rabies, intramuscular injection",
+                            "cvx": "18",
+                            "beginAge": "0 days",
+                            "endAge": ""
+                        },
+                        {
+                            "vaccineType": "Rabies, unspecified formulation",
+                            "cvx": "90",
+                            "beginAge": "0 days",
+                            "endAge": ""
+                        },
+                        {
+                            "vaccineType": "Rabies - IM Diploid cell culture",
+                            "cvx": "175",
+                            "beginAge": "0 days",
+                            "endAge": ""
+                        },
+                        {
+                            "vaccineType": "Rabies - IM fibroblast culture",
+                            "cvx": "176",
+                            "beginAge": "0 days",
+                            "endAge": ""
+                        }
+                    ],
+                    "inadvertentVaccine": [
+                        {
+                            "vaccineType": null,
+                            "cvx": null
+                        }
+                    ],
+                    "conditionalSkip": [
+                        {
+                            "context": null,
+                            "setLogic": null,
+                            "set": null
+                        }
+                    ],
+                    "recurringDose": "No",
+                    "seasonalRecommendation": {
+                        "startDate": null,
+                        "endDate": null
+                    }
+                },
+                {
+                    "doseNumber": "Dose 4",
+                    "age": [
+                        {
+                            "absMinAge": "",
+                            "minAge": "",
+                            "earliestRecAge": "",
+                            "latestRecAge": "",
+                            "maxAge": "",
+                            "effectiveDate": "",
+                            "cessationDate": ""
+                        }
+                    ],
+                    "interval": [
+                        {
+                            "fromPrevious": "Y",
+                            "fromTargetDose": "",
+                            "fromMostRecent": "",
+                            "fromRelevantObs": {
+                                "text": null,
+                                "code": null
+                            },
+                            "absMinInt": "6 months",
+                            "minInt": "6 months",
+                            "earliestRecInt": "6 months",
+                            "latestRecInt": "",
+                            "intervalPriority": "",
+                            "effectiveDate": "",
+                            "cessationDate": ""
+                        }
+                    ],
+                    "allowableInterval": [
+                        {
+                            "fromPrevious": null,
+                            "fromTargetDose": null,
+                            "absMinInt": null,
+                            "effectiveDate": null,
+                            "cessationDate": null
+                        }
+                    ],
+                    "preferableVaccine": [
+                        {
+                            "vaccineType": "Rabies - IM Diploid cell culture",
+                            "cvx": "175",
+                            "beginAge": "0 days",
+                            "endAge": "",
+                            "tradeName": "",
+                            "mvx": "",
+                            "volume": "1",
+                            "forecastVaccineType": "N"
+                        },
+                        {
+                            "vaccineType": "Rabies - IM fibroblast culture",
+                            "cvx": "176",
+                            "beginAge": "0 days",
+                            "endAge": "",
+                            "tradeName": "",
+                            "mvx": "",
+                            "volume": "1",
+                            "forecastVaccineType": "N"
+                        }
+                    ],
+                    "allowableVaccine": [
+                        {
+                            "vaccineType": "Rabies, intramuscular injection",
+                            "cvx": "18",
+                            "beginAge": "0 days",
+                            "endAge": ""
+                        },
+                        {
+                            "vaccineType": "Rabies, unspecified formulation",
+                            "cvx": "90",
+                            "beginAge": "0 days",
+                            "endAge": ""
+                        },
+                        {
+                            "vaccineType": "Rabies - IM Diploid cell culture",
+                            "cvx": "175",
+                            "beginAge": "0 days",
+                            "endAge": ""
+                        },
+                        {
+                            "vaccineType": "Rabies - IM fibroblast culture",
+                            "cvx": "176",
+                            "beginAge": "0 days",
+                            "endAge": ""
+                        }
+                    ],
+                    "inadvertentVaccine": [
+                        {
+                            "vaccineType": null,
+                            "cvx": null
+                        }
+                    ],
+                    "conditionalSkip": [
+                        {
+                            "context": null,
+                            "setLogic": null,
+                            "set": null
+                        }
+                    ],
+                    "recurringDose": "Yes",
+                    "seasonalRecommendation": {
+                        "startDate": null,
+                        "endDate": null
+                    }
+                }
+            ]
+        },
+        {
+            "key": "rabies-risk-3-dose-frequent-series",
+            "seriesName": "Rabies risk 3-dose frequent series",
+            "targetDisease": "Rabies",
+            "vaccineGroup": "Rabies",
+            "seriesAdminGuidance": [
+                "The 2 year booster should only be given after a serum sample has been tested for rabies virus neutralizing antibody. The booster should be administered if the serum titer fails to maintain a value of at least complete neutralization of a 1:5 serum dilution by rapid fluorescent focus inhibition test."
+            ],
+            "seriesType": "Risk",
+            "equivalentSeriesGroups": "",
+            "requiredGender": [
+                ""
+            ],
+            "selectSeries": {
+                "defaultSeries": "No",
+                "productPath": "No",
+                "seriesGroupName": "Increased Risk",
+                "seriesGroup": "1",
+                "seriesPriority": "B",
+                "seriesPreference": "1",
+                "minAgeToStart": "0 days",
+                "maxAgeToStart": ""
+            },
+            "indication": [
+                {
+                    "observationCode": {
+                        "text": "Veterinarians and their staff",
+                        "code": "060"
+                    },
+                    "description": "Administer to veterinarians and their staff.",
+                    "beginAge": "0 days",
+                    "endAge": "",
+                    "guidance": ""
+                },
+                {
+                    "observationCode": {
+                        "text": "Animal handlers",
+                        "code": "061"
+                    },
+                    "description": "Administer to animal handlers.",
+                    "beginAge": "0 days",
+                    "endAge": "",
+                    "guidance": ""
+                },
+                {
+                    "observationCode": {
+                        "text": "Persons whose activities bring them into frequent contact with rabies virus or potentially rabid animals",
+                        "code": "062"
+                    },
+                    "description": "Administer to persons whose activities bring them into frequent contact with rabies virus or potentially rabid animals.",
+                    "beginAge": "0 days",
+                    "endAge": "",
+                    "guidance": ""
+                },
+                {
+                    "observationCode": {
+                        "text": "International travel with possible contact with animals in areas where rabies is enzootic and immediate access to appropriate medical care might be limited",
+                        "code": "144"
+                    },
+                    "description": "Administer to persons with plans for international travel with possible contact with animals in areas where rabies is enzootic and immediate access to appropriate medical care might be limited.",
+                    "beginAge": "0 days",
+                    "endAge": "",
+                    "guidance": ""
+                }
+            ],
+            "seriesDose": [
+                {
+                    "doseNumber": "Dose 1",
+                    "age": [
+                        {
+                            "absMinAge": "0 days",
+                            "minAge": "0 days",
+                            "earliestRecAge": "0 days",
+                            "latestRecAge": "",
+                            "maxAge": "",
+                            "effectiveDate": "",
+                            "cessationDate": ""
+                        }
+                    ],
+                    "interval": [
+                        {
+                            "fromPrevious": null,
+                            "fromTargetDose": null,
+                            "fromMostRecent": null,
+                            "fromRelevantObs": null,
+                            "absMinInt": null,
+                            "minInt": null,
+                            "earliestRecInt": null,
+                            "latestRecInt": null,
+                            "intervalPriority": null,
+                            "effectiveDate": null,
+                            "cessationDate": null
+                        }
+                    ],
+                    "allowableInterval": [
+                        {
+                            "fromPrevious": null,
+                            "fromTargetDose": null,
+                            "absMinInt": null,
+                            "effectiveDate": null,
+                            "cessationDate": null
+                        }
+                    ],
+                    "preferableVaccine": [
+                        {
+                            "vaccineType": "Rabies - IM Diploid cell culture",
+                            "cvx": "175",
+                            "beginAge": "0 days",
+                            "endAge": "",
+                            "tradeName": "",
+                            "mvx": "",
+                            "volume": "1",
+                            "forecastVaccineType": "N"
+                        },
+                        {
+                            "vaccineType": "Rabies - IM fibroblast culture",
+                            "cvx": "176",
+                            "beginAge": "0 days",
+                            "endAge": "",
+                            "tradeName": "",
+                            "mvx": "",
+                            "volume": "1",
+                            "forecastVaccineType": "N"
+                        }
+                    ],
+                    "allowableVaccine": [
+                        {
+                            "vaccineType": "Rabies, intramuscular injection",
+                            "cvx": "18",
+                            "beginAge": "0 days",
+                            "endAge": ""
+                        },
+                        {
+                            "vaccineType": "Rabies, unspecified formulation",
+                            "cvx": "90",
+                            "beginAge": "0 days",
+                            "endAge": ""
+                        },
+                        {
+                            "vaccineType": "Rabies - IM Diploid cell culture",
+                            "cvx": "175",
+                            "beginAge": "0 days",
+                            "endAge": ""
+                        },
+                        {
+                            "vaccineType": "Rabies - IM fibroblast culture",
+                            "cvx": "176",
+                            "beginAge": "0 days",
+                            "endAge": ""
+                        }
+                    ],
+                    "inadvertentVaccine": [
+                        {
+                            "vaccineType": null,
+                            "cvx": null
+                        }
+                    ],
+                    "conditionalSkip": [
+                        {
+                            "context": null,
+                            "setLogic": null,
+                            "set": null
+                        }
+                    ],
+                    "recurringDose": "No",
+                    "seasonalRecommendation": {
+                        "startDate": null,
+                        "endDate": null
+                    }
+                },
+                {
+                    "doseNumber": "Dose 2",
+                    "age": [
+                        {
+                            "absMinAge": "",
+                            "minAge": "",
+                            "earliestRecAge": "",
+                            "latestRecAge": "",
+                            "maxAge": "",
+                            "effectiveDate": "",
+                            "cessationDate": ""
+                        }
+                    ],
+                    "interval": [
+                        {
+                            "fromPrevious": "Y",
+                            "fromTargetDose": "",
+                            "fromMostRecent": "",
+                            "fromRelevantObs": {
+                                "text": null,
+                                "code": null
+                            },
+                            "absMinInt": "7 days",
+                            "minInt": "7 days",
+                            "earliestRecInt": "7 days",
+                            "latestRecInt": "",
+                            "intervalPriority": "",
+                            "effectiveDate": "",
+                            "cessationDate": ""
+                        }
+                    ],
+                    "allowableInterval": [
+                        {
+                            "fromPrevious": null,
+                            "fromTargetDose": null,
+                            "absMinInt": null,
+                            "effectiveDate": null,
+                            "cessationDate": null
+                        }
+                    ],
+                    "preferableVaccine": [
+                        {
+                            "vaccineType": "Rabies - IM Diploid cell culture",
+                            "cvx": "175",
+                            "beginAge": "0 days",
+                            "endAge": "",
+                            "tradeName": "",
+                            "mvx": "",
+                            "volume": "1",
+                            "forecastVaccineType": "N"
+                        },
+                        {
+                            "vaccineType": "Rabies - IM fibroblast culture",
+                            "cvx": "176",
+                            "beginAge": "0 days",
+                            "endAge": "",
+                            "tradeName": "",
+                            "mvx": "",
+                            "volume": "1",
+                            "forecastVaccineType": "N"
+                        }
+                    ],
+                    "allowableVaccine": [
+                        {
+                            "vaccineType": "Rabies, intramuscular injection",
+                            "cvx": "18",
+                            "beginAge": "0 days",
+                            "endAge": ""
+                        },
+                        {
+                            "vaccineType": "Rabies, unspecified formulation",
+                            "cvx": "90",
+                            "beginAge": "0 days",
+                            "endAge": ""
+                        },
+                        {
+                            "vaccineType": "Rabies - IM Diploid cell culture",
+                            "cvx": "175",
+                            "beginAge": "0 days",
+                            "endAge": ""
+                        },
+                        {
+                            "vaccineType": "Rabies - IM fibroblast culture",
+                            "cvx": "176",
+                            "beginAge": "0 days",
+                            "endAge": ""
+                        }
+                    ],
+                    "inadvertentVaccine": [
+                        {
+                            "vaccineType": null,
+                            "cvx": null
+                        }
+                    ],
+                    "conditionalSkip": [
+                        {
+                            "context": null,
+                            "setLogic": null,
+                            "set": null
+                        }
+                    ],
+                    "recurringDose": "No",
+                    "seasonalRecommendation": {
+                        "startDate": null,
+                        "endDate": null
+                    }
+                },
+                {
+                    "doseNumber": "Dose 3",
+                    "age": [
+                        {
+                            "absMinAge": "",
+                            "minAge": "",
+                            "earliestRecAge": "",
+                            "latestRecAge": "",
+                            "maxAge": "",
+                            "effectiveDate": "",
+                            "cessationDate": ""
+                        }
+                    ],
+                    "interval": [
+                        {
+                            "fromPrevious": "Y",
+                            "fromTargetDose": "",
+                            "fromMostRecent": "",
+                            "fromRelevantObs": {
+                                "text": null,
+                                "code": null
+                            },
+                            "absMinInt": "14 days",
+                            "minInt": "14 days",
+                            "earliestRecInt": "14 days",
+                            "latestRecInt": "21 days",
+                            "intervalPriority": "",
+                            "effectiveDate": "",
+                            "cessationDate": ""
+                        }
+                    ],
+                    "allowableInterval": [
+                        {
+                            "fromPrevious": null,
+                            "fromTargetDose": null,
+                            "absMinInt": null,
+                            "effectiveDate": null,
+                            "cessationDate": null
+                        }
+                    ],
+                    "preferableVaccine": [
+                        {
+                            "vaccineType": "Rabies - IM Diploid cell culture",
+                            "cvx": "175",
+                            "beginAge": "0 days",
+                            "endAge": "",
+                            "tradeName": "",
+                            "mvx": "",
+                            "volume": "1",
+                            "forecastVaccineType": "N"
+                        },
+                        {
+                            "vaccineType": "Rabies - IM fibroblast culture",
+                            "cvx": "176",
+                            "beginAge": "0 days",
+                            "endAge": "",
+                            "tradeName": "",
+                            "mvx": "",
+                            "volume": "1",
+                            "forecastVaccineType": "N"
+                        }
+                    ],
+                    "allowableVaccine": [
+                        {
+                            "vaccineType": "Rabies, intramuscular injection",
+                            "cvx": "18",
+                            "beginAge": "0 days",
+                            "endAge": ""
+                        },
+                        {
+                            "vaccineType": "Rabies, unspecified formulation",
+                            "cvx": "90",
+                            "beginAge": "0 days",
+                            "endAge": ""
+                        },
+                        {
+                            "vaccineType": "Rabies - IM Diploid cell culture",
+                            "cvx": "175",
+                            "beginAge": "0 days",
+                            "endAge": ""
+                        },
+                        {
+                            "vaccineType": "Rabies - IM fibroblast culture",
+                            "cvx": "176",
+                            "beginAge": "0 days",
+                            "endAge": ""
+                        }
+                    ],
+                    "inadvertentVaccine": [
+                        {
+                            "vaccineType": null,
+                            "cvx": null
+                        }
+                    ],
+                    "conditionalSkip": [
+                        {
+                            "context": null,
+                            "setLogic": null,
+                            "set": null
+                        }
+                    ],
+                    "recurringDose": "No",
+                    "seasonalRecommendation": {
+                        "startDate": null,
+                        "endDate": null
+                    }
+                },
+                {
+                    "doseNumber": "Dose 4",
+                    "age": [
+                        {
+                            "absMinAge": "",
+                            "minAge": "",
+                            "earliestRecAge": "",
+                            "latestRecAge": "",
+                            "maxAge": "",
+                            "effectiveDate": "",
+                            "cessationDate": ""
+                        }
+                    ],
+                    "interval": [
+                        {
+                            "fromPrevious": "Y",
+                            "fromTargetDose": "",
+                            "fromMostRecent": "",
+                            "fromRelevantObs": {
+                                "text": null,
+                                "code": null
+                            },
+                            "absMinInt": "2 years",
+                            "minInt": "2 years",
+                            "earliestRecInt": "2 years",
+                            "latestRecInt": "",
+                            "intervalPriority": "",
+                            "effectiveDate": "",
+                            "cessationDate": ""
+                        }
+                    ],
+                    "allowableInterval": [
+                        {
+                            "fromPrevious": null,
+                            "fromTargetDose": null,
+                            "absMinInt": null,
+                            "effectiveDate": null,
+                            "cessationDate": null
+                        }
+                    ],
+                    "preferableVaccine": [
+                        {
+                            "vaccineType": "Rabies - IM Diploid cell culture",
+                            "cvx": "175",
+                            "beginAge": "0 days",
+                            "endAge": "",
+                            "tradeName": "",
+                            "mvx": "",
+                            "volume": "1",
+                            "forecastVaccineType": "N"
+                        },
+                        {
+                            "vaccineType": "Rabies - IM fibroblast culture",
+                            "cvx": "176",
+                            "beginAge": "0 days",
+                            "endAge": "",
+                            "tradeName": "",
+                            "mvx": "",
+                            "volume": "1",
+                            "forecastVaccineType": "N"
+                        }
+                    ],
+                    "allowableVaccine": [
+                        {
+                            "vaccineType": "Rabies, intramuscular injection",
+                            "cvx": "18",
+                            "beginAge": "0 days",
+                            "endAge": ""
+                        },
+                        {
+                            "vaccineType": "Rabies, unspecified formulation",
+                            "cvx": "90",
+                            "beginAge": "0 days",
+                            "endAge": ""
+                        },
+                        {
+                            "vaccineType": "Rabies - IM Diploid cell culture",
+                            "cvx": "175",
+                            "beginAge": "0 days",
+                            "endAge": ""
+                        },
+                        {
+                            "vaccineType": "Rabies - IM fibroblast culture",
+                            "cvx": "176",
+                            "beginAge": "0 days",
+                            "endAge": ""
+                        }
+                    ],
+                    "inadvertentVaccine": [
+                        {
+                            "vaccineType": null,
+                            "cvx": null
+                        }
+                    ],
+                    "conditionalSkip": [
+                        {
+                            "context": null,
+                            "setLogic": null,
+                            "set": null
+                        }
+                    ],
+                    "recurringDose": "Yes",
+                    "seasonalRecommendation": {
+                        "startDate": null,
+                        "endDate": null
+                    }
+                }
+            ]
+        }
+    ]
+}

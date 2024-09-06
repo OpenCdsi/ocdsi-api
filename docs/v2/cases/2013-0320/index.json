@@ -1,0 +1,82 @@
+{
+    "key": "2013-0320",
+    "name": "#3 at 5m (#1, #2 at 2 and 4m)",
+    "cdcTestId": "2013-0320",
+    "changedInVersion": "1.0",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-05-26T12:44:47.664",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "48",
+                "dateAdministered": "2020-05-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "ACTHIB"
+            },
+            {
+                "cvx": "49",
+                "dateAdministered": "2020-07-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "PEDVAXHIB"
+            },
+            {
+                "cvx": "48",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "ACTHIB"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "All Valid: Forecast Test",
+    "forecast": {
+        "earliestDate": "2021-03-13T00:00:00",
+        "forecastNum": "4",
+        "pastDueDate": "2021-08-09T00:00:00",
+        "recommendedDate": "2021-03-13T00:00:00"
+    },
+    "forecastTestType": "Recommended based on age",
+    "generalDescription": "This test case describes when a child is administered a third dose of the Hib vaccine at 5 months that the dose is valid.  Another dose should be forecast.",
+    "patient": {
+        "dob": "2020-03-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "48",
+                "dateAdministered": "2020-05-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "ACTHIB"
+            },
+            {
+                "cvx": "49",
+                "dateAdministered": "2020-07-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "PEDVAXHIB"
+            },
+            {
+                "cvx": "48",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "ACTHIB"
+            }
+        ]
+    },
+    "reasonForChange": "",
+    "testcaseName": "#3 at 5m (#1, #2 at 2 and 4m)",
+    "vaccineGroup": "HIB"
+}

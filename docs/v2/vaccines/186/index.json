@@ -1,0 +1,12 @@
+{
+    "key": "186",
+    "cvx": "186",
+    "shortDescription": "Influenza, injectable, MDCK, preservative, quadrivalent",
+    "association": [
+        {
+            "antigen": "Influenza",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        }
+    ]
+}

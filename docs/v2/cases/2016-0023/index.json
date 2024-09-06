@@ -1,0 +1,66 @@
+{
+    "key": "2016-0023",
+    "name": "Adolescent child age 11 with 2nd dose of HPV at 5 months - 5 days",
+    "cdcTestId": "2016-0023",
+    "changedInVersion": "3.2",
+    "dateAdded": "2016-12-02T00:00:00",
+    "dateUpdated": "2020-06-15T09:11:50.871",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "165",
+                "dateAdministered": "2020-03-18T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "Gardasil 9"
+            },
+            {
+                "cvx": "165",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV9"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Interval: Below Absolute Minimum",
+    "forecast": {
+        "earliestDate": "2020-11-05T00:00:00",
+        "forecastNum": "3",
+        "pastDueDate": "2021-05-15T00:00:00",
+        "recommendedDate": "2020-11-05T00:00:00"
+    },
+    "forecastTestType": "Recommended based on interval",
+    "generalDescription": "This test case describes when a second dose is administered at an interval of 4 weeks -4 days but before 5 months that a repeat dose  should be forecasted.",
+    "patient": {
+        "dob": "2009-01-29T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "165",
+                "dateAdministered": "2020-03-18T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "Gardasil 9"
+            },
+            {
+                "cvx": "165",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "",
+                "vaccineName": "HPV9"
+            }
+        ]
+    },
+    "reasonForChange": "Updated to reflect current ACIP recommendations for forecasting of the earliest and recommended date which is set by 12 weeks from invalid dose.",
+    "testcaseName": "Adolescent child age 11 with 2nd dose of HPV at 5 months - 5 days",
+    "vaccineGroup": "HPV"
+}

@@ -1,0 +1,17 @@
+{
+    "key": "113",
+    "cvx": "113",
+    "shortDescription": "Td (adult) preservative free",
+    "association": [
+        {
+            "antigen": "Tetanus",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        },
+        {
+            "antigen": "Diphtheria",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        }
+    ]
+}

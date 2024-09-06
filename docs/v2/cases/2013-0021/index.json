@@ -1,0 +1,82 @@
+{
+    "key": "2013-0021",
+    "name": "1 Tdap, 2 Td to child ≥ 7 years old with 6 mo-4 day interval between doses 2 and 3. ",
+    "cdcTestId": "2013-0021",
+    "changedInVersion": "4.2",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-06-22T16:18:25.883",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "09",
+                "dateAdministered": "2019-12-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MBL",
+                "vaccineName": "TD(GENERIC)"
+            },
+            {
+                "cvx": "115",
+                "dateAdministered": "2020-02-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "BOOSTRIX"
+            },
+            {
+                "cvx": "09",
+                "dateAdministered": "2020-08-09T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MBL",
+                "vaccineName": "TD(GENERIC)"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Interval: At Absolute Minimum",
+    "forecast": {
+        "earliestDate": "2023-12-13T00:00:00",
+        "forecastNum": "4",
+        "pastDueDate": "2026-01-09T00:00:00",
+        "recommendedDate": "2023-12-13T00:00:00"
+    },
+    "forecastTestType": "Recommended based on interval",
+    "generalDescription": "This test case describes when a child is administered the third dose ( first dose was Tdap, second dose was Td) of the DTaP vaccine at an interval of 6 months - 4 days from the second dose that the dose is valid.  Another dose should be forecast.",
+    "patient": {
+        "dob": "2012-12-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "09",
+                "dateAdministered": "2019-12-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MBL",
+                "vaccineName": "TD(GENERIC)"
+            },
+            {
+                "cvx": "115",
+                "dateAdministered": "2020-02-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "BOOSTRIX"
+            },
+            {
+                "cvx": "09",
+                "dateAdministered": "2020-08-09T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MBL",
+                "vaccineName": "TD(GENERIC)"
+            }
+        ]
+    },
+    "reasonForChange": "V4.2: Mild adjustments to relative date settings to avoid administration dates in the future. Test case expectations (e.g, evaluation status or forecast) have not changed.\nV4.0: Updated Forecast per new Tdap Catch-up Job-Aid. Tdap is needed at 11 years.\nV1.1: Past Due Date was missing. Added past due date per NIPInfo guidance.",
+    "testcaseName": "1 Tdap, 2 Td to child ≥ 7 years old with 6 mo-4 day interval between doses 2 and 3. ",
+    "vaccineGroup": "DTAP"
+}

@@ -1,0 +1,46 @@
+{
+    "key": "084",
+    "observationCode": "084",
+    "observationTitle": "Severe allergic reaction after previous dose of Typhoid",
+    "group": "",
+    "indicationText": "",
+    "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Typhoid vaccine.",
+    "clarifyingText": "",
+    "codedValues": [
+        {
+            "code": "293122006",
+            "codeSystem": "SNOMED",
+            "text": "Typhoid vaccine adverse reaction [disorder]"
+        },
+        {
+            "code": "101",
+            "codeSystem": "CVX",
+            "text": "Typhoid capsular polysaccharide"
+        },
+        {
+            "code": "25",
+            "codeSystem": "CVX",
+            "text": "Typhoid oral, live, attenuated"
+        },
+        {
+            "code": "41",
+            "codeSystem": "CVX",
+            "text": "Typhoid, parenteral"
+        },
+        {
+            "code": "53",
+            "codeSystem": "CVX",
+            "text": "Typhoid, parenteral, AKD [U.S. military]"
+        },
+        {
+            "code": "91",
+            "codeSystem": "CVX",
+            "text": "Typhoid, unspecified formulation"
+        },
+        {
+            "code": "VXC20",
+            "codeSystem": "CDCPHINVS",
+            "text": "Allergy to previous dose of this vaccine or to any of its unlisted vaccine components [anaphylactic]"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "key": "174",
+    "observationCode": "174",
+    "observationTitle": "Frequent travel to JE-endemic areas",
+    "group": "",
+    "indicationText": "Administer to persons who frequently travel to JE-endemic areas.",
+    "contraindicationText": "",
+    "clarifyingText": "\n\t\t\t\tEndemic Area and transmission season is determined by country.  Refer to the yellow book for a definition of the transmission season: http://wwwnc.cdc.gov/travel/yellowbook/2014/chapter-3-infectious-diseases-related-to-travel/japanese-encephalitis\n\t\t\t",
+    "codedValues": []
+}

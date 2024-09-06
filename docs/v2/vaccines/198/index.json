@@ -1,0 +1,32 @@
+{
+    "key": "198",
+    "cvx": "198",
+    "shortDescription": "DTP-hepB-Hib Pentavalent Non-US",
+    "association": [
+        {
+            "antigen": "Diphtheria",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        },
+        {
+            "antigen": "Tetanus",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        },
+        {
+            "antigen": "Pertussis",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        },
+        {
+            "antigen": "HepB",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        },
+        {
+            "antigen": "Hib",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        }
+    ]
+}

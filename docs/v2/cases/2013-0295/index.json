@@ -1,0 +1,66 @@
+{
+    "key": "2013-0295",
+    "name": "#2 at 5 years",
+    "cdcTestId": "2013-0295",
+    "changedInVersion": "1.6",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-05-19T17:05:38.213",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "48",
+                "dateAdministered": "2015-10-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "ACTHIB"
+            },
+            {
+                "cvx": "48",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "Age: Too Old",
+                "evaluationStatus": "Extraneous",
+                "mvx": "PMC",
+                "vaccineName": "ACTHIB"
+            }
+        ],
+        "seriesStatus": "Aged out"
+    },
+    "evaluationTestType": "Age: Too Old",
+    "forecast": {
+        "earliestDate": "0001-01-01T00:00:00",
+        "forecastNum": "-",
+        "pastDueDate": "0001-01-01T00:00:00",
+        "recommendedDate": "0001-01-01T00:00:00"
+    },
+    "forecastTestType": "Not recommended: too old",
+    "generalDescription": "This test case describes when a child is administered the second dose of the Hib vaccine at 5 years of age that the dose is Extraneous.  No further does should be forecast.  The series is complete.",
+    "patient": {
+        "dob": "2015-08-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "48",
+                "dateAdministered": "2015-10-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "PMC",
+                "vaccineName": "ACTHIB"
+            },
+            {
+                "cvx": "48",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "Age: Too Old",
+                "evaluationStatus": "Extraneous",
+                "mvx": "PMC",
+                "vaccineName": "ACTHIB"
+            }
+        ]
+    },
+    "reasonForChange": "v1.6: Updated Series Status from \"Not Complete\" to \"Aged Out\" to align with updated CDSi Logic Specification Series Statuses.\n\nv1.2: Within the scope of the CDSi effort, Hib on or after 5 years is not recommended.  The last administered dose was changed to Extraneous to reflect this.",
+    "testcaseName": "#2 at 5 years",
+    "vaccineGroup": "HIB"
+}

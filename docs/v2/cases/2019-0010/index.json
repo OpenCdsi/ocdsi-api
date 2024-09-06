@@ -1,0 +1,32 @@
+{
+    "key": "2019-0010",
+    "name": "No doses of Hep A vaccine at age 18 years",
+    "cdcTestId": "2019-0010",
+    "changedInVersion": "4.3",
+    "dateAdded": "2019-09-19T20:00:00",
+    "dateUpdated": "2020-05-29T08:30:10.56",
+    "evaluation": {
+        "administeredDoses": [],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "No Doses Administered",
+    "forecast": {
+        "earliestDate": "2003-08-13T00:00:00",
+        "forecastNum": "1",
+        "pastDueDate": "2004-09-09T00:00:00",
+        "recommendedDate": "2003-08-13T00:00:00"
+    },
+    "forecastTestType": "Recommended based on age",
+    "generalDescription": "This test case describes when a patient is 18 years of age and has no previous doses of the Hep A vaccine that the first dose should be forecast.",
+    "patient": {
+        "dob": "2002-08-13T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": []
+    },
+    "reasonForChange": "Added a past due date.",
+    "testcaseName": "No doses of Hep A vaccine at age 18 years",
+    "vaccineGroup": "HepA"
+}

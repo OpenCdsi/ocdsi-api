@@ -1,0 +1,12 @@
+{
+    "key": "101",
+    "cvx": "101",
+    "shortDescription": "Typhoid capsular polysaccharide",
+    "association": [
+        {
+            "antigen": "Typhoid",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        }
+    ]
+}

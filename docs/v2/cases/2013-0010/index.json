@@ -1,0 +1,66 @@
+{
+    "key": "2013-0010",
+    "name": "# 1 (Td) to # 2 (Tdap) interval 28-4 days in child age > 7 years.  Forecast # 3 in six months. ",
+    "cdcTestId": "2013-0010",
+    "changedInVersion": "1.1",
+    "dateAdded": "2013-01-01T00:00:00",
+    "dateUpdated": "2020-06-22T13:23:56.074",
+    "evaluation": {
+        "administeredDoses": [
+            {
+                "cvx": "09",
+                "dateAdministered": "2020-07-20T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MBL",
+                "vaccineName": "TD(GENERIC)"
+            },
+            {
+                "cvx": "115",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "BOOSTRIX"
+            }
+        ],
+        "seriesStatus": "Not complete"
+    },
+    "evaluationTestType": "Interval: At Absolute Minimum",
+    "forecast": {
+        "earliestDate": "2021-02-13T00:00:00",
+        "forecastNum": "3",
+        "pastDueDate": "2021-02-13T00:00:00",
+        "recommendedDate": "2021-02-13T00:00:00"
+    },
+    "forecastTestType": "Recommended based on minimum interval from previous dose (catch-up)",
+    "generalDescription": "This test case describes when a child 8 years of age is administered a Tdap vaccine as a second dose (and at an interval of 28 -4 days from the first dose) that the dose is valid. Another dose should be forecast.",
+    "patient": {
+        "dob": "2012-04-17T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "09",
+                "dateAdministered": "2020-07-20T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MBL",
+                "vaccineName": "TD(GENERIC)"
+            },
+            {
+                "cvx": "115",
+                "dateAdministered": "2020-08-13T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "SKB",
+                "vaccineName": "BOOSTRIX"
+            }
+        ]
+    },
+    "reasonForChange": "Past Due Date was missing and child is in catch-up.  Past Due Date added to align with Recommended Date.",
+    "testcaseName": "# 1 (Td) to # 2 (Tdap) interval 28-4 days in child age > 7 years.  Forecast # 3 in six months. ",
+    "vaccineGroup": "DTAP"
+}

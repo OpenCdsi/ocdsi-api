@@ -1,0 +1,21 @@
+{
+    "key": "2013-0225",
+    "assessmentDate": "2006-10-10T00:00:00",
+    "patient": {
+        "dob": "2006-10-10T00:00:00",
+        "gender": "F",
+        "medHistoryCode": "",
+        "medHistoryCodeSys": "",
+        "medHistoryText": "",
+        "doses": [
+            {
+                "cvx": "51",
+                "dateAdministered": "2006-10-10T00:00:00",
+                "evaluationReason": "",
+                "evaluationStatus": "Valid",
+                "mvx": "MSD",
+                "vaccineName": "COMVAX"
+            }
+        ]
+    }
+}

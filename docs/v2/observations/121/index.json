@@ -1,0 +1,16 @@
+{
+    "key": "121",
+    "observationCode": "121",
+    "observationTitle": "Homelessness",
+    "group": "",
+    "indicationText": "Administer to persons who are experiencing homelessness.",
+    "contraindicationText": "",
+    "clarifyingText": "",
+    "codedValues": [
+        {
+            "code": "32911000",
+            "codeSystem": "SNOMED",
+            "text": "Homeless [finding]"
+        }
+    ]
+}

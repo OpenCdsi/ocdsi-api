@@ -1,0 +1,12 @@
+{
+    "key": "18",
+    "cvx": "18",
+    "shortDescription": "Rabies, intramuscular injection",
+    "association": [
+        {
+            "antigen": "Rabies",
+            "associationBeginAge": "",
+            "associationEndAge": ""
+        }
+    ]
+}

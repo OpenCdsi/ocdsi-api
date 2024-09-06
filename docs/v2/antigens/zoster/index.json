@@ -1,0 +1,714 @@
+{
+    "key": "zoster",
+    "name": "Zoster",
+    "immunity": {
+        "clinicalHistory": null,
+        "dateOfBirth": null
+    },
+    "contraindications": {
+        "vaccineGroup": [
+            {
+                "observationCode": "080",
+                "observationTitle": "Adverse reaction to vaccine component",
+                "contraindicationText": "Do not vaccinate if the patient has had an adverse reaction to a vaccine component.",
+                "contraindicationGuidance": "",
+                "beginAge": "",
+                "endAge": ""
+            }
+        ],
+        "vaccine": [
+            {
+                "observationCode": "007",
+                "observationTitle": "Pregnant",
+                "contraindicationText": "Do not vaccinate if the patient is pregnant.",
+                "contraindicationGuidance": "",
+                "contraindicatedVaccine": [
+                    {
+                        "vaccineType": "Zoster live",
+                        "cvx": "121",
+                        "beginAge": "",
+                        "endAge": ""
+                    }
+                ]
+            },
+            {
+                "observationCode": "089",
+                "observationTitle": "Severe allergic reaction after previous dose of Varicella",
+                "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Varicella vaccine.",
+                "contraindicationGuidance": "",
+                "contraindicatedVaccine": [
+                    {
+                        "vaccineType": "Zoster live",
+                        "cvx": "121",
+                        "beginAge": "",
+                        "endAge": ""
+                    }
+                ]
+            },
+            {
+                "observationCode": "100",
+                "observationTitle": "Severe allergic reaction after previous dose of live zoster",
+                "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of live zoster vaccine.",
+                "contraindicationGuidance": "",
+                "contraindicatedVaccine": [
+                    {
+                        "vaccineType": "Zoster live",
+                        "cvx": "121",
+                        "beginAge": "",
+                        "endAge": ""
+                    }
+                ]
+            },
+            {
+                "observationCode": "102",
+                "observationTitle": "Severe allergic reaction to gelatin",
+                "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction to gelatin.",
+                "contraindicationGuidance": "",
+                "contraindicatedVaccine": [
+                    {
+                        "vaccineType": "Zoster live",
+                        "cvx": "121",
+                        "beginAge": "",
+                        "endAge": ""
+                    }
+                ]
+            },
+            {
+                "observationCode": "107",
+                "observationTitle": "Severe allergic reaction to neomycin",
+                "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction to neomycin.",
+                "contraindicationGuidance": "",
+                "contraindicatedVaccine": [
+                    {
+                        "vaccineType": "Zoster live",
+                        "cvx": "121",
+                        "beginAge": "",
+                        "endAge": ""
+                    }
+                ]
+            },
+            {
+                "observationCode": "147",
+                "observationTitle": "T-lymphocyte [cell-mediated and humoral] - Complete defects",
+                "contraindicationText": "Do not vaccinate if the patient has complete cell-mediated or humoral T-lymphocyte defects (e.g., severe combined immunodeficiency [SCID] disease, complete DiGeorge syndrome).",
+                "contraindicationGuidance": "",
+                "contraindicatedVaccine": [
+                    {
+                        "vaccineType": "Zoster live",
+                        "cvx": "121",
+                        "beginAge": "",
+                        "endAge": ""
+                    }
+                ]
+            },
+            {
+                "observationCode": "148",
+                "observationTitle": "T-lymphocyte [cell-mediated and humoral] - Partial defects",
+                "contraindicationText": "Do not vaccinate if the patient has partial cell-mediated or humoral T-lymphocyte defects (e.g., most patients with DiGeorge syndrome, Wiskott-Aldrich syndrome, ataxia- telangiectasia).",
+                "contraindicationGuidance": "",
+                "contraindicatedVaccine": [
+                    {
+                        "vaccineType": "Zoster live",
+                        "cvx": "121",
+                        "beginAge": "",
+                        "endAge": ""
+                    }
+                ]
+            },
+            {
+                "observationCode": "150",
+                "observationTitle": "T-lymphocyte [cell-mediated and humoral] - interferon-gamma or interferon-alpha",
+                "contraindicationText": "Do not vaccinate if the patient has cell-mediated or humoral T-lymphocyte defects related to interferon-gamma or interferon-alpha.",
+                "contraindicationGuidance": "",
+                "contraindicatedVaccine": [
+                    {
+                        "vaccineType": "Zoster live",
+                        "cvx": "121",
+                        "beginAge": "",
+                        "endAge": ""
+                    }
+                ]
+            },
+            {
+                "observationCode": "156",
+                "observationTitle": "Generalized malignant neoplasm",
+                "contraindicationText": "Do not vaccinate if the patient has generalized malignant neoplasm.",
+                "contraindicationGuidance": "",
+                "contraindicatedVaccine": [
+                    {
+                        "vaccineType": "Zoster live",
+                        "cvx": "121",
+                        "beginAge": "",
+                        "endAge": ""
+                    }
+                ]
+            },
+            {
+                "observationCode": "157",
+                "observationTitle": "Transplantation",
+                "contraindicationText": "Do not vaccinate if the patient received a transplant.",
+                "contraindicationGuidance": "",
+                "contraindicatedVaccine": [
+                    {
+                        "vaccineType": "Zoster live",
+                        "cvx": "121",
+                        "beginAge": "",
+                        "endAge": ""
+                    }
+                ]
+            },
+            {
+                "observationCode": "158",
+                "observationTitle": "Immunosuppressive therapy",
+                "contraindicationText": "Do not vaccinate if the patient is undergoing immunosuppressive therapy. Immunosuppressive medications include those given to prevent solid organ transplant rejection, human immune mediators like interleukins and colony-stimulating factors, immune modulators like levamisol and BCG bladder-tumor therapy, and medicines like tumor necrosis factor alpha inhibitors and anti-B cell antibodies. ",
+                "contraindicationGuidance": "",
+                "contraindicatedVaccine": [
+                    {
+                        "vaccineType": "Zoster live",
+                        "cvx": "121",
+                        "beginAge": "",
+                        "endAge": ""
+                    }
+                ]
+            },
+            {
+                "observationCode": "159",
+                "observationTitle": "Radiation therapy",
+                "contraindicationText": "Do not vaccinate if the patient is undergoing radiation therapy.",
+                "contraindicationGuidance": "",
+                "contraindicatedVaccine": [
+                    {
+                        "vaccineType": "Zoster live",
+                        "cvx": "121",
+                        "beginAge": "",
+                        "endAge": ""
+                    }
+                ]
+            },
+            {
+                "observationCode": "168",
+                "observationTitle": "Chemotherapy",
+                "contraindicationText": "Do not vaccinate if the patient is undergoing chemotherapy, including 14 days before the start of therapy and 3 months after the completion of therapy.",
+                "contraindicationGuidance": "",
+                "contraindicatedVaccine": [
+                    {
+                        "vaccineType": "Zoster live",
+                        "cvx": "121",
+                        "beginAge": "",
+                        "endAge": ""
+                    }
+                ]
+            },
+            {
+                "observationCode": "172",
+                "observationTitle": "Severe allergic reaction after previous dose of recombinant zoster",
+                "contraindicationText": "Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of recombinant zoster vaccine.",
+                "contraindicationGuidance": "",
+                "contraindicatedVaccine": [
+                    {
+                        "vaccineType": "Zoster recombinant",
+                        "cvx": "187",
+                        "beginAge": "",
+                        "endAge": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "series": [
+        {
+            "key": "zoster-2-dose-series",
+            "seriesName": "Zoster 2-dose series",
+            "targetDisease": "Zoster",
+            "vaccineGroup": "Zoster ",
+            "seriesAdminGuidance": [
+                "Recombinant zoster subunit vaccine (RZV) is recommended for the prevention of herpes zoster and related complications for immunocompetent adults age 50 years and older including those who previously received zoster vaccine live (ZVL).",
+                "For adults age 60 years or older, either RZV or ZVL is recommended RZV is preferred).",
+                "ZVL remains a recommended vaccine for the prevention of herpes zoster and its complications and may be used in cases such as if a person is allergic to RZV, is unable to return for a second dose of RZV or patient preference. "
+            ],
+            "seriesType": "Standard",
+            "equivalentSeriesGroups": "",
+            "requiredGender": [
+                ""
+            ],
+            "selectSeries": {
+                "defaultSeries": "Yes",
+                "productPath": "No",
+                "seriesGroupName": "Standard",
+                "seriesGroup": "1",
+                "seriesPriority": "A",
+                "seriesPreference": "1",
+                "minAgeToStart": "",
+                "maxAgeToStart": ""
+            },
+            "indication": [
+                {
+                    "observationCode": null,
+                    "description": null,
+                    "beginAge": null,
+                    "endAge": null,
+                    "guidance": null
+                }
+            ],
+            "seriesDose": [
+                {
+                    "doseNumber": "Dose 1",
+                    "age": [
+                        {
+                            "absMinAge": "18 years",
+                            "minAge": "50 years",
+                            "earliestRecAge": "50 years",
+                            "latestRecAge": "",
+                            "maxAge": "",
+                            "effectiveDate": "",
+                            "cessationDate": ""
+                        }
+                    ],
+                    "interval": [
+                        {
+                            "fromPrevious": "N",
+                            "fromTargetDose": "",
+                            "fromMostRecent": "21; 94; 121",
+                            "fromRelevantObs": {
+                                "text": null,
+                                "code": null
+                            },
+                            "absMinInt": "0 days",
+                            "minInt": "8 weeks",
+                            "earliestRecInt": "8 weeks",
+                            "latestRecInt": "",
+                            "intervalPriority": "",
+                            "effectiveDate": "",
+                            "cessationDate": ""
+                        }
+                    ],
+                    "allowableInterval": [
+                        {
+                            "fromPrevious": null,
+                            "fromTargetDose": null,
+                            "absMinInt": null,
+                            "effectiveDate": null,
+                            "cessationDate": null
+                        }
+                    ],
+                    "preferableVaccine": [
+                        {
+                            "vaccineType": "Zoster recombinant",
+                            "cvx": "187",
+                            "beginAge": "50 years",
+                            "endAge": "",
+                            "tradeName": "",
+                            "mvx": "",
+                            "volume": "0.5",
+                            "forecastVaccineType": "N"
+                        }
+                    ],
+                    "allowableVaccine": [
+                        {
+                            "vaccineType": "Zoster recombinant",
+                            "cvx": "187",
+                            "beginAge": "18 years",
+                            "endAge": ""
+                        }
+                    ],
+                    "inadvertentVaccine": [
+                        {
+                            "vaccineType": null,
+                            "cvx": null
+                        }
+                    ],
+                    "conditionalSkip": [
+                        {
+                            "context": null,
+                            "setLogic": null,
+                            "set": null
+                        }
+                    ],
+                    "recurringDose": "No",
+                    "seasonalRecommendation": {
+                        "startDate": null,
+                        "endDate": null
+                    }
+                },
+                {
+                    "doseNumber": "Dose 2",
+                    "age": [
+                        {
+                            "absMinAge": "50 years - 4 days",
+                            "minAge": "50 years",
+                            "earliestRecAge": "50 years",
+                            "latestRecAge": "",
+                            "maxAge": "",
+                            "effectiveDate": "",
+                            "cessationDate": ""
+                        }
+                    ],
+                    "interval": [
+                        {
+                            "fromPrevious": "Y",
+                            "fromTargetDose": "",
+                            "fromMostRecent": "",
+                            "fromRelevantObs": {
+                                "text": null,
+                                "code": null
+                            },
+                            "absMinInt": "4 weeks - 4 days",
+                            "minInt": "8 weeks",
+                            "earliestRecInt": "8 weeks",
+                            "latestRecInt": "7 months + 4 weeks",
+                            "intervalPriority": "",
+                            "effectiveDate": "",
+                            "cessationDate": ""
+                        },
+                        {
+                            "fromPrevious": "N",
+                            "fromTargetDose": "",
+                            "fromMostRecent": "21; 94; 121",
+                            "fromRelevantObs": {
+                                "text": null,
+                                "code": null
+                            },
+                            "absMinInt": "0 days",
+                            "minInt": "8 weeks",
+                            "earliestRecInt": "8 weeks",
+                            "latestRecInt": "",
+                            "intervalPriority": "",
+                            "effectiveDate": "",
+                            "cessationDate": ""
+                        }
+                    ],
+                    "allowableInterval": [
+                        {
+                            "fromPrevious": null,
+                            "fromTargetDose": null,
+                            "absMinInt": null,
+                            "effectiveDate": null,
+                            "cessationDate": null
+                        }
+                    ],
+                    "preferableVaccine": [
+                        {
+                            "vaccineType": "Zoster recombinant",
+                            "cvx": "187",
+                            "beginAge": "50 years",
+                            "endAge": "",
+                            "tradeName": "",
+                            "mvx": "",
+                            "volume": "0.5",
+                            "forecastVaccineType": "N"
+                        }
+                    ],
+                    "allowableVaccine": [
+                        {
+                            "vaccineType": "Zoster recombinant",
+                            "cvx": "187",
+                            "beginAge": "18 years",
+                            "endAge": ""
+                        },
+                        {
+                            "vaccineType": "Zoster, unspecified formulation",
+                            "cvx": "188",
+                            "beginAge": "18 years",
+                            "endAge": ""
+                        }
+                    ],
+                    "inadvertentVaccine": [
+                        {
+                            "vaccineType": null,
+                            "cvx": null
+                        }
+                    ],
+                    "conditionalSkip": [
+                        {
+                            "context": null,
+                            "setLogic": null,
+                            "set": null
+                        }
+                    ],
+                    "recurringDose": "No",
+                    "seasonalRecommendation": {
+                        "startDate": null,
+                        "endDate": null
+                    }
+                }
+            ]
+        },
+        {
+            "key": "zoster-3-dose-series",
+            "seriesName": "Zoster 3-dose series",
+            "targetDisease": "Zoster",
+            "vaccineGroup": "Zoster ",
+            "seriesAdminGuidance": [
+                "Recombinant zoster subunit vaccine (RZV) is recommended for the prevention of herpes zoster and related complications for immunocompetent adults age 50 years and older including those who previously received zoster vaccine live (ZVL).",
+                "For adults age 60 years or older, either RZV or ZVL is recommended RZV is preferred).",
+                "ZVL remains a recommended vaccine for the prevention of herpes zoster and its complications and may be used in cases such as if a person is allergic to RZV, is unable to return for a second dose of RZV or patient preference. "
+            ],
+            "seriesType": "Standard",
+            "equivalentSeriesGroups": "",
+            "requiredGender": [
+                ""
+            ],
+            "selectSeries": {
+                "defaultSeries": "No",
+                "productPath": "No",
+                "seriesGroupName": "Standard",
+                "seriesGroup": "1",
+                "seriesPriority": "A",
+                "seriesPreference": "1",
+                "minAgeToStart": "",
+                "maxAgeToStart": ""
+            },
+            "indication": [
+                {
+                    "observationCode": null,
+                    "description": null,
+                    "beginAge": null,
+                    "endAge": null,
+                    "guidance": null
+                }
+            ],
+            "seriesDose": [
+                {
+                    "doseNumber": "Dose 1",
+                    "age": [
+                        {
+                            "absMinAge": "50 years",
+                            "minAge": "60 years",
+                            "earliestRecAge": "60 years",
+                            "latestRecAge": "",
+                            "maxAge": "",
+                            "effectiveDate": "",
+                            "cessationDate": ""
+                        }
+                    ],
+                    "interval": [
+                        {
+                            "fromPrevious": null,
+                            "fromTargetDose": null,
+                            "fromMostRecent": null,
+                            "fromRelevantObs": null,
+                            "absMinInt": null,
+                            "minInt": null,
+                            "earliestRecInt": null,
+                            "latestRecInt": null,
+                            "intervalPriority": null,
+                            "effectiveDate": null,
+                            "cessationDate": null
+                        }
+                    ],
+                    "allowableInterval": [
+                        {
+                            "fromPrevious": null,
+                            "fromTargetDose": null,
+                            "absMinInt": null,
+                            "effectiveDate": null,
+                            "cessationDate": null
+                        }
+                    ],
+                    "preferableVaccine": [
+                        {
+                            "vaccineType": "Zoster live",
+                            "cvx": "121",
+                            "beginAge": "60 years",
+                            "endAge": "",
+                            "tradeName": "",
+                            "mvx": "",
+                            "volume": "0.5",
+                            "forecastVaccineType": "N"
+                        }
+                    ],
+                    "allowableVaccine": [
+                        {
+                            "vaccineType": "Zoster live",
+                            "cvx": "121",
+                            "beginAge": "50 years",
+                            "endAge": ""
+                        }
+                    ],
+                    "inadvertentVaccine": [
+                        {
+                            "vaccineType": null,
+                            "cvx": null
+                        }
+                    ],
+                    "conditionalSkip": [
+                        {
+                            "context": null,
+                            "setLogic": null,
+                            "set": null
+                        }
+                    ],
+                    "recurringDose": "No",
+                    "seasonalRecommendation": {
+                        "startDate": null,
+                        "endDate": null
+                    }
+                },
+                {
+                    "doseNumber": "Dose 2",
+                    "age": [
+                        {
+                            "absMinAge": "",
+                            "minAge": "",
+                            "earliestRecAge": "",
+                            "latestRecAge": "",
+                            "maxAge": "",
+                            "effectiveDate": "",
+                            "cessationDate": ""
+                        }
+                    ],
+                    "interval": [
+                        {
+                            "fromPrevious": "Y",
+                            "fromTargetDose": "",
+                            "fromMostRecent": "",
+                            "fromRelevantObs": {
+                                "text": null,
+                                "code": null
+                            },
+                            "absMinInt": "0 days",
+                            "minInt": "8 weeks",
+                            "earliestRecInt": "8 weeks",
+                            "latestRecInt": "",
+                            "intervalPriority": "",
+                            "effectiveDate": "",
+                            "cessationDate": ""
+                        }
+                    ],
+                    "allowableInterval": [
+                        {
+                            "fromPrevious": null,
+                            "fromTargetDose": null,
+                            "absMinInt": null,
+                            "effectiveDate": null,
+                            "cessationDate": null
+                        }
+                    ],
+                    "preferableVaccine": [
+                        {
+                            "vaccineType": "Zoster recombinant",
+                            "cvx": "187",
+                            "beginAge": "50 years",
+                            "endAge": "",
+                            "tradeName": "",
+                            "mvx": "",
+                            "volume": "0.5",
+                            "forecastVaccineType": "N"
+                        }
+                    ],
+                    "allowableVaccine": [
+                        {
+                            "vaccineType": "Zoster recombinant",
+                            "cvx": "187",
+                            "beginAge": "18 years",
+                            "endAge": ""
+                        }
+                    ],
+                    "inadvertentVaccine": [
+                        {
+                            "vaccineType": null,
+                            "cvx": null
+                        }
+                    ],
+                    "conditionalSkip": [
+                        {
+                            "context": null,
+                            "setLogic": null,
+                            "set": null
+                        }
+                    ],
+                    "recurringDose": "No",
+                    "seasonalRecommendation": {
+                        "startDate": null,
+                        "endDate": null
+                    }
+                },
+                {
+                    "doseNumber": "Dose 3",
+                    "age": [
+                        {
+                            "absMinAge": "",
+                            "minAge": "",
+                            "earliestRecAge": "",
+                            "latestRecAge": "",
+                            "maxAge": "",
+                            "effectiveDate": "",
+                            "cessationDate": ""
+                        }
+                    ],
+                    "interval": [
+                        {
+                            "fromPrevious": "Y",
+                            "fromTargetDose": "",
+                            "fromMostRecent": "",
+                            "fromRelevantObs": {
+                                "text": null,
+                                "code": null
+                            },
+                            "absMinInt": "4 weeks - 4 days",
+                            "minInt": "8 weeks",
+                            "earliestRecInt": "8 weeks",
+                            "latestRecInt": "7 months + 4 weeks",
+                            "intervalPriority": "",
+                            "effectiveDate": "",
+                            "cessationDate": ""
+                        }
+                    ],
+                    "allowableInterval": [
+                        {
+                            "fromPrevious": null,
+                            "fromTargetDose": null,
+                            "absMinInt": null,
+                            "effectiveDate": null,
+                            "cessationDate": null
+                        }
+                    ],
+                    "preferableVaccine": [
+                        {
+                            "vaccineType": "Zoster recombinant",
+                            "cvx": "187",
+                            "beginAge": "50 years",
+                            "endAge": "",
+                            "tradeName": "",
+                            "mvx": "",
+                            "volume": "0.5",
+                            "forecastVaccineType": "N"
+                        }
+                    ],
+                    "allowableVaccine": [
+                        {
+                            "vaccineType": "Zoster recombinant",
+                            "cvx": "187",
+                            "beginAge": "18 years",
+                            "endAge": ""
+                        },
+                        {
+                            "vaccineType": "Zoster, unspecified formulation",
+                            "cvx": "188",
+                            "beginAge": "18 years",
+                            "endAge": ""
+                        }
+                    ],
+                    "inadvertentVaccine": [
+                        {
+                            "vaccineType": null,
+                            "cvx": null
+                        }
+                    ],
+                    "conditionalSkip": [
+                        {
+                            "context": null,
+                            "setLogic": null,
+                            "set": null
+                        }
+                    ],
+                    "recurringDose": "No",
+                    "seasonalRecommendation": {
+                        "startDate": null,
+                        "endDate": null
+                    }
+                }
+            ]
+        }
+    ]
+}

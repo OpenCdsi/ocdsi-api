@@ -4,15 +4,13 @@ layout: default
 ---
 
 <div class="w3-card">
-    <div class="w3-container w3-theme">
-    <h4 id="data-view-header"></h4>
-    </div>
+    <h2  class="w3-container w3-left-align w3-theme w3-text-white" id="data-view-header"></h2>
+ 
+    <pre class="w3-border-0 w3-white w3-container" id="data-view" style="white-space: pre-wrap;"></pre>
       
-    <pre id="data-view" class="w3-container w3-white w3-padding-16" style="white-space: pre-wrap;"></pre>
-      
-    <div class="w3-container w3-margin-bottom">
-      <a href="javascript:history.back()">Back</a>
-    </div>
+    <footer class="w3-container">
+      <a href="#" onclick="history.back()">Back</a>
+    </footer>
 </div>
 
 <script>
@@ -31,7 +29,7 @@ fetch(params.url).then(r=>{
 
 function card(url){
   var components = url.split('/');
-  var txt = `${titlecase(components[2])} ${components[3]}`;
+  var txt = `${titlecase(components[2])}: ${components[3]}`;
   var el = document.getElementById('data-view-header');
   el.innerText=txt;
 }

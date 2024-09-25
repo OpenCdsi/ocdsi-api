@@ -4,24 +4,26 @@ layout: default
 
 <h2 class="w3-container w3-left-align w3-theme">{{ page.title }}</h2>
 
-{%- assign key = page.title | downcase -%}
-{%- assign items = site.data[key] -%}
+{%- assign area = page.title | downcase -%}
+{%- assign items = site.data[area] | sort_natural: "name" -%}
 
-{%- for item in items -%}   
-<div class="w3-card w3-section">
-    <div class="w3-container w3-theme">
-        <h4>{{ item.name }}</h4>
-      </div>
-
-      {%- if item.text and item.text != '' -%}
-      <div class="w3-container w3-padding-16">
-        <p>{{ item.text }}</p>
-      </div>
-      {%- endif -%}
-      
-      <div class="w3-container w3-margin-bottom">
-        <a href="view.html?url=/v2/{{ key }}/{{ item.key }}">Details</a>
-      </div>
-
+{%- if page.ascards -%}
+<div class="w3-bar-block">
+  {%- for item in items -%}
+  <div class="w3-card w3-margin-bottom">
+    <header class="w3-blue-grey">
+      <a class="w3-bar-item w3-button w3-text-white w3-large w3-hover-none w3-hover-text-white" href="view.html?url=/v2/{{ area }}/{{ item.key }}">{{item.name | truncatewords: 6 }}<span
+          class="w3-right w3-medium">({{item.key}})</span></a>
+    </header>
+    <div class="w3-container w3-padding-16">{{item.text}}</div>
+  </div>
+  {%- endfor -%}
 </div>
-{%- endfor -%}
+{%- else -%}
+<div class="w3-bar-block w3-card">
+  {%- for item in items -%}
+  <a class="w3-bar-item w3-button" href="view.html?url=/v2/{{ area }}/{{ item.key }}">{{item.name}}<span
+      class="w3-right w3-medium">({{item.key}})</span></a>
+  {%- endfor -%}
+</div>
+{%- endif -%}
